@@ -12,12 +12,18 @@ public class Load : MonoBehaviour
     {
         switch (this.gameObject.name)
         {
-            case "3D":
+            case "HOME":
                 SceneManager.LoadScene(0);
                 break; 
             case "AR1":
-                SceneManager.LoadScene(1);
-                break;
+                SceneManager.LoadScene(8);
+                break;       
+            case "AR ADVENTURE":
+                SceneManager.LoadScene(9);
+                break;    
+            case "3D":
+                SceneManager.LoadScene(9);
+                break; 
         }
         
 

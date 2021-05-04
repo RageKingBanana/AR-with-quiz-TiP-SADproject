@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 6
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: What do you call a tropical cyclone with maximum wind speed of 62 to 88 kph
-    or 34 - 47 knots?
+  _info: What do you call a tropical cyclone with maximum wind speed of 62 to 88
+    kph or 34 - 47 knots?
   _answers:
   - _info: Tropical depression
     _isCorrect: 0
@@ -22,7 +22,7 @@ MonoBehaviour:
     _isCorrect: 0
   - _info: Tropical storm
     _isCorrect: 1
-  _useTimer: 0
-  _timer: 0
+  _useTimer: 1
+  _timer: 7
   _answerType: 1
   _addScore: 10

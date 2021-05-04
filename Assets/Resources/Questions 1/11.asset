@@ -21,7 +21,7 @@ MonoBehaviour:
     _isCorrect: 1
   - _info: Use the stairs.
     _isCorrect: 0
-  _useTimer: 0
-  _timer: 0
+  _useTimer: 1
+  _timer: 10
   _answerType: 0
   _addScore: 10

@@ -15,14 +15,16 @@ MonoBehaviour:
   _infoImage: {fileID: 0}
   _info: What to do BEFORE a flood?
   _answers:
-  - _info: "Being cautious about your surroundings can prevent damage to your family
-      and your property.\r\n"
+  - _info: 'Being cautious about your surroundings can prevent damage to your family
+      and your property.
+
+'
     _isCorrect: 1
   - _info: Wait until you see rising water.
     _isCorrect: 0
   - _info: Wait for your neighbors to evacuate before you do so.
     _isCorrect: 0
-  _useTimer: 0
-  _timer: 0
+  _useTimer: 1
+  _timer: 7
   _answerType: 1
   _addScore: 10

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 7
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: What is a tropical cyclone with maximum wind speed of 118 to 220 kph or 64
-    - 120 knots?
+  _info: What is a tropical cyclone with maximum wind speed of 118 to 220 kph or
+    64 - 120 knots?
   _answers:
   - _info: Severe tropical storm
     _isCorrect: 0
@@ -22,7 +22,7 @@ MonoBehaviour:
     _isCorrect: 0
   - _info: Typhoon
     _isCorrect: 1
-  _useTimer: 0
-  _timer: 0
+  _useTimer: 1
+  _timer: 7
   _answerType: 1
   _addScore: 10

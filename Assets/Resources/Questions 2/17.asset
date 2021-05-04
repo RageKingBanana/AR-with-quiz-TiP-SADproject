@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 17
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: These are ways to prevent casualties during landslide except one. Which is
-    it?
+  _info: These are ways to prevent casualties during landslide except one. Which
+    is it?
   _answers:
   - _info: Checking maximum sustained winds
     _isCorrect: 1
@@ -22,7 +22,7 @@ MonoBehaviour:
     _isCorrect: 0
   - _info: Hazard mapping
     _isCorrect: 0
-  _useTimer: 0
-  _timer: 0
+  _useTimer: 1
+  _timer: 7
   _answerType: 1
   _addScore: 10

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 8
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: You were in a public mall when an earthquake suddenly hits. What should you
-    do?
+  _info: You were in a public mall when an earthquake suddenly hits. What should
+    you do?
   _answers:
   - _info: Panic!
     _isCorrect: 0
@@ -22,7 +22,7 @@ MonoBehaviour:
     _isCorrect: 1
   - _info: Run for the nearest exit immediately.
     _isCorrect: 0
-  _useTimer: 0
-  _timer: 0
+  _useTimer: 1
+  _timer: 10
   _answerType: 1
   _addScore: 10

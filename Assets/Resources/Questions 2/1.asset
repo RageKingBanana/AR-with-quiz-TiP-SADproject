@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 1
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: What do you call the way of highlighting areas that were affected by or vulnerable
-    to a particular hazard?
+  _info: What do you call the way of highlighting areas that were affected by or
+    vulnerable to a particular hazard?
   _answers:
   - _info: Hazard mapping
     _isCorrect: 1
@@ -22,7 +22,7 @@ MonoBehaviour:
     _isCorrect: 0
   - _info: Public information
     _isCorrect: 0
-  _useTimer: 0
-  _timer: 0
+  _useTimer: 1
+  _timer: 7
   _answerType: 1
   _addScore: 10

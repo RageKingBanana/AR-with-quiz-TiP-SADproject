@@ -20,9 +20,11 @@ MonoBehaviour:
     _isCorrect: 0
   - _info: PHILVOCS
     _isCorrect: 0
-  - _info: "PAG-ASA\r\n"
+  - _info: 'PAG-ASA
+
+'
     _isCorrect: 1
-  _useTimer: 0
-  _timer: 0
+  _useTimer: 1
+  _timer: 7
   _answerType: 1
   _addScore: 10

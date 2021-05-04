@@ -21,7 +21,7 @@ MonoBehaviour:
     _isCorrect: 0
   - _info: Wait until the authorities indicate that it is safe to return.
     _isCorrect: 1
-  _useTimer: 0
-  _timer: 0
+  _useTimer: 1
+  _timer: 7
   _answerType: 1
   _addScore: 10

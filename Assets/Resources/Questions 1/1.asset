@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
-  m_Name: 11
+  m_Name: 1
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
   _info: According to waze, what are the top three cities  in metro manila are considered
@@ -27,6 +27,6 @@ MonoBehaviour:
   - _info: Manila
     _isCorrect: 1
   _useTimer: 1
-  _timer: 10
+  _timer: 9
   _answerType: 0
   _addScore: 10

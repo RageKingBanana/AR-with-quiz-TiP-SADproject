@@ -22,7 +22,7 @@ MonoBehaviour:
     _isCorrect: 1
   - _info: 'Drive slowly. '
     _isCorrect: 0
-  _useTimer: 0
-  _timer: 0
+  _useTimer: 1
+  _timer: 9
   _answerType: 1
   _addScore: 10

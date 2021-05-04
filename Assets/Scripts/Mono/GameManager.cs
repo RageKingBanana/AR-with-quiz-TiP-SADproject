@@ -192,14 +192,14 @@ public class  GameManager: MonoBehaviour {
 
     #region Timer Methods
 
-    void UpdateTimer(bool state)
+    public void UpdateTimer(bool state)
     {
         switch (state)
         {
             case true:
                 IE_StartTimer = StartTimer();
                 StartCoroutine(IE_StartTimer);
-
+                PlayerPrefs.SetInt
                 timerAnimtor.SetInteger(timerStateParaHash, 2);
                 break;
             case false:

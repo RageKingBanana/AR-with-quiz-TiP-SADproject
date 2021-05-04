@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class  : MonoBehaviour {
+public class  GameManager: MonoBehaviour {
 
     #region Variables
     
@@ -313,24 +313,7 @@ public class  : MonoBehaviour {
                 _questions[i] = (Question)objs[i];
             }
         }
-        if (SceneManager.GetActiveScene().buildIndex == 4)
-        {
-            Object[] objs = Resources.LoadAll("Questions 3", typeof(Question));
-            _questions = new Question[objs.Length];
-            for (int i = 0; i < objs.Length; i++)
-            {
-                _questions[i] = (Question)objs[i];
-            }
-        }
-        if (SceneManager.GetActiveScene().buildIndex == 5)
-        {
-            Object[] objs = Resources.LoadAll("Questions 4", typeof(Question));
-            _questions = new Question[objs.Length];
-            for (int i = 0; i < objs.Length; i++)
-            {
-                _questions[i] = (Question)objs[i];
-            }
-        }
+
     }
    
 

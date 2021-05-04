@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour {
+public class  : MonoBehaviour {
 
     #region Variables
     
@@ -40,10 +40,6 @@ public class GameManager : MonoBehaviour {
             { PlayerPrefs.SetInt("j", 10); }
             else if (SceneManager.GetActiveScene().buildIndex == 3)
             { PlayerPrefs.SetInt("j", 10); }
-            else if (SceneManager.GetActiveScene().buildIndex == 4)
-            { PlayerPrefs.SetInt("j", 15); }
-            else if (SceneManager.GetActiveScene().buildIndex == 5)
-            { PlayerPrefs.SetInt("j", 15); }
             a = PlayerPrefs.GetInt("j");
             return (FinishedQuestions.Count < a) ? false : true;
         }
@@ -145,7 +141,7 @@ public class GameManager : MonoBehaviour {
         if (events.UpdateQuestionUI != null)
         {
             events.UpdateQuestionUI(question);
-        } else { Debug.LogWarning("Ups! Something went wrong while trying to display new Question UI Data. GameEvents.UpdateQuestionUI is null. Issue occured in GameManager.Display() method."); }
+        } else { Debug.LogWarning("Ups! Something went wrong while trying to display new Question UI Data. GameEvents.UpdateQuestionUI is null. Issue occured in .Display() method."); }
 
         if (question.UseTimer)
         {

@@ -163,7 +163,7 @@ AudioSource:
   m_GameObject: {fileID: 24106858}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 6efa1c3dc5b623e4d8bee22c8dc83cb8,
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 7a0b677ba7efbaf41b3306ef97aca01b,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 16b07795bf7c1a34eb47316be3ee80bb, type: 3}
   m_PlayOnAwake: 1
@@ -1117,7 +1117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5650d3f5d308a7a4585e9a1aea395c79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audiomixer: {fileID: 24100000, guid: 6efa1c3dc5b623e4d8bee22c8dc83cb8, type: 2}
+  audiomixer: {fileID: 24100000, guid: 7a0b677ba7efbaf41b3306ef97aca01b, type: 2}
   SliderInstance: {fileID: 1134522081}
   s: 0
 --- !u!4 &269123286
@@ -5996,7 +5996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: b6a1cf4e3eeaf9a4ca38bf8acb910a6d, type: 3}
       propertyPath: m_MinValue
-      value: -42.09542
+      value: -55
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: b6a1cf4e3eeaf9a4ca38bf8acb910a6d, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size

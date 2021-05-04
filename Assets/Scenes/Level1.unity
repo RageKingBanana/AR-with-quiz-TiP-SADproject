@@ -2352,6 +2352,7 @@ GameObject:
   - component: {fileID: 849180833}
   - component: {fileID: 849180835}
   - component: {fileID: 849180834}
+  - component: {fileID: 849180836}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -2426,6 +2427,21 @@ MonoBehaviour:
   timerHalfWayOutColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   timerAlmostOutColor: {r: 1, g: 0, b: 0, a: 1}
   audioManager: {fileID: 0}
+--- !u!114 &849180836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849180832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5650d3f5d308a7a4585e9a1aea395c79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audiomixer: {fileID: 24100000, guid: 6efa1c3dc5b623e4d8bee22c8dc83cb8, type: 2}
+  SliderInstance: {fileID: 1757489628}
+  s: 0
 --- !u!1 &883254152
 GameObject:
   m_ObjectHideFlags: 0
@@ -3693,7 +3709,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1279700872}
   - component: {fileID: 1279700873}
-  - component: {fileID: 1279700874}
   m_Layer: 0
   m_Name: AudioManager(MuteBGmusic)
   m_TagString: Untagged
@@ -3752,21 +3767,6 @@ MonoBehaviour:
   sourcePrefab: {fileID: 82509203759054478, guid: 0b2c85631b731e34faec7b3adb879f79,
     type: 3}
   startupTrack: GameMusic
---- !u!114 &1279700874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279700871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5650d3f5d308a7a4585e9a1aea395c79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audiomixer: {fileID: 24100000, guid: 6efa1c3dc5b623e4d8bee22c8dc83cb8, type: 2}
-  SliderInstance: {fileID: 1757489628}
-  s: 0
 --- !u!1 &1285679175
 GameObject:
   m_ObjectHideFlags: 0
@@ -5023,7 +5023,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1279700874}
+      - m_Target: {fileID: 849180836}
         m_TargetAssemblyTypeName: Settings, Assembly-CSharp
         m_MethodName: ChangeVolume
         m_Mode: 0

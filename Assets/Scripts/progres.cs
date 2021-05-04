@@ -1,5 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿//using System.Collections;
+//using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,7 +12,7 @@ public class progres : MonoBehaviour
         Iskore = PlayerPrefs.GetInt("iskor");
         if(Iskore > 149)
         {
-            SceneManager.LoadScene(7);
+            SceneManager.LoadScene(5);
         }
     }
 

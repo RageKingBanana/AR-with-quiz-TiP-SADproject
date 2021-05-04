@@ -199,7 +199,9 @@ public class  GameManager: MonoBehaviour {
             case true:
                 IE_StartTimer = StartTimer();
                 StartCoroutine(IE_StartTimer);
+
                 PlayerPrefs.SetInt
+                
                 timerAnimtor.SetInteger(timerStateParaHash, 2);
                 break;
             case false:

@@ -70,7 +70,7 @@ public class AddVuforiaEnginePackage
         {
             res = new Version(versionString);
         }
-        catch (Exception e)
+        catch (Exception)
         {
             return new Version();
         }

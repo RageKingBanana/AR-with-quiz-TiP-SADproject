@@ -25,7 +25,8 @@ public class  GameManager: MonoBehaviour {
     private             int                 currentQuestion         = 0;
 
     private             int                 timerStateParaHash      = 0;
-
+    public int oras;
+    public int oras1;
     private             IEnumerator         IE_WaitTillNextRound    = null;
     private             IEnumerator         IE_StartTimer           = null;
     private bool pressedinc = false;
@@ -197,32 +198,42 @@ public class  GameManager: MonoBehaviour {
         switch (state)
         {
             case true:
+            
                 IE_StartTimer = StartTimer();
                 StartCoroutine(IE_StartTimer);
-
-                PlayerPrefs.SetInt
-                
                 timerAnimtor.SetInteger(timerStateParaHash, 2);
+                oras=PlayerPrefs.GetInt("timeLeft");
+                
                 break;
             case false:
                 if (IE_StartTimer != null)
                 {
-                    StopCoroutine(IE_StartTimer);
+                    
+                   StopCoroutine(IE_StartTimer);
+                    oras1=oras;
+                    PlayerPrefs.SetInt("timeLeft",oras1);
+                
                 }
 
                 timerAnimtor.SetInteger(timerStateParaHash, 1);
                 break;
         }
     }
+
     IEnumerator StartTimer()
     {
+ 
         var totalTime = Questions[currentQuestion].Timer;
         var timeLeft = totalTime;
-
+        
+        {
         timerText.color = timerDefaultColor;
+ 
+        
         while (timeLeft > 0)
         {
             timeLeft--;
+            
 
             AudioManager.Instance.PlaySound("CountdownSFX");
 
@@ -234,11 +245,15 @@ public class  GameManager: MonoBehaviour {
             {
                 timerText.color = timerAlmostOutColor;
             }
-
+            
+ 
             timerText.text = timeLeft.ToString();
+            
             yield return new WaitForSeconds(1.0f);
+           
         }
         Accept();
+        }
     }
     IEnumerator WaitTillNextRound()
     {

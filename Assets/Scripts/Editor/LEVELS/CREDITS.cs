@@ -9,7 +9,7 @@ public class CREDITS : MonoBehaviour
     public void credits()
     {
 
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene(5);
 
     }
 }

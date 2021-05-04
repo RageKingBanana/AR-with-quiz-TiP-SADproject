@@ -16,13 +16,13 @@ public class Load : MonoBehaviour
                 SceneManager.LoadScene(0);
                 break; 
             case "AR1":
-                SceneManager.LoadScene(8);
+                SceneManager.LoadScene(6);
                 break;       
             case "AR ADVENTURE":
-                SceneManager.LoadScene(9);
+                SceneManager.LoadScene(7);
                 break;    
             case "3D":
-                SceneManager.LoadScene(9);
+                SceneManager.LoadScene(7);
                 break; 
         }
         

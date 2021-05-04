@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: 5
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: What can the local baranggay do to help prepare their subjects for a possible
-    earthquake?
+  _info: What do you call a tropical cyclone with maximum sustained winds of up to
+    61 kilometers per hour (kph) or less than 33 nautical miles per hour (knots)?
   _answers:
-  - _info: ' Provide emergency kits.'
-    _isCorrect: 1
-  - _info: Conduct a free medical missions.
+  - _info: Typhoon
     _isCorrect: 0
-  - _info: Provide a community earthquake drills.
+  - _info: Tropical depression
     _isCorrect: 1
+  - _info: Tropical storm
+    _isCorrect: 0
   _useTimer: 0
   _timer: 0
-  _answerType: 0
+  _answerType: 1
   _addScore: 10

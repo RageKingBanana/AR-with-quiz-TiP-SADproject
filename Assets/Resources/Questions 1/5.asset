@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
-  m_Name: 5
+  m_Name: 9
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: You own a farm and a waist deep flood is currently devastating your farm.
-    You should not?
+  _info: If a family who's always suffer from floods, had a newborn baby recently.
+    What should they do?
   _answers:
-  - _info: Evacuate to a higher ground.
-    _isCorrect: 0
-  - _info: Try to save crops and animals.
+  - _info: Add the necessary items for the baby in the emergency kit.
     _isCorrect: 1
-  - _info: Try to get help if trapped.
+  - _info: Hire a babysitter incase of emergency.
     _isCorrect: 0
-  _useTimer: 0
-  _timer: 0
-  _answerType: 1
+  - _info: Devise an emergency plan.
+    _isCorrect: 1
+  _useTimer: 1
+  _timer: 10
+  _answerType: 0
   _addScore: 10

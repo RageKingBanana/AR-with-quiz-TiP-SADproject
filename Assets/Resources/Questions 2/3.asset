@@ -13,14 +13,13 @@ MonoBehaviour:
   m_Name: 3
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: The local government recently warned about the possibility of an earthquake.
-    You try to decide what to do to your furniture.
+  _info: Each typhoon classification are based on what reference?
   _answers:
-  - _info: Elevate heavy furniture.
-    _isCorrect: 0
-  - _info: Secure heavy furniture and hanging objects.
+  - _info: Maximum sustained winds
     _isCorrect: 1
-  - _info: Destroy hanging objects.
+  - _info: Potentially disastrous phenomenon
+    _isCorrect: 0
+  - _info: possible flood level
     _isCorrect: 0
   _useTimer: 0
   _timer: 0

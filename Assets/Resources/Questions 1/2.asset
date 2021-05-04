@@ -10,19 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
-  m_Name: 2
+  m_Name: 12
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: You recently attended a seminar about survival tips conducted by your barangay.
-    What should you do?
+  _info: 'A person can get this disease simply by wading or swimming in floods contaminated
+    with animal urine? '
   _answers:
-  - _info: 'Ignore all the things that you learned in the seminar. '
+  - _info: ' HIV'
     _isCorrect: 0
-  - _info: 'Spread false information about the seminar. '
+  - _info: Kidney Stones
     _isCorrect: 0
-  - _info: Assemble disaster supplies.
+  - _info: Leptospirosis
     _isCorrect: 1
-  _useTimer: 0
-  _timer: 0
+  - _info: Malaria
+    _isCorrect: 0
+  _useTimer: 1
+  _timer: 10
   _answerType: 1
   _addScore: 10

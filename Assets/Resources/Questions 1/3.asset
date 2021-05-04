@@ -10,19 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
-  m_Name: 3
+  m_Name: 13
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: The rain is falling so hard due to the super typhoon in your area. There
-    is a chance of flash floods. What should you do?
+  _info: A person can get this disease by consuming contaminated food or water.
   _answers:
-  - _info: Be prepared to evacuate.
+  - _info: Cholera
     _isCorrect: 1
-  - _info: Slack off
+  - _info: Dengue
     _isCorrect: 0
-  - _info: Evacuate when the water is already knee high
+  - _info: Asthma
     _isCorrect: 0
-  _useTimer: 0
-  _timer: 0
+  _useTimer: 1
+  _timer: 10
   _answerType: 1
   _addScore: 10

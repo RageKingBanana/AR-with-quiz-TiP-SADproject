@@ -13,16 +13,14 @@ MonoBehaviour:
   m_Name: 12
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: 'A person can get this disease simply by wading or swimming in floods contaminated
-    with animal urine? '
+  _info: An earthquake suddenly hits and you are able to exit the building safely.
+    Once you are outside of the building, What you should do?
   _answers:
-  - _info: ' HIV'
+  - _info: Take a video and post it on social media.
     _isCorrect: 0
-  - _info: Kidney Stones
-    _isCorrect: 0
-  - _info: Leptospirosis
+  - _info: Evacuate to an open area
     _isCorrect: 1
-  - _info: Malaria
+  - _info: Drive back home immediately.
     _isCorrect: 0
   _useTimer: 0
   _timer: 0

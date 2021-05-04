@@ -22,6 +22,6 @@ MonoBehaviour:
   - _info: Landslides
     _isCorrect: 1
   _useTimer: 1
-  _timer: 15
+  _timer: 10
   _answerType: 0
   _addScore: 10

@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: 13
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: A person can get this disease by consuming contaminated food or water.
+  _info: You and your family are driving for your vacation when suddenly an earthquake
+    hits.What should you do?
   _answers:
-  - _info: Cholera
-    _isCorrect: 1
-  - _info: Dengue
+  - _info: Ignore the earthquake and drive to your destination.
     _isCorrect: 0
-  - _info: Asthma
+  - _info: Step out and move towards a safer area.
+    _isCorrect: 1
+  - _info: 'Drive slowly. '
     _isCorrect: 0
   _useTimer: 0
   _timer: 0

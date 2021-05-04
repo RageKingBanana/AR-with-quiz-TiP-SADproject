@@ -13,17 +13,15 @@ MonoBehaviour:
   m_Name: 10
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: You and your family are shopping in a mall when an earthquake suddenly hits.
-    You did the duck, cover and hold and are ready to exit the building. What should
-    you look out for?
+  _info: What to do AFTER a flood?
   _answers:
-  - _info: Broken glass windows.
-    _isCorrect: 1
-  - _info: 'Hanging objects that might fall. '
-    _isCorrect: 1
-  - _info: Heavy falling debris.
+  - _info: Ask your neighbor if it is safe to return.
+    _isCorrect: 0
+  - _info: Return to the flooded areas after the storm.
+    _isCorrect: 0
+  - _info: Wait until the authorities indicate that it is safe to return.
     _isCorrect: 1
   _useTimer: 0
   _timer: 0
-  _answerType: 0
+  _answerType: 1
   _addScore: 10

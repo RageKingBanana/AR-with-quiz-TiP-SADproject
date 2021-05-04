@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: 2
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: You own a store that sells different kinds of chemicals. In part with earthquake
-    safety, what should you do?
+  _info: What is the local government agency that provides safety warnings through
+    television broadcasting regarding typhoons and floods?
   _answers:
-  - _info: Store harmful chemicals and flammable materials properly.
+  - _info: NDRRMC
+    _isCorrect: 0
+  - _info: PHILVOCS
+    _isCorrect: 0
+  - _info: "PAG-ASA\r\n"
     _isCorrect: 1
-  - _info: Let kids play harmful and flammable materials.
-    _isCorrect: 0
-  - _info: Let the harmful chemicals and flammable materials within reach of children
-    _isCorrect: 0
   _useTimer: 0
   _timer: 0
   _answerType: 1

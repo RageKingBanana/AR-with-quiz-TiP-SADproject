@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: 11
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: While running towards the exit during an earthquake. You should avoid?
+  _info: What to do DURING a flood?
   _answers:
-  - _info: Use the elevator.
+  - _info: Get to high ground.
     _isCorrect: 1
-  - _info: Use the escalator.
-    _isCorrect: 1
-  - _info: Use the stairs.
+  - _info: Try to walk or swim through flowing water.
+    _isCorrect: 0
+  - _info: "Don\u2019t evacuate and save your belongings."
     _isCorrect: 0
   _useTimer: 0
   _timer: 0
-  _answerType: 0
+  _answerType: 1
   _addScore: 10

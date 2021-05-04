@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: 8
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: You were in a public mall when an earthquake suddenly hits. What should you
-    do?
+  _info: What is a tropical cyclone with maximum wind speed of 89 to 117 kph or 48
+    - 63 knots?
   _answers:
-  - _info: Panic!
-    _isCorrect: 0
-  - _info: Stay calm and stay put.
+  - _info: Severe tropical storm
     _isCorrect: 1
-  - _info: Run for the nearest exit immediately.
+  - _info: Tropical depression
+    _isCorrect: 0
+  - _info: Super typhoon
     _isCorrect: 0
   _useTimer: 0
   _timer: 0

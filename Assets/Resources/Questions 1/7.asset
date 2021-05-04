@@ -13,15 +13,14 @@ MonoBehaviour:
   m_Name: 7
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: A family of illegal settlers dwells near an estero. An unexpected rise of
-    water level woke them up. What they should not do is ?
+  _info: 'This is the most active volcano in asia. '
   _answers:
-  - _info: Get help from others.
+  - _info: Mayon Volcano (Philippines)
     _isCorrect: 0
-  - _info: Try to walk or swim through flowing water.
+  - _info: Mount Merapi (Indonesia)
+    _isCorrect: 0
+  - _info: Mount Agung (Indonesia)
     _isCorrect: 1
-  - _info: Rescue their valuables.
-    _isCorrect: 0
   _useTimer: 0
   _timer: 0
   _answerType: 1

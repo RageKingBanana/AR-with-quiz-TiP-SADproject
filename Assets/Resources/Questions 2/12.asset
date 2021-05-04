@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: 12
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: An earthquake suddenly hits and you are able to exit the building safely.
-    Once you are outside of the building, What you should do?
+  _info: What do you call the oceanic event incorporated with abnormal rise of water
+    due to a tropical cyclone?
   _answers:
-  - _info: Take a video and post it on social media.
+  - _info: Tornadoes
     _isCorrect: 0
-  - _info: Evacuate to an open area
+  - _info: Storm surge
     _isCorrect: 1
-  - _info: Drive back home immediately.
+  - _info: Tsunami
     _isCorrect: 0
   _useTimer: 0
   _timer: 0

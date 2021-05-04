@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: 7
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: 'This is the most active volcano in asia. '
+  _info: What is a tropical cyclone with maximum wind speed of 118 to 220 kph or 64
+    - 120 knots?
   _answers:
-  - _info: Mayon Volcano (Philippines)
+  - _info: Severe tropical storm
     _isCorrect: 0
-  - _info: Mount Merapi (Indonesia)
+  - _info: Super typhoon
     _isCorrect: 0
-  - _info: Mount Agung (Indonesia)
+  - _info: Typhoon
     _isCorrect: 1
   _useTimer: 0
   _timer: 0

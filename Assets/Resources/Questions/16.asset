@@ -10,18 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
-  m_Name: 16
+  m_Name: 17
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: You woke up early in the morning and you notice that the water is starting
-    to rise. The local government failed to inform the citizens about the flood. 
-    What should you do?
+  _info: A family of illegal settlers dwells near an estero. An unexpected rise of
+    water level woke them up. What they should not do is ?
   _answers:
-  - _info: Find a place you can go to immediately.
-    _isCorrect: 1
-  - _info: Wait for the authorities go signal before evacuating.
+  - _info: Get help from others.
     _isCorrect: 0
-  - _info: Go back to sleep.
+  - _info: Try to walk or swim through flowing water.
+    _isCorrect: 1
+  - _info: Rescue their valuables.
     _isCorrect: 0
   _useTimer: 1
   _timer: 10

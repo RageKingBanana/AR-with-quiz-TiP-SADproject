@@ -10,19 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
-  m_Name: 11
+  m_Name: 12
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: "You are currently residing in Brgy. Tomana in Marikina. You heard that
-    the current water level in Marikina river has the potential to reach it\u2019s
-    critical level. What should you do?"
+  _info: You recently attended a seminar about survival tips conducted by your barangay.
+    What should you do?
   _answers:
-  - _info: Stay at your house.
+  - _info: 'Ignore all the things that you learned in the seminar. '
     _isCorrect: 0
-  - _info: Climb to safety immediately.
+  - _info: 'Spread false information about the seminar. '
+    _isCorrect: 0
+  - _info: Assemble disaster supplies.
     _isCorrect: 1
-  - _info: Watch television all night.
-    _isCorrect: 0
   _useTimer: 1
   _timer: 10
   _answerType: 1

@@ -60,6 +60,8 @@ public struct UIElements
 
     [SerializeField] RectTransform finishUIElements;
     public RectTransform FinishUIElements { get { return finishUIElements; } }
+
+    
 }
 public class UIManager : MonoBehaviour {
 
@@ -86,6 +88,7 @@ public class UIManager : MonoBehaviour {
     public int i;
     private bool pressedinc = false;
     public string questiooon;
+    public string ResoString;
     #endregion
 
     #region Default Unity methods
@@ -169,170 +172,112 @@ public class UIManager : MonoBehaviour {
     /// </summary>
     void UpdateResUI(ResolutionScreenType type, int score)
     {
+        
         var highscore = PlayerPrefs.GetInt(GameUtility.SavePrefKey);
         questiooon = PlayerPrefs.GetString("Questioon");
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {
-            switch (type)
-            {
-                case ResolutionScreenType.Correct:
-                    uIElements.ResolutionBG.color = parameters.CorrectBGColor;
+            
                     if (questiooon == "What are the natural cause of earthquakes?")
                     {
-                        uIElements.ResolutionStateInfoText.text = "The natural causes of earthquakes are sliding of tectonic plates and volcanic activities.";
-                        uIElements.ResolutionScoreText.text = "+" + score;
+                        ResoString = "The natural causes of earthquakes are sliding of tectonic plates and volcanic activities.";
                     }
                     else if (questiooon == "What is the necessary skill to be learned in case of emergency?")
                     {
-                        uIElements.ResolutionStateInfoText.text = "Learning simple first aid techniques can be very advantageous. ";
-                        uIElements.ResolutionScoreText.text = "+" + score;
+                        ResoString = "Learning simple first aid techniques can be very advantageous. ";
                     }
                     else if (questiooon == "Emergency kits should contain food in case of emergency, what is not needed?")
                     {
-                        uIElements.ResolutionStateInfoText.text = "Freezed Ham is not included because it is needed to be processed first in order to eat it.";
-                        uIElements.ResolutionScoreText.text = "+" + score;
+                        ResoString = "Freezed Ham is not included because it is needed to be processed first in order to eat it.";
                     } 
                     else if (questiooon == "Emergency kits should contain all of the essential tools that is needed for survival. What is not included?")
                     {
-                        uIElements.ResolutionStateInfoText.text = "Spare Batteries and Flashlight are included in the emergency kit.";
-                        uIElements.ResolutionScoreText.text = "+" + score;
+                        ResoString = "Spare Batteries and Flashlight are included in the emergency kit.";
                     }
                     else if (questiooon == "Why is the Philippines is considered to be an earthquake prone country?")
                     {
-                        uIElements.ResolutionStateInfoText.text = "The Philippines is considered to be an earthquake prone country because it is located near the Pacific Ring of Fire.";
-                        uIElements.ResolutionScoreText.text = "+" + score;
+                        ResoString = "The Philippines is considered to be an earthquake prone country because it is located near the Pacific Ring of Fire.";
                     }
                     else if (questiooon == "NDRRMC mad a mobile application to provide a handy electronic resources to the public that can be utilize in case of emergency. What is the application called?")
                     {
-                        uIElements.ResolutionStateInfoText.text = "“Batingaw” is the mobile application developed by NDRRMC for public use.";
-                        uIElements.ResolutionScoreText.text = "+" + score;
+                        ResoString = "“Batingaw” is the mobile application developed by NDRRMC for public use.";
                     }
                     else if (questiooon == "What is the agency responsible for ensuring the protection and welfare of the people?")
                     {
-                        uIElements.ResolutionStateInfoText.text = "National Disaster Risk Reduction Management Council(NDRRMC) is the agency that is responsible for ensuring the protection and welfare of the people.";
-                        uIElements.ResolutionScoreText.text = "+" + score;
+                        ResoString= "National Disaster Risk Reduction Management Council(NDRRMC) is the agency that is responsible for ensuring the protection and welfare of the people.";
                     }
                     else if (questiooon == "What government agency is responsible for mitigating disasters that arises from geotectonic phenomena? ")
                     {
-                        uIElements.ResolutionStateInfoText.text = "Philippine Institute of Volcanology and Seismology is the agency responsible for mitigation of disasters that arises from geotectonic phenomenas like volcanic eruptions, earthquakes, and tsunamis.";
-                        uIElements.ResolutionScoreText.text = "+" + score;
+                        ResoString = "Philippine Institute of Volcanology and Seismology is the agency responsible for mitigation of disasters that arises from geotectonic phenomenas like volcanic eruptions, earthquakes, and tsunamis.";
                     }
                     else if (questiooon == "What government agency is responsible for monitoring the weather changes in the Philippines?")
                     {
-                        uIElements.ResolutionStateInfoText.text = "Philippine Atmospheric,Geophysical and Astronomical Services Administration(PAG-ASA) is the agency responsible for assessing and forecasting weather, flood, and other conditions essential for the welfare of the people.";
-                        uIElements.ResolutionScoreText.text = "+" + score;
+                        ResoString = "Philippine Atmospheric,Geophysical and Astronomical Services Administration(PAG-ASA) is the agency responsible for assessing and forecasting weather, flood, and other conditions essential for the welfare of the people.";
                     }
                     else if (questiooon == "What are the possible effects of earthquakes?")
                     {
-                        uIElements.ResolutionStateInfoText.text = "Aftershocks, Tsunamis, Landslides are all possible effects of earthquakes.";
-                        uIElements.ResolutionScoreText.text = "+" + score;
+                        ResoString = "Aftershocks, Tsunamis, Landslides are all possible effects of earthquakes.";
+                    }
+                     else if (questiooon == "You are currently residing in Brgy. Tomana in Marikina. You heard that the current water level in Marikina river has the potential to reach it’s critical level. What should you do?")
+                    {
+                        ResoString = "Climb to safety immediately. Flash floods develop quickly. Do not wait until you see rising water.";
+                    }
+                    else if (questiooon == "You recently attended a seminar about survival tips conducted by your barangay. What should you do?")
+                    {
+                        ResoString = "Assemble disaster supplies. Emergency Kits are a MUST and can comes very handy in emergency situations.";
+                    }
+                    else if (questiooon == "The rain is falling so hard due to the super typhoon in your area. There is a chance of flash floods. What should you do?")
+                    {
+                        ResoString = "Be prepared to evacuate. If you have a place you can stay, identify alternative routes that are not prone to flooding and immediately evacuate. If not, go to the designated evacuation assigned by the local government.";
+                    }
+                    else if (questiooon == "You saw in a documentary the danger of flash floods. The local government warns every Filipino family regarding this issue. What should you do?")
+                    {
+                        ResoString = "Discuss a disaster plan to your family. Discuss flood plans with your family. Decide where you will meet if separated.";
+                    }
+                    else if (questiooon == "You own a farm and a waist deep flood is currently devastating your farm. You should not?")
+                    {
+                        ResoString= "You should not prioritze to save crops and animals. Get out of low areas that may be subject to flooding,prioritze your safety above all else";
+                    }
+                    else if (questiooon == "You woke up early in the morning and you notice that the water is starting to rise. The local government failed to inform the citizens about the flood.  What should you do?")
+                    {
+                        ResoString = "Evacuate immediately. Move to a safe area as soon as possible before access is cut off by rising water.";
+                    }
+                    else if (questiooon == "A family of illegal settlers dwells near an estero. An unexpected rise of water level woke them up. What they should not do is ?")
+                    {
+                        ResoString = "NEVER try to walk or swim through flowing water. If the water is moving swiftly, water 6 inches deep can knock you off your feet.";
+                    }
+                    else if (questiooon == "A family is currently living in a household located in a low ground location. The area is currently suffering the onslaught of a super typhoon. The flood started to fill the premises. There are extension cords that are just laying on the ground ? What is the danger that the family may suffer?")
+                    {
+                        ResoString= "Shut off the electricity at the circuit breakers. Water conducts electricity and loose electric connection can result in someone being electrocuted.";
                     }
 
-                    break;
-                case ResolutionScreenType.Incorrect:
-                    uIElements.ResolutionBG.color = parameters.IncorrectBGColor;
-                    if (questiooon == "What are the natural cause of earthquakes?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "The natural causes of earthquakes are sliding of tectonic plates and volcanic activities.";
-                        uIElements.ResolutionScoreText.text = "-" + score;
-                    }
-                    else if (questiooon == "What is the necessary skill to be learned in case of emergency?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "Learning simple first aid techniques can be very advantageous. ";
-                        uIElements.ResolutionScoreText.text = "-" + score;
-                    }
-                    else if (questiooon == "Emergency kits should contain food in case of emergency, what is not needed?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "Freezed Ham is not included because it is needed to be processed first in order to eat it.";
-                        uIElements.ResolutionScoreText.text = "-" + score;
-                    }
-                    else if (questiooon == "Emergency kits should contain all of the essential tools that is needed for survival. What is not included?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "Spare Batteries and Flashlight are included in the emergency kit.";
-                        uIElements.ResolutionScoreText.text = "-" + score;
-                    }
-                    else if (questiooon == "Why is the Philippines is considered to be an earthquake prone country?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "The Philippines is considered to be an earthquake prone country because it is located near the Pacific Ring of Fire.";
-                        uIElements.ResolutionScoreText.text = "-" + score;
-                    }
-                    else if (questiooon == "NDRRMC mad a mobile application to provide a handy electronic resources to the public that can be utilize in case of emergency. What is the application called?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "“Batingaw” is the mobile application developed by NDRRMC for public use.";
-                        uIElements.ResolutionScoreText.text = "-" + score;
-                    }
-                    else if (questiooon == "What is the agency responsible for ensuring the protection and welfare of the people?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "National Disaster Risk Reduction Management Council(NDRRMC) is the agency that is responsible for ensuring the protection and welfare of the people.";
-                        uIElements.ResolutionScoreText.text = "-" + score;
-                    }
-                    else if (questiooon == "What government agency is responsible for mitigating disasters that arises from geotectonic phenomena? ")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "Philippine Institute of Volcanology and Seismology is the agency responsible for mitigation of disasters that arises from geotectonic phenomenas like volcanic eruptions, earthquakes, and tsunamis.";
-                        uIElements.ResolutionScoreText.text = "-" + score;
-                    }
-                    else if (questiooon == "What government agency is responsible for monitoring the weather changes in the Philippines?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "Philippine Atmospheric,Geophysical and Astronomical Services Administration(PAG-ASA) is the agency responsible for assessing and forecasting weather, flood, and other conditions essential for the welfare of the people.";
-                        uIElements.ResolutionScoreText.text = "-" + score;
-                    }
-                    else if (questiooon == "What are the possible effects of earthquakes?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "Aftershocks, Tsunamis, Landslides are all possible effects of earthquakes.";
-                        uIElements.ResolutionScoreText.text = "-" + score;
-                    }
-                    break;
-                case ResolutionScreenType.Finish:
-                    uIElements.ResolutionBG.color = parameters.FinalBGColor;
-                    if (questiooon == "What are the natural cause of earthquakes?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "The natural causes of earthquakes are sliding of tectonic plates and volcanic activities.";
-                    }
-                    else if (questiooon == "What is the necessary skill to be learned in case of emergency?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "Learning simple first aid techniques can be very advantageous. ";
-                    }
-                    else if (questiooon == "Emergency kits should contain food in case of emergency, what is not needed?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "Freezed Ham is not included because it is needed to be processed first in order to eat it.";
-                    }
-                    else if (questiooon == "Emergency kits should contain all of the essential tools that is needed for survival. What is not included?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "Spare Batteries and Flashlight are included in the emergency kit.";
-                    }
-                    else if (questiooon == "Why is the Philippines is considered to be an earthquake prone country?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "The Philippines is considered to be an earthquake prone country because it is located near the Pacific Ring of Fire.";
-                    }
-                    else if (questiooon == "NDRRMC mad a mobile application to provide a handy electronic resources to the public that can be utilize in case of emergency. What is the application called?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "“Batingaw” is the mobile application developed by NDRRMC for public use.";
-                    }
-                    else if (questiooon == "What is the agency responsible for ensuring the protection and welfare of the people?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "National Disaster Risk Reduction Management Council(NDRRMC) is the agency that is responsible for ensuring the protection and welfare of the people.";
-                    }
-                    else if (questiooon == "What government agency is responsible for mitigating disasters that arises from geotectonic phenomena? ")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "Philippine Institute of Volcanology and Seismology is the agency responsible for mitigation of disasters that arises from geotectonic phenomenas like volcanic eruptions, earthquakes, and tsunamis.";
-                    }
-                    else if (questiooon == "What government agency is responsible for monitoring the weather changes in the Philippines?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "Philippine Atmospheric,Geophysical and Astronomical Services Administration(PAG-ASA) is the agency responsible for assessing and forecasting weather, flood, and other conditions essential for the welfare of the people.";
-                    }
-                    else if (questiooon == "What are the possible effects of earthquakes?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "Aftershocks, Tsunamis, Landslides are all possible effects of earthquakes.";
-                    }
 
-                    
+        switch (type)
+        {
+            case ResolutionScreenType.Correct:
+                uIElements.ResolutionBG.color = parameters.CorrectBGColor;
+                uIElements.ResolutionStateInfoText.text = ResoString;
+                uIElements.ResolutionScoreText.text = "+" + score;
+                break;
+            case ResolutionScreenType.Incorrect:
+                uIElements.ResolutionBG.color = parameters.IncorrectBGColor;
+                uIElements.ResolutionStateInfoText.text = ResoString;
+                uIElements.ResolutionScoreText.text = "-" + score;
+                break;
+            case ResolutionScreenType.Finish:
+                uIElements.ResolutionBG.color = parameters.FinalBGColor;
+                uIElements.ResolutionStateInfoText.text = ResoString;
 
-                    StartCoroutine(CalculateScore());
+                StartCoroutine(CalculateScore());
                     uIElements.FinishUIElements.gameObject.SetActive(true);
                     uIElements.HighScoreText.gameObject.SetActive(false);
                     uIElements.HighScoreText.text = ((highscore > events.StartupHighscore) ? "<color=yellow>new </color>" : string.Empty) + "Highscore: " + highscore;
-                    break;
-            }
+                break;
+        }
+
+                    
+                   
+            
         }
         else if (SceneManager.GetActiveScene().buildIndex == 2)
         {
@@ -375,41 +320,17 @@ public class UIManager : MonoBehaviour {
                         uIElements.ResolutionStateInfoText.text = " If there is a baby, persons with disabilities (PWD) in your family. You should put their safety as a top priority.";
                         uIElements.ResolutionScoreText.text = "+" + score;
                     }
-                    else if (questiooon == "A family is currently living in a household located in a low ground location. The area is currently suffering the onslaught of a super typhoon. The flood started to fill the premises. There are extension cords that are just laying on the ground ? What is the danger that the family may suffer?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "Shut off the electricity at the circuit breakers. Water conducts electricity and loose electric connection can result in someone being electrocuted.";
-                        uIElements.ResolutionScoreText.text = "+" + score;
-                    }
-                    else if (questiooon == "A family of illegal settlers dwells near an estero. An unexpected rise of water level woke them up. What they should not do is ?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "NEVER try to walk or swim through flowing water. If the water is moving swiftly, water 6 inches deep can knock you off your feet.";
-                        uIElements.ResolutionScoreText.text = "+" + score;
-                    }
-                    else if (questiooon == "You woke up early in the morning and you notice that the water is starting to rise. The local government failed to inform the citizens about the flood.  What should you do?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "Evacuate immediately. Move to a safe area as soon as possible before access is cut off by rising water.";
-                        uIElements.ResolutionScoreText.text = "+" + score;
-                    }
-                    else if (questiooon == "You own a farm and a waist deep flood is currently devastating your farm. You should not?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "You should not prioritze to save crops and animals. Get out of low areas that may be subject to flooding,prioritze your safety above all else";
-                        uIElements.ResolutionScoreText.text = "+" + score;
-                    }
+                    
+
+
+
                     else if (questiooon == "You saw in a documentary the danger of flash floods. The local government warns every Filipino family regarding this issue. What should you do?")
                     {
                         uIElements.ResolutionStateInfoText.text = "Discuss a disaster plan to your family. Discuss flood plans with your family. Decide where you will meet if separated.";
                         uIElements.ResolutionScoreText.text = "+" + score;
                     }
-                    else if (questiooon == "The rain is falling so hard due to the super typhoon in your area. There is a chance of flash floods. What should you do?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "Be prepared to evacuate. If you have a place you can stay, identify alternative routes that are not prone to flooding and immediately evacuate. If not, go to the designated evacuation assigned by the local government.";
-                        uIElements.ResolutionScoreText.text = "+" + score;
-                    }
-                    else if (questiooon == "You recently attended a seminar about survival tips conducted by your barangay. What should you do?")
-                    {
-                        uIElements.ResolutionStateInfoText.text = "Assemble disaster supplies. Emergency Kits are a MUST and can comes very handy in emergency situations.";
-                        uIElements.ResolutionScoreText.text = "+" + score;
-                    }
+
+
                     else if (questiooon == "You are currently residing in Brgy. Tomana in Marikina. You heard that the current water level in Marikina river has the potential to reach it’s critical level. What should you do?")
                     {
                         uIElements.ResolutionStateInfoText.text = "Climb to safety immediately. Flash floods develop quickly. Do not wait until you see rising water.";

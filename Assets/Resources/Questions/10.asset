@@ -10,21 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
-  m_Name: 18
+  m_Name: 11
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: A family is currently living in a household located in a low ground location.
-    The area is currently suffering the onslaught of a super typhoon. The flood started
-    to fill the premises. There are extension cords that are just laying on the ground
-    ? What is the danger that the family may suffer?
+  _info: "You are currently residing in Brgy. Tomana in Marikina. You heard that
+    the current water level in Marikina river has the potential to reach it\u2019s
+    critical level. What should you do?"
   _answers:
-  - _info: Flood related injuries.
-    _isCorrect: 1
-  - _info: 'Man-made related injuries. '
+  - _info: Stay at your house.
     _isCorrect: 0
-  - _info: Electricity related injuries.
+  - _info: Climb to safety immediately.
     _isCorrect: 1
+  - _info: Watch television all night.
+    _isCorrect: 0
   _useTimer: 1
   _timer: 10
-  _answerType: 0
+  _answerType: 1
   _addScore: 10

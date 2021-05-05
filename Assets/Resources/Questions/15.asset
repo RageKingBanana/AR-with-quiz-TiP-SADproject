@@ -10,17 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
-  m_Name: 15
+  m_Name: 16
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: You own a farm and a waist deep flood is currently devastating your farm.
-    You should not?
+  _info: You woke up early in the morning and you notice that the water is starting
+    to rise. The local government failed to inform the citizens about the flood. 
+    What should you do?
   _answers:
-  - _info: Evacuate to a higher ground.
-    _isCorrect: 0
-  - _info: Try to save crops and animals.
+  - _info: Find a place you can go to immediately.
     _isCorrect: 1
-  - _info: Try to get help if trapped.
+  - _info: Wait for the authorities go signal before evacuating.
+    _isCorrect: 0
+  - _info: Go back to sleep.
     _isCorrect: 0
   _useTimer: 1
   _timer: 10

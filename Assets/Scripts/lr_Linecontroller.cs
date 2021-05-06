@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
+    private LineRenderer lr;
+    private Transform[] points;
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        
+        lr =GetComponent<LineRenderer>();
+    }
+    public void SetUpLine(Transform[] points)
+    {
+        lr.positionCount = points.Length;
+        this.points = points;
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        for(int i = 0; i<points.Length;i++)
+        {
+            lr.SetPosition(i,points[i].position);
+        }
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class lr_LineController : MonoBehaviour
 {
     private LineRenderer lr;
     private Transform[] points;

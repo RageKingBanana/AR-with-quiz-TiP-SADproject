@@ -11,7 +11,7 @@ public class SceneLoader : MonoBehaviour
     [SerializeField]
     private int scene;
     [SerializeField]
-    private Text loadingText;
+    private Text loadingText;  
     public string[] tips =new string[5];
 
     // Updates once per frame

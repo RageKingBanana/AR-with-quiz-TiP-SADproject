@@ -25452,7 +25452,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 727404742}
-        m_TargetAssemblyTypeName: Load, Assembly-CSharp
+        m_TargetAssemblyTypeName: LEVELSELECT, Assembly-CSharp
         m_MethodName: selectScene
         m_Mode: 1
         m_Arguments:
@@ -25510,7 +25510,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 727404737}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89182eb01da9d224c97e5fb9e13c6c36, type: 3}
+  m_Script: {fileID: 11500000, guid: dc70b4b766d358f4eb112b4654e052aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &736433824
@@ -61926,7 +61926,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1822390041}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89182eb01da9d224c97e5fb9e13c6c36, type: 3}
+  m_Script: {fileID: 11500000, guid: dc70b4b766d358f4eb112b4654e052aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1822390044
@@ -61973,7 +61973,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1822390043}
-        m_TargetAssemblyTypeName: Load, Assembly-CSharp
+        m_TargetAssemblyTypeName: LEVELSELECT, Assembly-CSharp
         m_MethodName: selectScene
         m_Mode: 1
         m_Arguments:

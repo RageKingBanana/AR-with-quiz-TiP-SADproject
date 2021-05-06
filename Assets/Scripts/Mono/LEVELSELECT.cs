@@ -39,8 +39,15 @@ public class LEVELSELECT : MonoBehaviour
             case "3D":
                 PlayerPrefs.SetInt("levelClicked", 7);
                 SceneManager.LoadScene(4);
+                break; 
+            case "Button_[Exit]":
+                PlayerPrefs.SetInt("levelClicked", 0);
+                SceneManager.LoadScene(4);
                 break;
-            
+            case "YES-EXIT":
+                PlayerPrefs.SetInt("levelClicked", 0);
+                SceneManager.LoadScene(4);
+                break;
         }
         
 

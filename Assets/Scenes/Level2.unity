@@ -284,8 +284,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 9842622}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: MainMenu
+        m_TargetAssemblyTypeName: LEVELSELECT, Assembly-CSharp
+        m_MethodName: selectScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -355,7 +355,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 9842617}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0a19e20a852d364ba1b7aa9b9c79c0e, type: 3}
+  m_Script: {fileID: 11500000, guid: dc70b4b766d358f4eb112b4654e052aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &49145296
@@ -1082,7 +1082,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -358.37, y: -312}
-  m_SizeDelta: {x: 182.98904, y: 52.578156}
+  m_SizeDelta: {x: 183.98901, y: 52.578125}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &321421616
 MonoBehaviour:
@@ -1882,9 +1882,9 @@ RectTransform:
   m_Father: {fileID: 597978890}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 762.9997, y: -37.000183}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -121, y: -37.000122}
   m_SizeDelta: {x: 172.59998, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &395777352
@@ -2496,9 +2496,9 @@ RectTransform:
   m_Father: {fileID: 380032909}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 622.5, y: 199.5}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -456.5, y: -340.5}
   m_SizeDelta: {x: 318.34338, y: 143.126}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &714370072
@@ -2987,6 +2987,7 @@ MonoBehaviour:
   AnsQues: 0
   i: 0
   questiooon: 
+  ResoString: 
 --- !u!114 &849180835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4388,8 +4389,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1189528033}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: MainMenu
+        m_TargetAssemblyTypeName: LEVELSELECT, Assembly-CSharp
+        m_MethodName: selectScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4446,7 +4447,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1189528028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0a19e20a852d364ba1b7aa9b9c79c0e, type: 3}
+  m_Script: {fileID: 11500000, guid: dc70b4b766d358f4eb112b4654e052aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1254301736
@@ -7381,7 +7382,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.2000122, y: 1.2000122}
+  m_AnchoredPosition: {x: -0.19995117, y: 1.2000122}
   m_SizeDelta: {x: -147.42688, y: -127.28653}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2052730184

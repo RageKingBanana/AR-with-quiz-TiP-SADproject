@@ -9368,7 +9368,7 @@ RectTransform:
   - {fileID: 835458331}
   - {fileID: 1332663673}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -46892,10 +46892,10 @@ Transform:
   m_GameObject: {fileID: 1319337769}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 444.33, y: 147.74, z: -63.49077}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1327648443
 GameObject:
@@ -49247,7 +49247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1380370694}
-  speed: 100
+  speed: 10
 --- !u!4 &1380370694 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5507501728083071776, guid: b570e19f3675e1448a0d5a3672cffc9e,
@@ -63445,7 +63445,6 @@ GameObject:
   - component: {fileID: 1847667672}
   - component: {fileID: 1847667671}
   - component: {fileID: 1847667674}
-  - component: {fileID: 1847667675}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -63511,8 +63510,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1847667670}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 429, y: 152, z: -50}
+  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
+  m_LocalPosition: {x: 424.5, y: 160.52, z: -50}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 199444239}
@@ -63525,7 +63524,7 @@ Transform:
   - {fileID: 1424413416}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
 --- !u!114 &1847667674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63556,22 +63555,6 @@ MonoBehaviour:
   damping: -1
   inertia: 0
   remainingDelta: {x: 0, y: 0, z: 0}
---- !u!114 &1847667675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1847667670}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c65f7364abe2774696adb5438b5311d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  points:
-  - {fileID: 199444239}
-  - {fileID: 2022307581}
-  line: {fileID: 1992332953}
 --- !u!1 &1848219419
 GameObject:
   m_ObjectHideFlags: 0
@@ -67758,7 +67741,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 100
+  m_Time: 36
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.1
@@ -71080,7 +71063,7 @@ Transform:
   - {fileID: 1735784088}
   - {fileID: 2013420556}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2065422177
 MonoBehaviour:

@@ -23,9 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/load 1.unity
     guid: 43cd513100c0136498f3bd05e1724689
-  - enabled: 0
-    path: Assets/Scenes/SolarAR.unity
-    guid: 41aa387adf587b942b7669b2dd1f41d0
   - enabled: 1
     path: Assets/Scenes/3D.unity
     guid: 67f5f795302a20c4fa5f379c81c4fc3a

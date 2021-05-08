@@ -38,9 +38,9 @@ public class  GameManager: MonoBehaviour {
             if (SceneManager.GetActiveScene().buildIndex == 1)
             { PlayerPrefs.SetInt("j", 10); }
             else if (SceneManager.GetActiveScene().buildIndex == 2)
-            { PlayerPrefs.SetInt("j", 20); }
+            { PlayerPrefs.SetInt("j", 10); }
             else if (SceneManager.GetActiveScene().buildIndex == 3)
-            { PlayerPrefs.SetInt("j", 30); }
+            { PlayerPrefs.SetInt("j", 10); }
             a = PlayerPrefs.GetInt("j");
             return (FinishedQuestions.Count < a) ? false : true;
         }
@@ -314,7 +314,7 @@ public class  GameManager: MonoBehaviour {
         }
         if (SceneManager.GetActiveScene().buildIndex == 2)
         {
-            Object[] objs = Resources.LoadAll("Questions 1", typeof(Question));
+            Object[] objs = Resources.LoadAll("Questions", typeof(Question));
             _questions = new Question[objs.Length];
             for (int i = 0; i < objs.Length; i++)
             {
@@ -323,7 +323,7 @@ public class  GameManager: MonoBehaviour {
         }
         if (SceneManager.GetActiveScene().buildIndex == 3)
         {
-            Object[] objs = Resources.LoadAll("Questions 2", typeof(Question));
+            Object[] objs = Resources.LoadAll("Questions", typeof(Question));
             _questions = new Question[objs.Length];
             for (int i = 0; i < objs.Length; i++)
             {

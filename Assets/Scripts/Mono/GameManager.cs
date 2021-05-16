@@ -25,8 +25,7 @@ public class  GameManager: MonoBehaviour {
     private             int                 currentQuestion         = 0;
 
     private             int                 timerStateParaHash      = 0;
-    public int oras;
-    public int oras1;
+    private             int                 timeBeforePause;
     private             IEnumerator         IE_WaitTillNextRound    = null;
     private             IEnumerator         IE_StartTimer           = null;
     private bool pressedinc = false;
@@ -156,6 +155,7 @@ public class  GameManager: MonoBehaviour {
     public void Accept()
     {
         UpdateTimer(false);
+        timeBeforePause = -1;
         bool isCorrect = CheckAnswers();
         FinishedQuestions.Add(currentQuestion);
         pressedinc = false;
@@ -198,26 +198,28 @@ public class  GameManager: MonoBehaviour {
         switch (state)
         {
             case true:
-            
                 IE_StartTimer = StartTimer();
                 StartCoroutine(IE_StartTimer);
                 timerAnimtor.SetInteger(timerStateParaHash, 2);
-                oras=PlayerPrefs.GetInt("timeLeft");
-                
+                //oras=PlayerPrefs.GetInt("timeLeft");
                 break;
             case false:
                 if (IE_StartTimer != null)
                 {
-                    
-                   StopCoroutine(IE_StartTimer);
-                    oras1=oras;
-                    PlayerPrefs.SetInt("timeLeft",oras1);
-                
+                    StopCoroutine(IE_StartTimer);
+                    //oras1=oras;
+                    //PlayerPrefs.SetInt("timeLeft",oras1);
                 }
-
                 timerAnimtor.SetInteger(timerStateParaHash, 1);
                 break;
         }
+    }
+
+    public void PauseTimer(bool state){
+        if (state){
+            
+        }
+
     }
 
     IEnumerator StartTimer()
@@ -225,16 +227,19 @@ public class  GameManager: MonoBehaviour {
  
         var totalTime = Questions[currentQuestion].Timer;
         var timeLeft = totalTime;
-        
-        {
+
         timerText.color = timerDefaultColor;
+
+        if (timeBeforePause > 0){
+            timeLeft = timeBeforePause;
+        }
  
-        
         while (timeLeft > 0)
         {
+            timeBeforePause = timeLeft;
+
             timeLeft--;
             
-
             AudioManager.Instance.PlaySound("CountdownSFX");
 
             if (timeLeft < totalTime / 2 && timeLeft > totalTime / 4)
@@ -253,7 +258,6 @@ public class  GameManager: MonoBehaviour {
            
         }
         Accept();
-        }
     }
     IEnumerator WaitTillNextRound()
     {

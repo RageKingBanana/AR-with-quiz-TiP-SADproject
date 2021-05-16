@@ -25,7 +25,7 @@ public class  GameManager: MonoBehaviour {
     private             int                 currentQuestion         = 0;
 
     private             int                 timerStateParaHash      = 0;
-    public              int                 timeBeforePause;
+    private             int                 timeBeforePause;
     private             IEnumerator         IE_WaitTillNextRound    = null;
     private             IEnumerator         IE_StartTimer           = null;
     private bool pressedinc = false;
@@ -155,7 +155,7 @@ public class  GameManager: MonoBehaviour {
     public void Accept()
     {
         UpdateTimer(false);
-        
+        timeBeforePause = -1;
         bool isCorrect = CheckAnswers();
         FinishedQuestions.Add(currentQuestion);
         pressedinc = false;

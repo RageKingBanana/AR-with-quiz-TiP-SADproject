@@ -66,7 +66,7 @@ public class LevelSelection : MonoBehaviour
         PlayerPrefs.SetInt("iskor", 0);
         for (int x = 0; x < levelButtons.Length; x++)
         {
-            if (levelUc[x] == '1' && x < 5)
+            if (levelUc[x] == '1' && x < 3)
                 levelButtons[x].interactable = true;
         }
 

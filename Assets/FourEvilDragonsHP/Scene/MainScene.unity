@@ -3808,7 +3808,7 @@ Transform:
   m_LocalScale: {x: 57.698086, y: 57.698044, z: 57.698044}
   m_Children: []
   m_Father: {fileID: 1023219709}
-  m_RootOrder: 91
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &374619687
 PrefabInstance:
@@ -14579,6 +14579,7 @@ Transform:
   - {fileID: 883552160}
   - {fileID: 647641107}
   - {fileID: 556881139}
+  - {fileID: 368780944}
   - {fileID: 2025019373}
   - {fileID: 478281283}
   - {fileID: 684801452}
@@ -14589,6 +14590,7 @@ Transform:
   - {fileID: 1932658841}
   - {fileID: 711596511}
   - {fileID: 935052369}
+  - {fileID: 439670913}
   - {fileID: 1779569581}
   - {fileID: 279380712}
   - {fileID: 345996857}
@@ -14597,7 +14599,6 @@ Transform:
   - {fileID: 1246413898}
   - {fileID: 1463069214}
   - {fileID: 2085356601}
-  - {fileID: 439670913}
   - {fileID: 712757251}
   - {fileID: 1877736761}
   - {fileID: 1822310310}
@@ -14616,7 +14617,6 @@ Transform:
   - {fileID: 1422385362}
   - {fileID: 2070523145}
   - {fileID: 1816841279}
-  - {fileID: 368780944}
   - {fileID: 2136450347}
   - {fileID: 1888604013}
   - {fileID: 1101390355}
@@ -16837,6 +16837,14 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 2897399b8106c274f9e41904f19945b0, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 2897399b8106c274f9e41904f19945b0, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 2897399b8106c274f9e41904f19945b0, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 2897399b8106c274f9e41904f19945b0, type: 3}
       propertyPath: m_Materials.Array.data[0]

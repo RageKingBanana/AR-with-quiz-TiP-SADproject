@@ -9,6 +9,7 @@ using UnityEngine.SceneManagement;
 [Serializable()]
 public struct UIManagerParameters
 {
+    
     [Header("Answers Options")]
     [SerializeField] float margins;
     public float Margins { get { return margins; } }
@@ -89,6 +90,7 @@ public class UIManager : MonoBehaviour {
     private bool pressedinc = false;
     public string questiooon;
     public string ResoString;
+    public int ThisAnswer = 2;
     #endregion
 
     #region Default Unity methods
@@ -406,21 +408,30 @@ public class UIManager : MonoBehaviour {
                     }
 
         }
+        
         switch (type)
           {
+              
             case ResolutionScreenType.Correct:
+                PlayerPrefs.SetInt("ThisAnswer",1);
+                //DogAnimation.Battle();
                 uIElements.ResolutionBG.color = parameters.CorrectBGColor;
                 uIElements.ResolutionStateInfoText.text = ResoString;
                 uIElements.ResolutionScoreText.text = "+" + score;
+                //PlayerPrefs.SetInt("ThisAnswer",2);
                 break;
             case ResolutionScreenType.Incorrect:
+                PlayerPrefs.SetInt("ThisAnswer",0);
+                //DogAnimation.Battle();
                 uIElements.ResolutionBG.color = parameters.IncorrectBGColor;
                 uIElements.ResolutionStateInfoText.text = ResoString;
                 uIElements.ResolutionScoreText.text = "-" + score;
+                //PlayerPrefs.SetInt("ThisAnswer",2);
                 break;
             case ResolutionScreenType.Finish:
                 uIElements.ResolutionBG.color = parameters.FinalBGColor;
                 uIElements.ResolutionStateInfoText.text = ResoString;
+                
 
                 StartCoroutine(CalculateScore());
                     uIElements.FinishUIElements.gameObject.SetActive(true);

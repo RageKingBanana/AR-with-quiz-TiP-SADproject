@@ -11,6 +11,8 @@ public class  GameManager: MonoBehaviour {
     
     private             Question[]          _questions              = null;
     public              Question[]          Questions               { get { return _questions; } }
+    //private GameObject MainCanvas;
+    public GameObject MainCanvas;
 
     [SerializeField]    GameEvents          events                  = null;
 
@@ -175,6 +177,7 @@ public class  GameManager: MonoBehaviour {
 
         if (events.DisplayResolutionScreen != null)
         {
+            
             events.DisplayResolutionScreen(type, Questions[currentQuestion].AddScore);
         }
 
@@ -201,14 +204,13 @@ public class  GameManager: MonoBehaviour {
                 IE_StartTimer = StartTimer();
                 StartCoroutine(IE_StartTimer);
                 timerAnimtor.SetInteger(timerStateParaHash, 2);
-                //oras=PlayerPrefs.GetInt("timeLeft");
+                
                 break;
             case false:
                 if (IE_StartTimer != null)
                 {
                     StopCoroutine(IE_StartTimer);
-                    //oras1=oras;
-                    //PlayerPrefs.SetInt("timeLeft",oras1);
+ 
                 }
                 timerAnimtor.SetInteger(timerStateParaHash, 1);
                 break;
@@ -258,16 +260,23 @@ public class  GameManager: MonoBehaviour {
            
         }
         Accept();
+        MainCanvas.SetActive(false);
     }
     IEnumerator WaitTillNextRound()
     {
-        yield return new WaitForSeconds(GameUtility.ResolutionDelayTime);
+        yield return new WaitForSeconds(3);
         while (!pressedinc)
         {
             if (Input.touchCount > 0 || Input.GetMouseButton(0))
+            
                 pressedinc = true;
+               //yield return new WaitForSeconds(1.0f);
+                PlayerPrefs.SetInt("ThisAnswer",2);
+             //MainCanvas = GameObject.FindGameObjectsWithTag("MAIN");
+               
             yield return null;
         }
+        MainCanvas.SetActive(true);
         Display();
     }
 

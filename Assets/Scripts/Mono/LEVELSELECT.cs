@@ -10,6 +10,7 @@ public class LEVELSELECT : MonoBehaviour
 //    [SerializeField] GameEvents events = null;
     public void selectScene()
     {
+        PlayerPrefs.SetInt("ThisAnswer",2);
         switch (this.gameObject.name)
         {
             case "Level1":

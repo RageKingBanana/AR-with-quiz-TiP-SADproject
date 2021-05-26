@@ -25,7 +25,14 @@ public class LEVELSELECT : MonoBehaviour
                 PlayerPrefs.SetInt("levelClicked", 3);
                 SceneManager.LoadScene(4);
                 break;
-            case "AR ADVENTURE":
+           
+        }
+    }
+    public void selectlevel()
+    {
+        switch (this.gameObject.name)
+        {
+         case "AR ADVENTURE":
                 PlayerPrefs.SetInt("levelClicked", 7);
                 SceneManager.LoadScene(4);
                 break;
@@ -57,10 +64,9 @@ public class LEVELSELECT : MonoBehaviour
                 PlayerPrefs.SetInt("levelClicked", 8);
                 SceneManager.LoadScene(4);
                 break;
-        }
+            }
         
+        }
 
-    }
-
-
+    
 }

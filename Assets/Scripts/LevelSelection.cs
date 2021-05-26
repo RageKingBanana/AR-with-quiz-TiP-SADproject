@@ -8,7 +8,7 @@ public class LevelSelection : MonoBehaviour
 {
     public int scoreRequiredToUnlockNext = -1;
     private int levelReached;
-    public Button[] levelButtons;
+    public Button[] levelButtons; 
     public int prevLevelPlayed;
     public int Iskor;
     public double compare;

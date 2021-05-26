@@ -323,6 +323,7 @@ public class  GameManager: MonoBehaviour {
                 for (int i = 0; i < objs.Length; i++)
                 {
                     _questions[i] = (Question)objs[i];
+                    PlayerPrefs.SetInt("DisplayAns",i);
                 }
         }
         if (SceneManager.GetActiveScene().buildIndex == 2)
@@ -332,6 +333,7 @@ public class  GameManager: MonoBehaviour {
             for (int i = 0; i < objs.Length; i++)
             {
                 _questions[i] = (Question)objs[i];
+                PlayerPrefs.SetInt("DisplayAns",i);
             }
         }
         if (SceneManager.GetActiveScene().buildIndex == 3)
@@ -341,6 +343,7 @@ public class  GameManager: MonoBehaviour {
             for (int i = 0; i < objs.Length; i++)
             {
                 _questions[i] = (Question)objs[i];
+                PlayerPrefs.SetInt("DisplayAns",i);
             }
         }
 

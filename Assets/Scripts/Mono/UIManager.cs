@@ -86,7 +86,7 @@ public class UIManager : MonoBehaviour {
 
     private             IEnumerator            IE_DisplayTimedResolution    = null;
     public int AnsQues;
-    public int i;
+    public int i, DisplayAns;
     private bool pressedinc = false;
     public string questiooon;
     public string ResoString;
@@ -179,76 +179,76 @@ public class UIManager : MonoBehaviour {
         questiooon = PlayerPrefs.GetString("Questioon");
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {
-            
-                    if (questiooon == "What are the natural cause of earthquakes?")
+            PlayerPrefs.GetInt("DisplayAns");
+                    if (DisplayAns==0)
                     {
                         ResoString = "The natural causes of earthquakes are sliding of tectonic plates and volcanic activities.";
                     }
-                    else if (questiooon == "What is the necessary skill to be learned in case of emergency?")
+                    else if (DisplayAns==1)
                     {
                         ResoString = "Learning simple first aid techniques can be very advantageous. ";
                     }
-                    else if (questiooon == "Emergency kits should contain food in case of emergency, what is not needed?")
+                    else if (DisplayAns==2)
                     {
                         ResoString = "Freezed Ham is not included because it is needed to be processed first in order to eat it.";
                     } 
-                    else if (questiooon == "Emergency kits should contain all of the essential tools that is needed for survival. What is not included?")
+                    else if (DisplayAns==3)
                     {
                         ResoString = "Spare Batteries and Flashlight are included in the emergency kit.";
                     }
-                    else if (questiooon == "Why is the Philippines is considered to be an earthquake prone country?")
+                    else if (DisplayAns==4)
                     {
                         ResoString = "The Philippines is considered to be an earthquake prone country because it is located near the Pacific Ring of Fire.";
                     }
-                    else if (questiooon == "NDRRMC mad a mobile application to provide a handy electronic resources to the public that can be utilize in case of emergency. What is the application called?")
+                    else if (DisplayAns==5)
                     {
                         ResoString = "“Batingaw” is the mobile application developed by NDRRMC for public use.";
                     }
-                    else if (questiooon == "What is the agency responsible for ensuring the protection and welfare of the people?")
+                    else if (DisplayAns==6)
                     {
                         ResoString= "National Disaster Risk Reduction Management Council(NDRRMC) is the agency that is responsible for ensuring the protection and welfare of the people.";
                     }
-                    else if (questiooon == "What government agency is responsible for mitigating disasters that arises from geotectonic phenomena? ")
+                    else if (DisplayAns==7)
                     {
                         ResoString = "Philippine Institute of Volcanology and Seismology is the agency responsible for mitigation of disasters that arises from geotectonic phenomenas like volcanic eruptions, earthquakes, and tsunamis.";
                     }
-                    else if (questiooon == "What government agency is responsible for monitoring the weather changes in the Philippines?")
+                    else if (DisplayAns==8)
                     {
                         ResoString = "Philippine Atmospheric,Geophysical and Astronomical Services Administration(PAG-ASA) is the agency responsible for assessing and forecasting weather, flood, and other conditions essential for the welfare of the people.";
                     }
-                    else if (questiooon == "What are the possible effects of earthquakes?")
+                    else if (DisplayAns==9)
                     {
                         ResoString = "Aftershocks, Tsunamis, Landslides are all possible effects of earthquakes.";
                     }
-                     else if (questiooon == "You are currently residing in Brgy. Tomana in Marikina. You heard that the current water level in Marikina river has the potential to reach it’s critical level. What should you do?")
+                     else if (DisplayAns==10)
                     {
                         ResoString = "Climb to safety immediately. Flash floods develop quickly. Do not wait until you see rising water.";
                     }
-                    else if (questiooon == "You recently attended a seminar about survival tips conducted by your barangay. What should you do?")
+                    else if (DisplayAns==11)
                     {
                         ResoString = "Assemble disaster supplies. Emergency Kits are a MUST and can comes very handy in emergency situations.";
                     }
-                    else if (questiooon == "The rain is falling so hard due to the super typhoon in your area. There is a chance of flash floods. What should you do?")
+                    else if (DisplayAns==12)
                     {
                         ResoString = "Be prepared to evacuate. If you have a place you can stay, identify alternative routes that are not prone to flooding and immediately evacuate. If not, go to the designated evacuation assigned by the local government.";
                     }
-                    else if (questiooon == "You saw in a documentary the danger of flash floods. The local government warns every Filipino family regarding this issue. What should you do?")
+                    else if (DisplayAns==13)
                     {
                         ResoString = "Discuss a disaster plan to your family. Discuss flood plans with your family. Decide where you will meet if separated.";
                     }
-                    else if (questiooon == "You own a farm and a waist deep flood is currently devastating your farm. You should not?")
+                    else if (DisplayAns==14)
                     {
                         ResoString= "You should not prioritze to save crops and animals. Get out of low areas that may be subject to flooding,prioritze your safety above all else";
                     }
-                    else if (questiooon == "You woke up early in the morning and you notice that the water is starting to rise. The local government failed to inform the citizens about the flood.  What should you do?")
+                    else if (DisplayAns==15)
                     {
                         ResoString = "Evacuate immediately. Move to a safe area as soon as possible before access is cut off by rising water.";
                     }
-                    else if (questiooon == "A family of illegal settlers dwells near an estero. An unexpected rise of water level woke them up. What they should not do is ?")
+                    else if (DisplayAns==16)
                     {
                         ResoString = "NEVER try to walk or swim through flowing water. If the water is moving swiftly, water 6 inches deep can knock you off your feet.";
                     }
-                    else if (questiooon == "A family is currently living in a household located in a low ground location. The area is currently suffering the onslaught of a super typhoon. The flood started to fill the premises. There are extension cords that are just laying on the ground ? What is the danger that the family may suffer?")
+                    else if (DisplayAns==17)
                     {
                         ResoString= "Shut off the electricity at the circuit breakers. Water conducts electricity and loose electric connection can result in someone being electrocuted.";
                     }

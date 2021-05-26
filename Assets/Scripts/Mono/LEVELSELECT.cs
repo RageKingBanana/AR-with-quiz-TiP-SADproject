@@ -25,48 +25,41 @@ public class LEVELSELECT : MonoBehaviour
                 PlayerPrefs.SetInt("levelClicked", 3);
                 SceneManager.LoadScene(4);
                 break;
-           
-        }
-    }
-    public void selectlevel()
-    {
-        switch (this.gameObject.name)
-        {
-         case "AR ADVENTURE":
-                PlayerPrefs.SetInt("levelClicked", 7);
+                case "AR ADVENTURE":
+                PlayerPrefs.SetInt("clicked", 7);
                 SceneManager.LoadScene(4);
                 break;
             case "AR1":
-                PlayerPrefs.SetInt("levelClicked", 6);
+                PlayerPrefs.SetInt("clicked", 6);
                 SceneManager.LoadScene(4);
                 break;
             case "HOME":
-                PlayerPrefs.SetInt("levelClicked", 0);
+                PlayerPrefs.SetInt("clicked", 0);
                 SceneManager.LoadScene(4);
                 break;
             case "3D":
-                PlayerPrefs.SetInt("levelClicked", 7);
+                PlayerPrefs.SetInt("clicked", 7);
                 SceneManager.LoadScene(4);
                 break; 
             case "Button_[Exit]":
-                PlayerPrefs.SetInt("levelClicked", 0);
+                PlayerPrefs.SetInt("clicked", 0);
                 SceneManager.LoadScene(4);
                 break;
             case "YES-EXIT":
-                PlayerPrefs.SetInt("levelClicked", 0);
+                PlayerPrefs.SetInt("clickedd", 0);
                 SceneManager.LoadScene(4);
                 break;
             case "EXITCRED":
-                PlayerPrefs.SetInt("levelClicked", 0);
+                PlayerPrefs.SetInt("clicked", 0);
                 SceneManager.LoadScene(4);
                 break;
             case "EXPLORE":
-                PlayerPrefs.SetInt("levelClicked", 8);
+                PlayerPrefs.SetInt("clicked", 8);
                 SceneManager.LoadScene(4);
                 break;
-            }
-        
+           
         }
+    }
 
     
 }

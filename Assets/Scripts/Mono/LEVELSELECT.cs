@@ -53,7 +53,7 @@ public class LEVELSELECT : MonoBehaviour
                 PlayerPrefs.SetInt("levelClicked", 0);
                 SceneManager.LoadScene(4);
                 break;
-            case "TEST":
+            case "EXPLORE":
                 PlayerPrefs.SetInt("levelClicked", 8);
                 SceneManager.LoadScene(4);
                 break;

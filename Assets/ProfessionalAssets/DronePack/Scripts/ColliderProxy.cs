@@ -14,13 +14,12 @@ private void Awake()
 animator = GetComponent<Animator>();
 }
 
-        void OnTriggerEnter(Collider col) { animator.Play("GetHit"); }
-        //void OnTriggerStay(Collider col) { animator.SetBool("character_nearby",true); }
-        //void OnTriggerExit(Collider col) { animator.SetBool("character_nearby",false);}
+        void OnTriggerEnter(Collider col) { animator.SetBool("character_nearby",true); }
+        void OnTriggerStay(Collider col) { animator.SetBool("character_nearby",true); }
+        void OnTriggerExit(Collider col) { animator.SetBool("character_nearby",false);}
 
-        void OnCollisionEnter(Collision col) { animator.Play("GetHit") ; }
-        //void OnCollisionStay(Collision col) { animator.SetBool("character_nearby",true);}
-        //void OnCollisionExit(Collision col) { animator.SetBool("character_nearby",false);}
+        void OnCollisionEnter(Collision col) { animator.SetBool("character_nearby",true); }
+        void OnCollisionStay(Collision col) { animator.SetBool("character_nearby",true);}
+        void OnCollisionExit(Collision col) { animator.SetBool("character_nearby",false);}
     }
-
 }

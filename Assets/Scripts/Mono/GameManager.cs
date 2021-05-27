@@ -322,8 +322,7 @@ public class  GameManager: MonoBehaviour {
             _questions = new Question[objs.Length];
                 for (int i = 0; i < objs.Length; i++)
                 {
-                    _questions[i] = (Question)objs[i];
-                    PlayerPrefs.SetInt("DisplayAns",i);
+                    _questions[i] = (Question)objs[i]; 
                 }
         }
         if (SceneManager.GetActiveScene().buildIndex == 2)
@@ -333,7 +332,6 @@ public class  GameManager: MonoBehaviour {
             for (int i = 0; i < objs.Length; i++)
             {
                 _questions[i] = (Question)objs[i];
-                PlayerPrefs.SetInt("DisplayAns",i);
             }
         }
         if (SceneManager.GetActiveScene().buildIndex == 3)
@@ -343,7 +341,6 @@ public class  GameManager: MonoBehaviour {
             for (int i = 0; i < objs.Length; i++)
             {
                 _questions[i] = (Question)objs[i];
-                PlayerPrefs.SetInt("DisplayAns",i);
             }
         }
 
@@ -411,6 +408,7 @@ public class  GameManager: MonoBehaviour {
     {
         var randomIndex = GetRandomQuestionIndex();
         currentQuestion = randomIndex;
+        PlayerPrefs.SetInt("DisplayAns",currentQuestion);
 
         return Questions[currentQuestion];
     }

@@ -176,6 +176,7 @@ public class UIManager : MonoBehaviour {
     /// </summary>
     void UpdateResUI(ResolutionScreenType type, int score)
     {
+        
         var highscore = PlayerPrefs.GetInt(GameUtility.SavePrefKey);
         questiooon = PlayerPrefs.GetString("Questioon");
         if (SceneManager.GetActiveScene().buildIndex == 1)
@@ -192,7 +193,7 @@ public class UIManager : MonoBehaviour {
                     }
                     else if (DisplayAns==2)
                     {
-                        ResoString = "Freezed Ham is not included because it is needed to be processed first in order to eat it.";
+                        ResoString = "Frozen Ham is not included because it is needed to be processed first in order to eat it.";
                     } 
                     else if (DisplayAns==3)
                     {

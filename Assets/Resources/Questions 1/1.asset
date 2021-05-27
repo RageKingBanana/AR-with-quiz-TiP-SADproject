@@ -13,20 +13,15 @@ MonoBehaviour:
   m_Name: 1
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: According to waze, what are the top three cities  in metro manila are considered
-    to be the most flood prone areas?
+  _info: 
   _answers:
-  - _info: Mandaluyong
+  - _info: B
     _isCorrect: 1
-  - _info: Pasay
+  - _info: C
     _isCorrect: 0
-  - _info: San Juan
+  - _info: A
     _isCorrect: 0
-  - _info: Makati
-    _isCorrect: 1
-  - _info: Manila
-    _isCorrect: 1
   _useTimer: 1
-  _timer: 9
-  _answerType: 0
+  _timer: 10
+  _answerType: 1
   _addScore: 10

@@ -13,15 +13,14 @@ MonoBehaviour:
   m_Name: 16
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: A family of illegal settlers dwells near an estero. An unexpected rise of
-    water level woke them up. What they should not do is ?
+  _info: Emergency kits should contain food in case of emergency, what is not needed?
   _answers:
-  - _info: Get help from others.
+  - _info: Canned goods
     _isCorrect: 0
-  - _info: Try to walk or swim through flowing water.
+  - _info: Bottled water
+    _isCorrect: 0
+  - _info: Frozen Ham
     _isCorrect: 1
-  - _info: Rescue their valuables.
-    _isCorrect: 0
   _useTimer: 1
   _timer: 10
   _answerType: 1

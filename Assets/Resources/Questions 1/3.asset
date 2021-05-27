@@ -13,15 +13,9 @@ MonoBehaviour:
   m_Name: 3
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: A person can get this disease by consuming contaminated food or water.
-  _answers:
-  - _info: Cholera
-    _isCorrect: 1
-  - _info: Dengue
-    _isCorrect: 0
-  - _info: Asthma
-    _isCorrect: 0
-  _useTimer: 1
-  _timer: 8
-  _answerType: 1
+  _info: 
+  _answers: []
+  _useTimer: 0
+  _timer: 0
+  _answerType: 0
   _addScore: 10

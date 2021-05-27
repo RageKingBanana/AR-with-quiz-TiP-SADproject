@@ -41,10 +41,11 @@ public class SceneLoader : MonoBehaviour
                 // ...and start a coroutine that will load the desired scene.
                 StartCoroutine(LoadQuizScene());
             }
-            else
+            else 
             {
               StartCoroutine(LoadNewScene());
             }
+            
             
             
 

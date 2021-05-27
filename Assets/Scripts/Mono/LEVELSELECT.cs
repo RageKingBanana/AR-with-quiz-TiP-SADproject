@@ -25,7 +25,7 @@ public class LEVELSELECT : MonoBehaviour
                 PlayerPrefs.SetInt("levelClicked", 3);
                 SceneManager.LoadScene(4);
                 break;
-                case "AR ADVENTURE":
+            case "AR ADVENTURE":
                 PlayerPrefs.SetInt("clicked", 7);
                 SceneManager.LoadScene(4);
                 break;

@@ -8,7 +8,7 @@ public class LEVELSELECT : MonoBehaviour
 {
 
 //    [SerializeField] GameEvents events = null;
-    public void quizselect()
+    /*public void quizselect()
     {
         PlayerPrefs.SetInt("ThisAnswer",2);
         switch (this.gameObject.name)
@@ -26,41 +26,57 @@ public class LEVELSELECT : MonoBehaviour
                 SceneManager.LoadScene(4);
                 break;   
         }
-    }
+    }*/
     public void selectScene()
     {
+        PlayerPrefs.SetInt("ThisAnswer",2);
         switch (this.gameObject.name)
         {
+        case "Level1":
+                PlayerPrefs.SetInt("loadedscene",1);
+                PlayerPrefs.SetInt("levelClicked",1);
+                SceneManager.LoadScene(4);
+                break; 
+        case "Level2":
+                PlayerPrefs.SetInt("loadedscene",1);
+                PlayerPrefs.SetInt("levelClicked", 2);
+                SceneManager.LoadScene(4);
+                break;
+        case "Level3":
+                 PlayerPrefs.SetInt("loadedscene",1);
+                PlayerPrefs.SetInt("levelClicked", 3);
+                SceneManager.LoadScene(4);
+                break;   
         case "AR ADVENTURE":
-                PlayerPrefs.SetInt("levelClicked", 7);
+                PlayerPrefs.SetInt("loadedscene",7);
                 SceneManager.LoadScene(4);
                 break;
             case "AR1":
-                PlayerPrefs.SetInt("levelClicked", 6);
+                PlayerPrefs.SetInt("loadedscene",6);
                 SceneManager.LoadScene(4);
                 break;
             case "HOME":
-                PlayerPrefs.SetInt("levelClicked", 0);
+                PlayerPrefs.SetInt("loadedscene", 0);
                 SceneManager.LoadScene(4);
                 break;
             case "3D":
-                PlayerPrefs.SetInt("levelClicked", 7);
+                PlayerPrefs.SetInt("loadedscene", 7);
                 SceneManager.LoadScene(4);
                 break; 
             case "Button_[Exit]":
-                PlayerPrefs.SetInt("levelClicked", 0);
+                PlayerPrefs.SetInt("loadedscene", 0);
                 SceneManager.LoadScene(4);
                 break;
             case "YES-EXIT":
-                PlayerPrefs.SetInt("levelClicked", 0);
+                PlayerPrefs.SetInt("loadedscened", 0);
                 SceneManager.LoadScene(4);
                 break;
             case "EXITCRED":
-                PlayerPrefs.SetInt("levelClicked", 0);
+                PlayerPrefs.SetInt("loadedscene", 0);
                 SceneManager.LoadScene(4);
                 break;
             case "EXPLORE":
-                PlayerPrefs.SetInt("levelClicked", 8);
+                PlayerPrefs.SetInt("loadedscened", 8);
                 SceneManager.LoadScene(4);
                 break;
         }

@@ -11,6 +11,7 @@ public class RESETLEVELS : MonoBehaviour
     {
         PlayerPrefs.SetString("levelU", "100");
         PlayerPrefs.SetInt("levelClicked", 0);
+        Debug.Log("Reset Button Clicked/Pressed");
         // Debug.Log(PlayerPrefs.GetInt("levelReached", 1));
         // Debug.Log(PlayerPrefs.GetInt("iskor"));
         // Debug.Log(PlayerPrefs.GetString("levelU"));

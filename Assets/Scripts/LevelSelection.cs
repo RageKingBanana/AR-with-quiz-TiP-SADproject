@@ -33,13 +33,13 @@ public class LevelSelection : MonoBehaviour
 
         prevLevelPlayed = PlayerPrefs.GetInt("levelClicked");
         PlayerPrefs.SetInt("levelClicked", 0);
-        Debug.Log(Iskor);
-        Debug.Log(levelU);
+        Debug.Log("Score Previous: " + Iskor);
+        Debug.Log("Levels Unlocked: " + levelU);
 
         // Pag walang laman yung levelU, defaulter to
         if (levelU == "")
         {
-            PlayerPrefs.SetString("levelU", "10000");
+            PlayerPrefs.SetString("levelU", "100");
             levelU = PlayerPrefs.GetString("levelU");
         }
 

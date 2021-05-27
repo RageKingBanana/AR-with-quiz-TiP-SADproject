@@ -38,7 +38,7 @@ public class  GameManager: MonoBehaviour {
         {
             int a;
             if (SceneManager.GetActiveScene().buildIndex == 1)
-            { PlayerPrefs.SetInt("j", 100); }
+            { PlayerPrefs.SetInt("j", 30); }
             else if (SceneManager.GetActiveScene().buildIndex == 2)
             { PlayerPrefs.SetInt("j", 3); }
             else if (SceneManager.GetActiveScene().buildIndex == 3)
@@ -320,7 +320,7 @@ public class  GameManager: MonoBehaviour {
     {
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {
-            Object[] objs = Resources.LoadAll("Yandere", typeof(Question));
+            Object[] objs = Resources.LoadAll("FirstLevel", typeof(Question));
             _questions = new Question[objs.Length];
                 for (int i = 0; i < objs.Length; i++)
                 {

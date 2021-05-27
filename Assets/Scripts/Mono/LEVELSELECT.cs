@@ -67,10 +67,6 @@ public class LEVELSELECT : MonoBehaviour
                 PlayerPrefs.SetInt("loadedscene", 0);
                 SceneManager.LoadScene(4);
                 break;
-            case "YES-EXIT":
-                PlayerPrefs.SetInt("loadedscened", 0);
-                SceneManager.LoadScene(4);
-                break;
             case "EXITCRED":
                 PlayerPrefs.SetInt("loadedscene", 0);
                 SceneManager.LoadScene(4);

@@ -161,7 +161,6 @@ public class  GameManager: MonoBehaviour {
         bool isCorrect = CheckAnswers();
         FinishedQuestions.Add(currentQuestion);
         pressedinc = false;
-        
 
         UpdateScore((isCorrect) ? Questions[currentQuestion].AddScore : -Questions[currentQuestion].AddScore);
 
@@ -420,8 +419,8 @@ public class  GameManager: MonoBehaviour {
         {
             do
             {
+                
                 random = UnityEngine.Random.Range(0, Questions.Length);
-                PlayerPrefs.GetInt("AnsDisplay",random);
             } while (FinishedQuestions.Contains(random) || random == currentQuestion);
         }
         

@@ -141,6 +141,7 @@ public class UIManager : MonoBehaviour {
     /// Function that is used to display resolution screen.
     /// </summary>
     void DisplayResolution(ResolutionScreenType type, int score)
+    
     {
         UpdateResUI(type, score);
         pressedinc = false;

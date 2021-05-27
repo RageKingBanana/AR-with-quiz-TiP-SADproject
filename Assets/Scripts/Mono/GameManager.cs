@@ -320,7 +320,7 @@ public class  GameManager: MonoBehaviour {
     {
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {
-            Object[] objs = Resources.LoadAll("Yandere", typeof(Question));
+            Object[] objs = Resources.LoadAll("Questions 1", typeof(Question));
             _questions = new Question[objs.Length];
                 for (int i = 0; i < objs.Length; i++)
                 {

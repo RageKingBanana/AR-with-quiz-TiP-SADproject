@@ -86,11 +86,12 @@ public class UIManager : MonoBehaviour {
 
     private             IEnumerator            IE_DisplayTimedResolution    = null;
     public int AnsQues;
-    public int i, DisplayAns;
+    public int i;
     private bool pressedinc = false;
     public string questiooon;
     public string ResoString;
     public int ThisAnswer = 2;
+    private int DisplayAns;
     #endregion
 
     #region Default Unity methods
@@ -174,15 +175,14 @@ public class UIManager : MonoBehaviour {
     /// </summary>
     void UpdateResUI(ResolutionScreenType type, int score)
     {
-        
         var highscore = PlayerPrefs.GetInt(GameUtility.SavePrefKey);
         questiooon = PlayerPrefs.GetString("Questioon");
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {
-            PlayerPrefs.GetInt("DisplayAns");
-            Debug.Log("this is display ans" + DisplayAns);
+            DisplayAns = PlayerPrefs.GetInt("AnsDisplay");
+            Debug.Log("this is display ans =" + DisplayAns);
                     if (DisplayAns==0)
-                    {
+                    {           
                         ResoString = "The natural causes of earthquakes are sliding of tectonic plates and volcanic activities.";
                     }
                     else if (DisplayAns==1)

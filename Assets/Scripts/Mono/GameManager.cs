@@ -139,7 +139,7 @@ public class  GameManager: MonoBehaviour {
     {
         EraseAnswers();
         var question = GetRandomQuestion();
-
+        Debug.Log("This is var question ==" + question);
         if (events.UpdateQuestionUI != null)
         {
             events.UpdateQuestionUI(question);
@@ -161,6 +161,7 @@ public class  GameManager: MonoBehaviour {
         bool isCorrect = CheckAnswers();
         FinishedQuestions.Add(currentQuestion);
         pressedinc = false;
+        
 
         UpdateScore((isCorrect) ? Questions[currentQuestion].AddScore : -Questions[currentQuestion].AddScore);
 
@@ -408,24 +409,22 @@ public class  GameManager: MonoBehaviour {
     {
         var randomIndex = GetRandomQuestionIndex();
         currentQuestion = randomIndex;
-        
-
         return Questions[currentQuestion];
+
     }
     int GetRandomQuestionIndex()
     {
         var random = 0;
-        PlayerPrefs.SetInt("QuesAns", 0);
+ 
         if (FinishedQuestions.Count < Questions.Length)
         {
             do
             {
-                
                 random = UnityEngine.Random.Range(0, Questions.Length);
-                PlayerPrefs.SetInt("DisplayAns", random);
+                PlayerPrefs.GetInt("AnsDisplay",random);
             } while (FinishedQuestions.Contains(random) || random == currentQuestion);
         }
-        PlayerPrefs.SetInt("QuesAns",random);
+        
         return random;
     }
 

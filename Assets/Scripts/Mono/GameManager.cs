@@ -37,11 +37,11 @@ public class  GameManager: MonoBehaviour {
         {
             int a;
             if (SceneManager.GetActiveScene().buildIndex == 1)
-            { PlayerPrefs.SetInt("j", 1); }
+            { PlayerPrefs.SetInt("j", 3); }
             else if (SceneManager.GetActiveScene().buildIndex == 2)
-            { PlayerPrefs.SetInt("j", 1); }
+            { PlayerPrefs.SetInt("j", 3); }
             else if (SceneManager.GetActiveScene().buildIndex == 3)
-            { PlayerPrefs.SetInt("j", 1); }
+            { PlayerPrefs.SetInt("j", 3); }
             a = PlayerPrefs.GetInt("j");
             return (FinishedQuestions.Count < a) ? false : true;
         }

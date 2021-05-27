@@ -180,7 +180,7 @@ public class UIManager : MonoBehaviour {
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {
             PlayerPrefs.GetInt("DisplayAns");
-            Debug.Log(DisplayAns);
+            Debug.Log("this is display ans" + DisplayAns);
                     if (DisplayAns==0)
                     {
                         ResoString = "The natural causes of earthquakes are sliding of tectonic plates and volcanic activities.";

@@ -13,13 +13,16 @@ MonoBehaviour:
   m_Name: 2
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: 
+  _info: 'A person can get this disease simply by wading or swimming in floods contaminated
+    with animal urine? '
   _answers:
-  - _info: C
-    _isCorrect: 1
-  - _info: A
+  - _info: ' HIV'
     _isCorrect: 0
-  - _info: B
+  - _info: Kidney Stones
+    _isCorrect: 0
+  - _info: Leptospirosis
+    _isCorrect: 1
+  - _info: Malaria
     _isCorrect: 0
   _useTimer: 1
   _timer: 10

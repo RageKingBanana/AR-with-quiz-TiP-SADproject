@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: 16
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: Emergency kits should contain food in case of emergency, what is not needed?
+  _info: A family of illegal settlers dwells near an estero. An unexpected rise of
+    water level woke them up. What they should not do is ?
   _answers:
-  - _info: Canned goods
+  - _info: Get help from others.
     _isCorrect: 0
-  - _info: Bottled water
-    _isCorrect: 0
-  - _info: Frozen Ham
+  - _info: Try to walk or swim through flowing water.
     _isCorrect: 1
+  - _info: Rescue their valuables.
+    _isCorrect: 0
   _useTimer: 1
   _timer: 10
   _answerType: 1

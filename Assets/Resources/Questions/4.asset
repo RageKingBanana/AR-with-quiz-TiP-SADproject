@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
   m_Name: 4
   m_EditorClassIdentifier: 
-  _infoImage: {fileID: 0}
-  _info: The rain is falling so hard due to the super typhoon in your area. There
-    is a chance of flash floods. What should you do?
+  _infoImage: {fileID: 21300000, guid: de9e803b9da3b3e4ea8601829193a914, type: 3}
+  _info: What is the agency responsible for ensuring the protection and welfare of
+    the people?
   _answers:
-  - _info: Be prepared to evacuate.
-    _isCorrect: 1
-  - _info: Slack off
+  - _info: Philippine Red Cross
     _isCorrect: 0
-  - _info: Evacuate when the water is already knee high
+  - _info: NDRRMC
+    _isCorrect: 1
+  - _info: DOH
     _isCorrect: 0
   _useTimer: 1
   _timer: 10

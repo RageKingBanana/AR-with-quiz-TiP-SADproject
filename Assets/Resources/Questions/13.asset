@@ -13,15 +13,14 @@ MonoBehaviour:
   m_Name: 13
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: NDRRMC made a mobile application to provide a handy electronic resources
-    to the public that can be utilize in case of emergency. What is the application
-    called?
+  _info: You saw in a documentary the danger of flash floods. The local government
+    warns every Filipino family regarding this issue. What should you do?
   _answers:
-  - _info: Batingaw
-    _isCorrect: 1
-  - _info: Alerto Pinas
+  - _info: Curse the government.
     _isCorrect: 0
-  - _info: NDRRMC Alerts
+  - _info: Discuss a disaster plan with your family.
+    _isCorrect: 1
+  - _info: Scare your kids.
     _isCorrect: 0
   _useTimer: 1
   _timer: 10

@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: 12
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: What is the agency responsible for ensuring the protection and welfare of
-    the people?
+  _info: The rain is falling so hard due to the super typhoon in your area. There
+    is a chance of flash floods. What should you do?
   _answers:
-  - _info: DOST
-    _isCorrect: 0
-  - _info: NDRRMC
+  - _info: Be prepared to evacuate.
     _isCorrect: 1
-  - _info: PHILIPPINE REDCROSS
+  - _info: Slack off
+    _isCorrect: 0
+  - _info: Evacuate when the water is already knee high
     _isCorrect: 0
   _useTimer: 1
   _timer: 10

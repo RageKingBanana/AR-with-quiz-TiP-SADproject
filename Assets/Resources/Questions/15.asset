@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: 15
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: Emergency kits should contain all of the essential tools that is needed
-    for survival. What is not included?
+  _info: You woke up early in the morning and you notice that the water is starting
+    to rise. The local government failed to inform the citizens about the flood. 
+    What should you do?
   _answers:
-  - _info: Spare batteries
-    _isCorrect: 0
-  - _info: Comics
+  - _info: Find a place you can go to immediately.
     _isCorrect: 1
-  - _info: Flashlight
+  - _info: Wait for the authorities go signal before evacuating.
+    _isCorrect: 0
+  - _info: Go back to sleep.
     _isCorrect: 0
   _useTimer: 1
   _timer: 10

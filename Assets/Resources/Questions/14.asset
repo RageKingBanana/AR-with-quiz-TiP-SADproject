@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: 14
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: Why is the Philippines is considered to be an earthquake prone country?
+  _info: You own a farm and a waist deep flood is currently devastating your farm.
+    You should not?
   _answers:
-  - _info: The Philippines is an archipelago.
+  - _info: Evacuate to a higher ground.
     _isCorrect: 0
-  - _info: The Philippines is located near the Pacific Ring of Fire.
+  - _info: Try to save crops and animals.
     _isCorrect: 1
-  - _info: The Philippines has so many mountains.
+  - _info: Try to get help if trapped.
     _isCorrect: 0
   _useTimer: 1
   _timer: 10

@@ -13,17 +13,15 @@ MonoBehaviour:
   m_Name: 11
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: "You are currently resiWhat government agency is responsible for mitigating
-    disasters that arises from geotectonic phenomena? ing in Brgy. Tomana in Marikina.
-    You heard that the current water level in Marikina river has the potential to
-    reach it\u2019s critical level. What should you do?"
+  _info: You recently attended a seminar about survival tips conducted by your barangay.
+    What should you do?
   _answers:
-  - _info: NDRRMC
+  - _info: 'Ignore all the things that you learned in the seminar. '
+    _isCorrect: 0
+  - _info: 'Spread false information about the seminar. '
+    _isCorrect: 0
+  - _info: Assemble disaster supplies.
     _isCorrect: 1
-  - _info: 'DOST '
-    _isCorrect: 0
-  - _info: PHIVOLCS
-    _isCorrect: 0
   _useTimer: 1
   _timer: 10
   _answerType: 1

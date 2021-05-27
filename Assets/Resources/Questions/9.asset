@@ -12,18 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
   m_Name: 9
   m_EditorClassIdentifier: 
-  _infoImage: {fileID: 0}
-  _info: A family is currently living in a household located in a low ground location.
-    The area is currently suffering the onslaught of a super typhoon. The flood started
-    to fill the premises. There are extension cords that are just laying on the ground
-    ? What is the danger that the family may suffer?
+  _infoImage: {fileID: 21300000, guid: e724057be53a64f478bd54722b0425ea, type: 3}
+  _info: What is the necessary skill to be learned in case of emergency?
   _answers:
-  - _info: Flood related injuries.
-    _isCorrect: 0
-  - _info: 'Man-made related injuries. '
-    _isCorrect: 0
-  - _info: Electricity related injuries.
+  - _info: Learn simple first aid techniques.
     _isCorrect: 1
+  - _info: Learn self-defense.
+    _isCorrect: 0
+  - _info: Learn how to code.
+    _isCorrect: 0
   _useTimer: 1
   _timer: 10
   _answerType: 1

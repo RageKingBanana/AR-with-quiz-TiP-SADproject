@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: 0
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: 
+  _info: What are the alternative solution/s to reduce flood damage?
   _answers:
-  - _info: B
-    _isCorrect: 0
-  - _info: A
+  - _info: Plant more trees.
     _isCorrect: 1
-  - _info: C
-    _isCorrect: 0
+  - _info: Proper waste management.
+    _isCorrect: 1
+  - _info: Invest in flood defences.
+    _isCorrect: 1
   _useTimer: 1
-  _timer: 10
-  _answerType: 1
+  _timer: 8
+  _answerType: 0
   _addScore: 10

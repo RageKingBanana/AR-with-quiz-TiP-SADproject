@@ -408,7 +408,7 @@ public class  GameManager: MonoBehaviour {
     {
         var randomIndex = GetRandomQuestionIndex();
         currentQuestion = randomIndex;
-        PlayerPrefs.SetInt("DisplayAns",currentQuestion);
+        
 
         return Questions[currentQuestion];
     }
@@ -420,7 +420,9 @@ public class  GameManager: MonoBehaviour {
         {
             do
             {
+                
                 random = UnityEngine.Random.Range(0, Questions.Length);
+                PlayerPrefs.SetInt("DisplayAns", random);
             } while (FinishedQuestions.Contains(random) || random == currentQuestion);
         }
         PlayerPrefs.SetInt("QuesAns",random);

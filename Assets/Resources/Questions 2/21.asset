@@ -15,13 +15,13 @@ MonoBehaviour:
   _infoImage: {fileID: 0}
   _info: What is the Effective Temperature in Saturn?
   _answers:
-  - _info: "a.\t282 Fahrenheit"
+  - _info: 282 Fahrenheit
     _isCorrect: 0
-  - _info: "b.\t284 Fahrenheit"
+  - _info: 284 Fahrenheit
     _isCorrect: 0
-  - _info: "c.\t286 Fahrenheit"
+  - _info: 286 Fahrenheit
     _isCorrect: 0
-  - _info: "d.\t288 Fahrenheit"
+  - _info: 288 Fahrenheit
     _isCorrect: 1
   _useTimer: 1
   _timer: 7

@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: 6
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: What country has experienced the strongest earthquake that the world has
-    seen.
+  _info: The Distance between Mercury and the sun?
   _answers:
-  - _info: Japan
+  - _info: 34 million miles
     _isCorrect: 0
-  - _info: Chile
+  - _info: 35 million miles
+    _isCorrect: 0
+  - _info: 36 million miles
     _isCorrect: 1
-  - _info: Haiti
+  - _info: '37 million miles '
     _isCorrect: 0
   _useTimer: 1
   _timer: 8

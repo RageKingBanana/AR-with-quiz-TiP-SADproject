@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: 22
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: ' An earthquake just recently hit and there so many injured what should
-    you do? '
+  _info: 'What year Venus discovered '
   _answers:
-  - _info: Buy everyone a meal.
+  - _info: "a.)\t1964"
     _isCorrect: 0
-  - _info: Provide first aid for the injured
+  - _info: "b.)\t1969"
+    _isCorrect: 0
+  - _info: "c.)\t1962"
     _isCorrect: 1
-  - _info: Do not care about others.
+  - _info: "d.)\t1960"
     _isCorrect: 0
   _useTimer: 1
   _timer: 7

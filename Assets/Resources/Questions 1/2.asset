@@ -13,17 +13,16 @@ MonoBehaviour:
   m_Name: 2
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: 'A person can get this disease simply by wading or swimming in floods contaminated
-    with animal urine? '
+  _info: It is the nearest planet to the Sun?
   _answers:
-  - _info: ' HIV'
+  - _info: Earth
     _isCorrect: 0
-  - _info: Kidney Stones
+  - _info: Mars
     _isCorrect: 0
-  - _info: Leptospirosis
+  - _info: Venus
+    _isCorrect: 0
+  - _info: None of the above
     _isCorrect: 1
-  - _info: Malaria
-    _isCorrect: 0
   _useTimer: 1
   _timer: 10
   _answerType: 1

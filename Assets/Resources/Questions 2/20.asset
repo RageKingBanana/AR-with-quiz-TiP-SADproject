@@ -13,14 +13,11 @@ MonoBehaviour:
   m_Name: 20
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: You are living near the beach, then suddenly an earthquake hits. What you
-    should do?
+  _info: At this time, Mars' surface cannot support life
   _answers:
-  - _info: Go swimming.
-    _isCorrect: 0
-  - _info: Evacuate immediately.
+  - _info: True
     _isCorrect: 1
-  - _info: Go fishing.
+  - _info: False
     _isCorrect: 0
   _useTimer: 1
   _timer: 7

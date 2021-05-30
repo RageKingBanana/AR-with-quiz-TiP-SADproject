@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: 5
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: If a family who's always suffer from floods, had a newborn baby recently.
-    What should they do?
+  _info: How many moons does Jupiter have?
   _answers:
-  - _info: Add the necessary items for the baby in the emergency kit.
+  - _info: More than 75 Moons
     _isCorrect: 1
-  - _info: Hire a babysitter incase of emergency.
+  - _info: More than 85 Moons
     _isCorrect: 0
-  - _info: Devise an emergency plan.
-    _isCorrect: 1
+  - _info: Less than 70 Moons
+    _isCorrect: 0
+  - _info: Less than 40 Moons
+    _isCorrect: 0
   _useTimer: 1
   _timer: 10
-  _answerType: 0
+  _answerType: 1
   _addScore: 10

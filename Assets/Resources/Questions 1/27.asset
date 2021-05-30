@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: 27
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: What should you do AFTER a flood?
+  _info: A year on Uranus is equivalent to ___ Earth years.
   _answers:
-  - _info: Wait until it is safe to return.
-    _isCorrect: 1
-  - _info: Return to your house immediately.
+  - _info: 80
     _isCorrect: 0
-  - _info: Never return to your house.
+  - _info: 84
+    _isCorrect: 1
+  - _info: 89
+    _isCorrect: 0
+  - _info: 92
     _isCorrect: 0
   _useTimer: 1
   _timer: 8

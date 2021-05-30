@@ -13,14 +13,11 @@ MonoBehaviour:
   m_Name: 1
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: What do you call the way of highlighting areas that were affected by or
-    vulnerable to a particular hazard?
+  _info: Except from Jupiter, Uranus and Neptune. The Saturn also have rings
   _answers:
-  - _info: Hazard mapping
+  - _info: True
     _isCorrect: 1
-  - _info: Early Warning Systems
-    _isCorrect: 0
-  - _info: Public information
+  - _info: False
     _isCorrect: 0
   _useTimer: 1
   _timer: 7

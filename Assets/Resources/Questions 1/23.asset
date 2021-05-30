@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: 23
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: 2-What should you do AFTER an earthquake?
+  _info: Uranus is the ___ planet in our solar system.
   _answers:
-  - _info: Go to a coffee house.
-    _isCorrect: 0
-  - _info: Go back inside the building.
-    _isCorrect: 0
-  - _info: 'Stay out of the buildings.
-
-'
+  - _info: Coldest
     _isCorrect: 1
+  - _info: Hottest
+    _isCorrect: 0
+  - _info: Densest
+    _isCorrect: 0
+  - _info: Smallest
+    _isCorrect: 0
   _useTimer: 1
   _timer: 10
   _answerType: 1

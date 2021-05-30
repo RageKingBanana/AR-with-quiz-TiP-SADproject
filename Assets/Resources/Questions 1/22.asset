@@ -13,13 +13,11 @@ MonoBehaviour:
   m_Name: 22
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: If you are living in the coastal area, what should you do AFTER an earthquake?
+  _info: "Mercury has a solid, cratered surface, such like the Earth\u2019s moon?"
   _answers:
-  - _info: Evacuate immediately.
+  - _info: True
     _isCorrect: 1
-  - _info: Go fishing.
-    _isCorrect: 0
-  - _info: Watch the sunset.
+  - _info: False
     _isCorrect: 0
   _useTimer: 1
   _timer: 9

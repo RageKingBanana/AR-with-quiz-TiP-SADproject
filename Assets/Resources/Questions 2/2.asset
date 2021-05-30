@@ -13,16 +13,11 @@ MonoBehaviour:
   m_Name: 2
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: What is the local government agency that provides safety warnings through
-    television broadcasting regarding typhoons and floods?
+  _info: Venus has 2 moons and no rings
   _answers:
-  - _info: NDRRMC
+  - _info: True
     _isCorrect: 0
-  - _info: PHILVOCS
-    _isCorrect: 0
-  - _info: 'PAG-ASA
-
-'
+  - _info: False
     _isCorrect: 1
   _useTimer: 1
   _timer: 7

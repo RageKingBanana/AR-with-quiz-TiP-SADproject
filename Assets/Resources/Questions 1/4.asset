@@ -13,14 +13,11 @@ MonoBehaviour:
   m_Name: 4
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: A person can get this disease through a mosquito bite causing a flu-like
-    illness and sometimes lethal complications.
+  _info: Our atmosphere protects us from incoming meteoroids.
   _answers:
-  - _info: Cramps
-    _isCorrect: 0
-  - _info: Dengue
+  - _info: True
     _isCorrect: 1
-  - _info: HIV
+  - _info: False
     _isCorrect: 0
   _useTimer: 1
   _timer: 9

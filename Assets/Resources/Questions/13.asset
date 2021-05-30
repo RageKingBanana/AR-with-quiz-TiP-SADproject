@@ -13,14 +13,11 @@ MonoBehaviour:
   m_Name: 13
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: You saw in a documentary the danger of flash floods. The local government
-    warns every Filipino family regarding this issue. What should you do?
+  _info: The Jupiter is the Largest planet in our solar system
   _answers:
-  - _info: Curse the government.
-    _isCorrect: 0
-  - _info: Discuss a disaster plan with your family.
+  - _info: True
     _isCorrect: 1
-  - _info: Scare your kids.
+  - _info: False
     _isCorrect: 0
   _useTimer: 1
   _timer: 10

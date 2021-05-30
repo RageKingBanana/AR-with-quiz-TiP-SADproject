@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: 11
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: While running towards the exit during an earthquake. You should avoid?
+  _info: Uranus is a ___ giant.
   _answers:
-  - _info: Use the elevator.
+  - _info: Gas
+    _isCorrect: 0
+  - _info: Ice
     _isCorrect: 1
-  - _info: Use the escalator.
-    _isCorrect: 1
-  - _info: Use the stairs.
+  - _info: Light
+    _isCorrect: 0
+  - _info: Water
     _isCorrect: 0
   _useTimer: 1
   _timer: 10

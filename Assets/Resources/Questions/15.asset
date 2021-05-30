@@ -13,16 +13,12 @@ MonoBehaviour:
   m_Name: 15
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: You woke up early in the morning and you notice that the water is starting
-    to rise. The local government failed to inform the citizens about the flood. 
-    What should you do?
+  _info: Uranus does not have any rings.
   _answers:
-  - _info: Find a place you can go to immediately.
+  - _info: True
+    _isCorrect: 0
+  - _info: False
     _isCorrect: 1
-  - _info: Wait for the authorities go signal before evacuating.
-    _isCorrect: 0
-  - _info: Go back to sleep.
-    _isCorrect: 0
   _useTimer: 1
   _timer: 10
   _answerType: 1

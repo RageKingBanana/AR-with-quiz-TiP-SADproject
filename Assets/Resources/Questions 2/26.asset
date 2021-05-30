@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: 26
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: 'These are considered essential emergency kits except:'
+  _info: How many spacecrafts explored Venus?
   _answers:
-  - _info: Essential tools
+  - _info: 20 spacecrafts
     _isCorrect: 0
-  - _info: Hiking equipment
+  - _info: 40 spacecrafts
     _isCorrect: 1
-  - _info: Important documents
+  - _info: 60 spacecrafts
+    _isCorrect: 0
+  - _info: 80 spacecrafts
     _isCorrect: 0
   _useTimer: 1
   _timer: 7

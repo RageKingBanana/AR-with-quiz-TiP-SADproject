@@ -13,14 +13,16 @@ MonoBehaviour:
   m_Name: 24
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: 3-What should you do AFTER an earthquake?
+  _info: What is the surface temperature of Mars
   _answers:
-  - _info: Use the water in the building.
-    _isCorrect: 0
-  - _info: Use electrical components.
-    _isCorrect: 0
-  - _info: Check for water, electrical, gas, or LPG leaks and damages.
+  - _info: -81 degrees farenheit
     _isCorrect: 1
+  - _info: '-80 degrees farenheit '
+    _isCorrect: 0
+  - _info: -82 degrees farenheit
+    _isCorrect: 0
+  - _info: -83 degrees farenheit
+    _isCorrect: 0
   _useTimer: 1
   _timer: 8
   _answerType: 1

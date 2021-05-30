@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: 8
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: You were in a public mall when an earthquake suddenly hits. What should
-    you do?
+  _info: How many percentage of Earth's surface does the Water Covering?
   _answers:
-  - _info: Panic!
+  - _info: 68%
     _isCorrect: 0
-  - _info: Stay calm and stay put.
+  - _info: 70%
     _isCorrect: 1
-  - _info: Run for the nearest exit immediately.
+  - _info: 71%
+    _isCorrect: 0
+  - _info: 72%
     _isCorrect: 0
   _useTimer: 1
   _timer: 10

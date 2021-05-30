@@ -13,15 +13,13 @@ MonoBehaviour:
   m_Name: 17
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: The local government recently warned about the possibility of an earthquake.
-    You try to decide what to do to your furniture.
+  _info: 'Jupiter has big storms like the Great Orange Spot, which has been going
+    for hundreds of years. '
   _answers:
-  - _info: Elevate heavy furniture.
+  - _info: True
     _isCorrect: 0
-  - _info: Secure heavy furniture and hanging objects.
+  - _info: False
     _isCorrect: 1
-  - _info: Destroy hanging objects.
-    _isCorrect: 0
   _useTimer: 1
   _timer: 10
   _answerType: 1

@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: 18
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: It is a way wherein local government agencies provide safety warnings through
-    television broadcasting, text messages alerts, and social media. What is it?
+  _info: What is the first spacecraft that discovered Venus?
   _answers:
-  - _info: Hazard mapping
-    _isCorrect: 0
-  - _info: Early warning systems
+  - _info: Mariner 2
     _isCorrect: 1
-  - _info: Engineering Intervention and measures
+  - _info: Hitchhiker
+    _isCorrect: 0
+  - _info: Ranger
+    _isCorrect: 0
+  - _info: Project Prometheus
     _isCorrect: 0
   _useTimer: 1
   _timer: 7

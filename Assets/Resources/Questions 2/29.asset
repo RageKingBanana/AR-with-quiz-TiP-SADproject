@@ -13,15 +13,11 @@ MonoBehaviour:
   m_Name: 29
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: 'What do you call the unsubstantiated theory about how to survive a major
-    earthquake wherein the theory advocates methods of protection very different
-    from ''''drop, cover, and hold on'''' ? '
+  _info: Venus is a terrestrial planet.
   _answers:
-  - _info: Parallelogram of Disaster
-    _isCorrect: 0
-  - _info: Triangle of Life
+  - _info: True
     _isCorrect: 1
-  - _info: Circle of Life
+  - _info: False
     _isCorrect: 0
   _useTimer: 1
   _timer: 7

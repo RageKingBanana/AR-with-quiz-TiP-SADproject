@@ -13,14 +13,16 @@ MonoBehaviour:
   m_Name: 16
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: A family of illegal settlers dwells near an estero. An unexpected rise of
-    water level woke them up. What they should not do is ?
+  _info: These are floating on top of the magma interior of the Earth and can move
+    against one another.
   _answers:
-  - _info: Get help from others.
+  - _info: Ridge
     _isCorrect: 0
-  - _info: Try to walk or swim through flowing water.
+  - _info: Volcano
+    _isCorrect: 0
+  - _info: Tectonic Plates
     _isCorrect: 1
-  - _info: Rescue their valuables.
+  - _info: Lithosphere
     _isCorrect: 0
   _useTimer: 1
   _timer: 10

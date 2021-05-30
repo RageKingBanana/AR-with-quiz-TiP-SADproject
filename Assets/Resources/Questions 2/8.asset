@@ -13,14 +13,11 @@ MonoBehaviour:
   m_Name: 8
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: What is a tropical cyclone with maximum wind speed of 89 to 117 kph or 48
-    - 63 knots?
+  _info: Mars is known as the Red Planet
   _answers:
-  - _info: Severe tropical storm
+  - _info: True
     _isCorrect: 1
-  - _info: Tropical depression
-    _isCorrect: 0
-  - _info: Super typhoon
+  - _info: False
     _isCorrect: 0
   _useTimer: 1
   _timer: 7

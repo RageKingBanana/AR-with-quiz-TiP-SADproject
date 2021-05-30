@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: 17
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: These are ways to prevent casualties during landslide except one. Which
-    is it?
+  _info: What is the Diameter of Saturn?
   _answers:
-  - _info: Checking maximum sustained winds
+  - _info: About 72,000 miles
     _isCorrect: 1
-  - _info: Engineering intervention and measures
+  - _info: About 73,000 miles
     _isCorrect: 0
-  - _info: Hazard mapping
+  - _info: About 74,000 miles
+    _isCorrect: 0
+  - _info: About 75,000 miles
     _isCorrect: 0
   _useTimer: 1
   _timer: 7

@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: 12
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: What do you call the oceanic event incorporated with abnormal rise of water
-    due to a tropical cyclone?
+  _info: What is the average diameter of the Mars?
   _answers:
-  - _info: Tornadoes
-    _isCorrect: 0
-  - _info: Storm surge
+  - _info: 4212 miles
     _isCorrect: 1
-  - _info: Tsunami
+  - _info: 4210 miles
+    _isCorrect: 0
+  - _info: 4211 miles
+    _isCorrect: 0
+  - _info: 4213 miles
     _isCorrect: 0
   _useTimer: 1
   _timer: 7

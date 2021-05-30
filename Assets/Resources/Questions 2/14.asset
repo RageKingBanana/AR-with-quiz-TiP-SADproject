@@ -13,16 +13,11 @@ MonoBehaviour:
   m_Name: 14
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: What to do BEFORE a flood?
+  _info: Venus is the hottest planet in our solar system.
   _answers:
-  - _info: 'Being cautious about your surroundings can prevent damage to your family
-      and your property.
-
-'
+  - _info: True
     _isCorrect: 1
-  - _info: Wait until you see rising water.
-    _isCorrect: 0
-  - _info: Wait for your neighbors to evacuate before you do so.
+  - _info: False
     _isCorrect: 0
   _useTimer: 1
   _timer: 7

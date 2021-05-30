@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: 1
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 21300000, guid: de9e803b9da3b3e4ea8601829193a914, type: 3}
-  _info: What are the possible effects of earthquakes?
+  _info: How many earth years does Jupiter have?
   _answers:
-  - _info: Aftershocks
+  - _info: 12 Earth Years
     _isCorrect: 1
-  - _info: Tsunamis
-    _isCorrect: 1
-  - _info: Landslides
-    _isCorrect: 1
+  - _info: 11 Earth Years
+    _isCorrect: 0
+  - _info: 10 Earth Years
+    _isCorrect: 0
+  - _info: 9 Earth Years
+    _isCorrect: 0
   _useTimer: 1
   _timer: 10
-  _answerType: 0
+  _answerType: 1
   _addScore: 10

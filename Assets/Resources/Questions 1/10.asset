@@ -13,17 +13,14 @@ MonoBehaviour:
   m_Name: 10
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: You and your family are shopping in a mall when an earthquake suddenly hits.
-    You did the duck, cover and hold and are ready to exit the building. What should
-    you look out for?
+  _info: "Mercury\u2019s atmosphere and exosphere are mostly composed of oxygen,
+    sodium, hydrogen, helium and, carbon dioxide."
   _answers:
-  - _info: Broken glass windows.
-    _isCorrect: 1
-  - _info: 'Hanging objects that might fall. '
-    _isCorrect: 1
-  - _info: Heavy falling debris.
+  - _info: True
+    _isCorrect: 0
+  - _info: False
     _isCorrect: 1
   _useTimer: 1
   _timer: 9
-  _answerType: 0
+  _answerType: 1
   _addScore: 10

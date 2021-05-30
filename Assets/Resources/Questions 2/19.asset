@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: 19
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: 'NDRRMC stands for:'
+  _info: How many rings does Neptune have?
   _answers:
-  - _info: National Disaster Risk Reduction & Management Council
-    _isCorrect: 1
-  - _info: National Disaster Risk Reduction & Managing Committee
+  - _info: 4
     _isCorrect: 0
-  - _info: National Deduction of Risk Revenue & Management Council
+  - _info: 5
+    _isCorrect: 0
+  - _info: 6
+    _isCorrect: 1
+  - _info: 7
     _isCorrect: 0
   _useTimer: 1
   _timer: 7

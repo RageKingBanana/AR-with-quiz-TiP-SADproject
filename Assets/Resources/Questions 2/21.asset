@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: 21
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: You recently experienced an earthquake and are safe during the earthquake,
-    what you should do?
+  _info: What is the Effective Temperature in Saturn?
   _answers:
-  - _info: Take a video and post it on social media.
+  - _info: "a.\t282 Fahrenheit"
     _isCorrect: 0
-  - _info: Stay alert in the event of aftershocks.
+  - _info: "b.\t284 Fahrenheit"
+    _isCorrect: 0
+  - _info: "c.\t286 Fahrenheit"
+    _isCorrect: 0
+  - _info: "d.\t288 Fahrenheit"
     _isCorrect: 1
-  - _info: Celebrate.
-    _isCorrect: 0
   _useTimer: 1
   _timer: 7
   _answerType: 1

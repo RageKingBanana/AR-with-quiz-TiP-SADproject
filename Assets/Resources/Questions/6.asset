@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: 6
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 21300000, guid: dba2ca2b0e59fcc43a650dcc7c2c83b6, type: 3}
-  _info: Why is the Philippines is considered to be an earthquake prone country?
+  _info: It is called rocky planet and also known as terrestrial planet?
   _answers:
-  - _info: The Philippines is an archipelago.
+  - _info: Earth
     _isCorrect: 0
-  - _info: The Philippines is located near the Pacific Ring of Fire.
+  - _info: Mars
+    _isCorrect: 0
+  - _info: Mercury
     _isCorrect: 1
-  - _info: The Philippines has so many mountains.
+  - _info: Saturn
     _isCorrect: 0
   _useTimer: 1
   _timer: 10

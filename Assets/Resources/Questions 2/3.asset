@@ -13,13 +13,11 @@ MonoBehaviour:
   m_Name: 3
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: Each typhoon classification are based on what reference?
+  _info: Neptune is the most distant planet.
   _answers:
-  - _info: Maximum sustained winds
+  - _info: True
     _isCorrect: 1
-  - _info: Potentially disastrous phenomenon
-    _isCorrect: 0
-  - _info: possible flood level
+  - _info: False
     _isCorrect: 0
   _useTimer: 1
   _timer: 7

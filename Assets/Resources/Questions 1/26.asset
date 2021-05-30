@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: 26
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: 5-What should you do AFTER an earthquake?
+  _info: It is called the twin of the Earth.
   _answers:
-  - _info: Message your loved ones of your state and where you are.
-    _isCorrect: 1
-  - _info: Play Mobile Legends
+  - _info: Mercury
     _isCorrect: 0
-  - _info: Do your project.
+  - _info: Mars
+    _isCorrect: 0
+  - _info: Venus
+    _isCorrect: 1
+  - _info: None of the above
     _isCorrect: 0
   _useTimer: 1
   _timer: 10

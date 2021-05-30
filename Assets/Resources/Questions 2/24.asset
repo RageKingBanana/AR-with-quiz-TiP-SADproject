@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: 24
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: The local government agency that has been urging the public to be prepared
-    for earthquakes, considering that they are unpredictable and may strike anytime
-    is?
+  _info: What is the average distance of Mars from the Sun
   _answers:
-  - _info: PHILVOCS
+  - _info: About 142 million miles
     _isCorrect: 1
-  - _info: PAG-ASA
+  - _info: About 132 million miles
     _isCorrect: 0
-  - _info: NDRRMC
+  - _info: About 152 million miles
+    _isCorrect: 0
+  - _info: About 150 million miles
     _isCorrect: 0
   _useTimer: 1
   _timer: 7

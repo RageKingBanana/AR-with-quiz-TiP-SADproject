@@ -13,14 +13,11 @@ MonoBehaviour:
   m_Name: 7
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: What is a tropical cyclone with maximum wind speed of 118 to 220 kph or
-    64 - 120 knots?
+  _info: "Neptune is the biggest \u201CGas Giant\u201D in our solar system."
   _answers:
-  - _info: Severe tropical storm
+  - _info: True
     _isCorrect: 0
-  - _info: Super typhoon
-    _isCorrect: 0
-  - _info: Typhoon
+  - _info: False
     _isCorrect: 1
   _useTimer: 1
   _timer: 7

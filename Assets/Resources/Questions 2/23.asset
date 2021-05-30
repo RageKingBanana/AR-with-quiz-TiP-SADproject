@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: 23
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: 'You are recently a victim of a super typhoon. In the process your house
-    was recently destroyed by flash floods. What should you do? '
+  _info: Which is the biggest moon of Neptune?
   _answers:
-  - _info: Order a meal.
+  - _info: Nereid
     _isCorrect: 0
-  - _info: Elevate electrical components.
+  - _info: Proteus
+    _isCorrect: 0
+  - _info: Despina
+    _isCorrect: 0
+  - _info: Triton
     _isCorrect: 1
-  - _info: Get your house blessed.
-    _isCorrect: 0
   _useTimer: 1
   _timer: 7
   _answerType: 1

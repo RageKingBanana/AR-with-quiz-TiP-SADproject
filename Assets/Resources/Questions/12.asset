@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: 12
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: The rain is falling so hard due to the super typhoon in your area. There
-    is a chance of flash floods. What should you do?
+  _info: What does the Earth is made up?
   _answers:
-  - _info: Be prepared to evacuate.
+  - _info: Iron and Nickel
+    _isCorrect: 0
+  - _info: Rock and Iron
+    _isCorrect: 0
+  - _info: Iron and Metal
+    _isCorrect: 0
+  - _info: Rock and Metal
     _isCorrect: 1
-  - _info: Slack off
-    _isCorrect: 0
-  - _info: Evacuate when the water is already knee high
-    _isCorrect: 0
   _useTimer: 1
   _timer: 10
   _answerType: 1

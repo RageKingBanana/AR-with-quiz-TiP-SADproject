@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: 14
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: The local government warns the public about the possibility of an earthquake.
-    What should you do?
+  _info: How many earth days to take Mercury a year?
   _answers:
-  - _info: Block all possible routes.
-    _isCorrect: 0
-  - _info: Familiarize yourself with all possible exit routes.
+  - _info: 88 days
     _isCorrect: 1
-  - _info: Defend all possible routes.
+  - _info: 89 days
+    _isCorrect: 0
+  - _info: 90 days
+    _isCorrect: 0
+  - _info: 100 days
     _isCorrect: 0
   _useTimer: 1
   _timer: 10

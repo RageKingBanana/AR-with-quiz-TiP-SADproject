@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: 0
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 21300000, guid: de9e803b9da3b3e4ea8601829193a914, type: 3}
-  _info: What are the natural cause of earthquakes?
+  _info: What is the most composed gas on Earth's atmosphere?
   _answers:
-  - _info: Sliding of tectonic plates
+  - _info: Argon
+    _isCorrect: 0
+  - _info: Oxygen
+    _isCorrect: 0
+  - _info: Nitrogen
     _isCorrect: 1
-  - _info: Volcanic activities
-    _isCorrect: 1
-  - _info: Global warming
+  - _info: Carbon Dioxide
     _isCorrect: 0
   _useTimer: 1
   _timer: 10
-  _answerType: 0
+  _answerType: 1
   _addScore: 10

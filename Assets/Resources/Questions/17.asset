@@ -13,18 +13,13 @@ MonoBehaviour:
   m_Name: 17
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: A family is currently living in a household located in a low ground location.
-    The area is currently suffering the onslaught of a super typhoon. The flood started
-    to fill the premises. There are extension cords that are just laying on the ground
-    ? What is the danger that the family may suffer?
+  _info: The Jupiter is the 6th planet from our sun
   _answers:
-  - _info: Flood related injuries.
-    _isCorrect: 1
-  - _info: 'Man-made related injuries. '
+  - _info: True
     _isCorrect: 0
-  - _info: Electricity related injuries.
+  - _info: False
     _isCorrect: 1
   _useTimer: 1
   _timer: 10
-  _answerType: 0
+  _answerType: 1
   _addScore: 10

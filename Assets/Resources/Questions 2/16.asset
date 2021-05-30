@@ -13,14 +13,16 @@ MonoBehaviour:
   m_Name: 16
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: 'All of these are important things to do AFTER a flood except one:'
+  _info: The fourth planet from the Sun is the
   _answers:
-  - _info: When making repairs, protect your property from future flood damage.
+  - _info: Mercury
     _isCorrect: 0
-  - _info: Tell your neighbors that it is safe to return
+  - _info: Venus
+    _isCorrect: 0
+  - _info: Jupiter
+    _isCorrect: 0
+  - _info: Mars
     _isCorrect: 1
-  - _info: Use extreme caution when entering buildings.
-    _isCorrect: 0
   _useTimer: 1
   _timer: 7
   _answerType: 1

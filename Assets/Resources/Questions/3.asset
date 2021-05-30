@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: 3
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 21300000, guid: de9e803b9da3b3e4ea8601829193a914, type: 3}
-  _info: 'What government agency is responsible for mitigating disasters that arises
-    from geotectonic phenomena? '
+  _info: A year on Neptune lasts ___ Earth years.
   _answers:
-  - _info: DOST
+  - _info: 162
     _isCorrect: 0
-  - _info: NDRRMC
-    _isCorrect: 0
-  - _info: PHIVOLCS
+  - _info: 165
     _isCorrect: 1
+  - _info: 170
+    _isCorrect: 0
+  - _info: 167
+    _isCorrect: 0
   _useTimer: 1
   _timer: 10
   _answerType: 1

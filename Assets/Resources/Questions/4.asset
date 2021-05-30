@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: 4
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 21300000, guid: de9e803b9da3b3e4ea8601829193a914, type: 3}
-  _info: What is the agency responsible for ensuring the protection and welfare of
-    the people?
+  _info: What is the meaning of Earth in Germanic word?
   _answers:
-  - _info: Philippine Red Cross
+  - _info: The land
     _isCorrect: 0
-  - _info: NDRRMC
+  - _info: The ground
     _isCorrect: 1
-  - _info: DOH
+  - _info: The life
+    _isCorrect: 0
+  - _info: The terra
     _isCorrect: 0
   _useTimer: 1
   _timer: 10

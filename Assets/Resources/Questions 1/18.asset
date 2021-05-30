@@ -13,13 +13,11 @@ MonoBehaviour:
   m_Name: 18
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: What country has the most earthquakes?
+  _info: "The mercury\u2019s shape is like elliptical egg."
   _answers:
-  - _info: Japan
-    _isCorrect: 0
-  - _info: Indonesia
+  - _info: True
     _isCorrect: 1
-  - _info: China
+  - _info: False
     _isCorrect: 0
   _useTimer: 1
   _timer: 8

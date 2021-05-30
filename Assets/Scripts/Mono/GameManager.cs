@@ -329,7 +329,7 @@ public class  GameManager: MonoBehaviour {
         }
         if (SceneManager.GetActiveScene().buildIndex == 2)
         {
-            Object[] objs = Resources.LoadAll("Questions", typeof(Question));
+            Object[] objs = Resources.LoadAll("Questions 1", typeof(Question));
             _questions = new Question[objs.Length];
             for (int i = 0; i < objs.Length; i++)
             {
@@ -338,7 +338,7 @@ public class  GameManager: MonoBehaviour {
         }
         if (SceneManager.GetActiveScene().buildIndex == 3)
         {
-            Object[] objs = Resources.LoadAll("Questions", typeof(Question));
+            Object[] objs = Resources.LoadAll("Questions 2", typeof(Question));
             _questions = new Question[objs.Length];
             for (int i = 0; i < objs.Length; i++)
             {

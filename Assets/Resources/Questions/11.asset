@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: 11
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: You recently attended a seminar about survival tips conducted by your barangay.
-    What should you do?
+  _info: "Neptune\u2019s gravity is similar to that of ___."
   _answers:
-  - _info: 'Ignore all the things that you learned in the seminar. '
+  - _info: Our moon
     _isCorrect: 0
-  - _info: 'Spread false information about the seminar. '
+  - _info: Uranus
     _isCorrect: 0
-  - _info: Assemble disaster supplies.
+  - _info: Earth
     _isCorrect: 1
+  - _info: Saturn
+    _isCorrect: 0
   _useTimer: 1
   _timer: 10
   _answerType: 1

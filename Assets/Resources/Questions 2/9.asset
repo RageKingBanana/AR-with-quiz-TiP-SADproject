@@ -13,15 +13,12 @@ MonoBehaviour:
   m_Name: 9
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: What is a tropical cyclone with maximum wind speed exceeding 220 kph or
-    more than 120 knots?
+  _info: Saturn is Fifth Largest Planet in our Solar System
   _answers:
-  - _info: Typhoon
+  - _info: True
     _isCorrect: 0
-  - _info: Super typhoon
+  - _info: False
     _isCorrect: 1
-  - _info: Tropical storm
-    _isCorrect: 0
   _useTimer: 1
   _timer: 7
   _answerType: 1

@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: 16
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: You own a store that sells different kinds of chemicals. In part with earthquake
-    safety, what should you do?
+  _info: What is the Earth's surface temperature?
   _answers:
-  - _info: Store harmful chemicals and flammable materials properly.
+  - _info: 57.3 Farenheit
+    _isCorrect: 0
+  - _info: 57.1 Farenheit
+    _isCorrect: 0
+  - _info: 57.4 Farenheit
+    _isCorrect: 0
+  - _info: 57.2 Farenheit
     _isCorrect: 1
-  - _info: Let kids play harmful and flammable materials.
-    _isCorrect: 0
-  - _info: Let the harmful chemicals and flammable materials within reach of children
-    _isCorrect: 0
   _useTimer: 1
   _timer: 9
   _answerType: 1

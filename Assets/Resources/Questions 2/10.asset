@@ -13,14 +13,16 @@ MonoBehaviour:
   m_Name: 10
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: What to do AFTER a flood?
+  _info: 'Venus average diameter:'
   _answers:
-  - _info: Ask your neighbor if it is safe to return.
+  - _info: 7,400 miles
     _isCorrect: 0
-  - _info: Return to the flooded areas after the storm.
-    _isCorrect: 0
-  - _info: Wait until the authorities indicate that it is safe to return.
+  - _info: 7,500 miles
     _isCorrect: 1
+  - _info: 7,600 miles
+    _isCorrect: 0
+  - _info: 7,700 miles
+    _isCorrect: 0
   _useTimer: 1
   _timer: 7
   _answerType: 1

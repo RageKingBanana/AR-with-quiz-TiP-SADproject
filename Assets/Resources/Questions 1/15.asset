@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: 15
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: "You noticed that your friend\u2019s house is not in a very good condition.
-    The Phivolcs recently warned the public about the possibility of an earthquake.
-    What should you do?"
+  _info: The axial rotation of Uranus is  ___.
   _answers:
-  - _info: "Let your friend to notice the house\u2019s condition"
+  - _info: Proper
     _isCorrect: 0
-  - _info: Tease them that they can just die along with the house.
+  - _info: Upside down
     _isCorrect: 0
-  - _info: Point out the current condition of the house and advice them for repairs.
+  - _info: Sideways
     _isCorrect: 1
+  - _info: Right side up
+    _isCorrect: 0
   _useTimer: 1
   _timer: 8
   _answerType: 1

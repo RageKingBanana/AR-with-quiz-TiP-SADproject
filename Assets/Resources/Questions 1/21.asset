@@ -13,14 +13,12 @@ MonoBehaviour:
   m_Name: 21
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: 1-What should you do AFTER an earthquake?
+  _info: Saturn is the 6th planet from our Sun
   _answers:
-  - _info: Cry in the corner.
-    _isCorrect: 0
-  - _info: Panic
-    _isCorrect: 0
-  - _info: Provide first aid for any possible injuries.
+  - _info: True
     _isCorrect: 1
+  - _info: False
+    _isCorrect: 0
   _useTimer: 1
   _timer: 8
   _answerType: 1

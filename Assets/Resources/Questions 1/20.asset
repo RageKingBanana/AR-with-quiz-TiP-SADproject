@@ -13,14 +13,16 @@ MonoBehaviour:
   m_Name: 20
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: What should you do AFTER an earthquake?
+  _info: The atmosphere of the Mars is made of
   _answers:
-  - _info: Take a selfie and post it on social media.
+  - _info: Carbon dioxide, nitrogen, and oxygen
     _isCorrect: 0
-  - _info: Stay alert in the event of aftershocks.
+  - _info: Hydrogen, Freon, and Helium
+    _isCorrect: 0
+  - _info: Hydrogen, nitrogen, and argon
+    _isCorrect: 0
+  - _info: Carbon dioxide, nitrogen, and argon
     _isCorrect: 1
-  - _info: Go back in the building immediately.
-    _isCorrect: 0
   _useTimer: 1
   _timer: 10
   _answerType: 1

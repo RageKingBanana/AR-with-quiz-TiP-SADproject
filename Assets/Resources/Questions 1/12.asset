@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: 12
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: An earthquake suddenly hits and you are able to exit the building safely.
-    Once you are outside of the building, What you should do?
+  _info: What is the average diameter of the Earth?
   _answers:
-  - _info: Take a video and post it on social media.
-    _isCorrect: 0
-  - _info: Evacuate to an open area
+  - _info: 7,918 miles
     _isCorrect: 1
-  - _info: Drive back home immediately.
+  - _info: 7,915 miles
+    _isCorrect: 0
+  - _info: 7,912 miles
+    _isCorrect: 0
+  - _info: 7,916 miles
     _isCorrect: 0
   _useTimer: 1
   _timer: 8

@@ -13,13 +13,11 @@ MonoBehaviour:
   m_Name: 3
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: A person can get this disease by consuming contaminated food or water.
+  _info: Uranus was the 1st planet ever discovered by use of a telescope.
   _answers:
-  - _info: Cholera
+  - _info: True
     _isCorrect: 1
-  - _info: Dengue
-    _isCorrect: 0
-  - _info: Asthma
+  - _info: False
     _isCorrect: 0
   _useTimer: 1
   _timer: 8

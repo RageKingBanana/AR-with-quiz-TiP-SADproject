@@ -182,231 +182,329 @@ public class UIManager : MonoBehaviour {
         {
             DisplayAns = PlayerPrefs.GetInt("AnsDisplay");
             Debug.Log("this is display ans =" + DisplayAns);
-                    if (DisplayAns==0)
-                    {           
-                        ResoString = "The natural causes of earthquakes are sliding of tectonic plates and volcanic activities.";
-                    }
-                    else if (DisplayAns==1)
+                    if (questiooon == "What is the most composed gas on Earth's atmosphere?")
                     {
-                        ResoString = "Learning simple first aid techniques can be very advantageous. ";
+                        ResoString = "Nitrogen";
                     }
-                    else if (DisplayAns==2)
+                    else if (questiooon == "How many earth years does Jupiter have?")
                     {
-                        ResoString = "Freezed Ham is not included because it is needed to be processed first in order to eat it.";
+                        ResoString = "12 Earth Years";
+                    }
+                    else if (questiooon == "It is the smallest planet in our solar system?")
+                    {
+                        ResoString = "Mercury";
                     } 
-                    else if (DisplayAns==3)
+                    else if (questiooon == "A year on Neptune lasts ___ Earth years.")
                     {
-                        ResoString = "Spare Batteries and Flashlight are included in the emergency kit.";
+                        ResoString = "165";
                     }
-                    else if (DisplayAns==4)
+                    else if (questiooon == "What is the meaning of Earth in Germanic word?")
                     {
-                        ResoString = "The Philippines is considered to be an earthquake prone country because it is located near the Pacific Ring of Fire.";
+                        ResoString = "The ground";
                     }
-                    else if (DisplayAns==5)
+                    else if (questiooon == "Jupiter have __ earth hours in a 1 earth day.")
                     {
-                        ResoString = "“Batingaw” is the mobile application developed by NDRRMC for public use.";
+                        ResoString = "10 earth hours";
                     }
-                    else if (DisplayAns==6)
+                    else if (questiooon == "It is called rocky planet and also known as terrestrial planet?")
                     {
-                        ResoString= "National Disaster Risk Reduction Management Council(NDRRMC) is the agency that is responsible for ensuring the protection and welfare of the people.";
+                        ResoString= "Mercury";
                     }
-                    else if (DisplayAns==7)
+                    else if (questiooon == "Neptune’s atmosphere consists of ___, ___ and ___.")
                     {
-                        ResoString = "Philippine Institute of Volcanology and Seismology is the agency responsible for mitigation of disasters that arises from geotectonic phenomenas like volcanic eruptions, earthquakes, and tsunamis.";
+                        ResoString = "Hydrogen, Helium and Methane";
                     }
-                    else if (DisplayAns==8)
+                    else if (questiooon == "What is the fifth largest planet in the solar system?")
                     {
-                        ResoString = "Philippine Atmospheric,Geophysical and Astronomical Services Administration(PAG-ASA) is the agency responsible for assessing and forecasting weather, flood, and other conditions essential for the welfare of the people.";
+                        ResoString = "Earth";
                     }
-                    else if (DisplayAns==9)
+                    else if (questiooon == "What is the surface Gravity of Jupiter?")
                     {
-                        ResoString = "Aftershocks, Tsunamis, Landslides are all possible effects of earthquakes.";
+                        ResoString = "Approximately 2.5 times Earth’s";
                     }
-                     else if (DisplayAns==10)
+                     else if (questiooon == "One day on Mercury spin takes how many earth days? ")
                     {
-                        ResoString = "Climb to safety immediately. Flash floods develop quickly. Do not wait until you see rising water.";
+                        ResoString = "59 days";
                     }
-                    else if (DisplayAns==11)
+                    else if (questiooon == "Neptune’s gravity is similar to that of ___.")
                     {
-                        ResoString = "Assemble disaster supplies. Emergency Kits are a MUST and can comes very handy in emergency situations.";
+                        ResoString = "Earth";
                     }
-                    else if (DisplayAns==12)
+                    else if (questiooon == "What does the Earth is made up?")
                     {
-                        ResoString = "Be prepared to evacuate. If you have a place you can stay, identify alternative routes that are not prone to flooding and immediately evacuate. If not, go to the designated evacuation assigned by the local government.";
+                        ResoString = "Rock and Metal";
                     }
-                    else if (DisplayAns==13)
+                    else if (questiooon == "The Jupiter is the Largest planet in our solar system")
                     {
-                        ResoString = "Discuss a disaster plan to your family. Discuss flood plans with your family. Decide where you will meet if separated.";
+                        ResoString = "True";
                     }
-                    else if (DisplayAns==14)
+                    else if (questiooon == "How many moons does Mercury have?")
                     {
-                        ResoString= "You should not prioritze to save crops and animals. Get out of low areas that may be subject to flooding,prioritze your safety above all else";
+                        ResoString= "None of the above";
                     }
-                    else if (DisplayAns==15)
+                    else if (questiooon == "Uranus does not have any rings.")
                     {
-                        ResoString = "Evacuate immediately. Move to a safe area as soon as possible before access is cut off by rising water.";
+                        ResoString = "False";
                     }
-                    else if (DisplayAns==16)
+                    else if (questiooon == "These are floating on top of the magma interior of the Earth and can move against one another.")
                     {
-                        ResoString = "NEVER try to walk or swim through flowing water. If the water is moving swiftly, water 6 inches deep can knock you off your feet.";
+                        ResoString = "Tectonic Plates";
                     }
-                    else if (DisplayAns==17)
+                    else if (questiooon == "The Jupiter is the 6th planet from our sun")
                     {
-                        ResoString= "Shut off the electricity at the circuit breakers. Water conducts electricity and loose electric connection can result in someone being electrocuted.";
+                        ResoString= "False";
                     }
+
 
         }
         else if (SceneManager.GetActiveScene().buildIndex == 2)
         {
             
-                    if (questiooon == "What are the natural cause of earthquakes?")
+                    if (questiooon == "Earth is one of the planet in our solar system with liquid water on the surface.")
                     {
-                        ResoString = "The natural causes of earthquakes are sliding of tectonic plates and volcanic activities.";
+                        ResoString = "False";
                     }
-                    else if (questiooon == "What is the necessary skill to be learned in case of emergency?")
+                    else if (questiooon == "Jupiter atmosphere is made up of what element?")
                     {
-                        ResoString = "Learning simple first aid techniques can be very advantageous. ";
+                        ResoString = "Hydrogen and Helium";
                     }
-                    else if (questiooon == "Emergency kits should contain food in case of emergency, what is not needed?")
+                    else if (questiooon == "It is the nearest planet to the Sun?")
                     {
-                        ResoString = "Freezed Ham is not included because it is needed to be processed first in order to eat it.";
+                        ResoString = "None of the above";
                     } 
-                    else if (questiooon == "Emergency kits should contain all of the essential tools that is needed for survival. What is not included?")
+                    else if (questiooon == "Uranus was the 1st planet ever discovered by use of a telescope.")
                     {
-                        ResoString = "Spare Batteries and Flashlight are included in the emergency kit.";
+                        ResoString = "True";
                     }
-                    else if (questiooon == "Why is the Philippines is considered to be an earthquake prone country?")
+                    else if (questiooon == "Our atmosphere protects us from incoming meteoroids.")
                     {
-                        ResoString = "The Philippines is considered to be an earthquake prone country because it is located near the Pacific Ring of Fire.";
+                        ResoString = "True";
                     }
-                    else if (questiooon == "NDRRMC mad a mobile application to provide a handy electronic resources to the public that can be utilize in case of emergency. What is the application called?")
+                    else if (questiooon == "How many moons does Jupiter have?")
                     {
-                        ResoString = "“Batingaw” is the mobile application developed by NDRRMC for public use.";
+                        ResoString = "More than 75 Moons";
                     }
-                    else if (questiooon == "What is the agency responsible for ensuring the protection and welfare of the people?")
+                    else if (questiooon == "The Distance between Mercury and the sun?")
                     {
-                        ResoString= "National Disaster Risk Reduction Management Council(NDRRMC) is the agency that is responsible for ensuring the protection and welfare of the people.";
+                        ResoString= "36 million miles";
                     }
-                    else if (questiooon == "What government agency is responsible for mitigating disasters that arises from geotectonic phenomena? ")
+                    else if (questiooon == "How many moons does Uranus have?")
                     {
-                        ResoString = "Philippine Institute of Volcanology and Seismology is the agency responsible for mitigation of disasters that arises from geotectonic phenomenas like volcanic eruptions, earthquakes, and tsunamis.";
+                        ResoString = "27";
                     }
-                    else if (questiooon == "What government agency is responsible for monitoring the weather changes in the Philippines?")
+                    else if (questiooon == "How many percentage of Earth's surface does the Water Covering?")
                     {
-                        ResoString = "Philippine Atmospheric,Geophysical and Astronomical Services Administration(PAG-ASA) is the agency responsible for assessing and forecasting weather, flood, and other conditions essential for the welfare of the people.";
+                        ResoString = "70%";
                     }
-                    else if (questiooon == "What are the possible effects of earthquakes?")
+                    else if (questiooon == "The Average Diameter of Jupiter is  Approximately 88,846 miles.")
                     {
-                        ResoString = "Aftershocks, Tsunamis, Landslides are all possible effects of earthquakes.";
+                        ResoString = "True";
                     }
-                     else if (questiooon == "You are currently residing in Brgy. Tomana in Marikina. You heard that the current water level in Marikina river has the potential to reach it’s critical level. What should you do?")
+                     else if (questiooon == "Mercury’s atmosphere and exosphere are mostly composed of oxygen, sodium, hydrogen, helium and, carbon dioxide.")
                     {
-                        ResoString = "Climb to safety immediately. Flash floods develop quickly. Do not wait until you see rising water.";
+                        ResoString = "False";
                     }
-                    else if (questiooon == "You recently attended a seminar about survival tips conducted by your barangay. What should you do?")
+                    else if (questiooon == "Uranus is a ___ giant.")
                     {
-                        ResoString = "Assemble disaster supplies. Emergency Kits are a MUST and can comes very handy in emergency situations.";
+                        ResoString = "Ice";
                     }
-                    else if (questiooon == "The rain is falling so hard due to the super typhoon in your area. There is a chance of flash floods. What should you do?")
+                    else if (questiooon == "What is the average diameter of the Earth?")
                     {
-                        ResoString = "Be prepared to evacuate. If you have a place you can stay, identify alternative routes that are not prone to flooding and immediately evacuate. If not, go to the designated evacuation assigned by the local government.";
+                        ResoString = "7,918 miles";
                     }
-                    else if (questiooon == "You saw in a documentary the danger of flash floods. The local government warns every Filipino family regarding this issue. What should you do?")
+                    else if (questiooon == "How many spacecraft have visited Jupiter?")
                     {
-                        ResoString = "Discuss a disaster plan to your family. Discuss flood plans with your family. Decide where you will meet if separated.";
+                        ResoString = "Nine Spacecraft";
                     }
-                    else if (questiooon == "You own a farm and a waist deep flood is currently devastating your farm. You should not?")
+                    else if (questiooon == "How many earth days to take Mercury a year?")
                     {
-                        ResoString= "You should not prioritze to save crops and animals. Get out of low areas that may be subject to flooding,prioritze your safety above all else";
+                        ResoString= "88 days";
                     }
-                    else if (questiooon == "You woke up early in the morning and you notice that the water is starting to rise. The local government failed to inform the citizens about the flood.  What should you do?")
+                    else if (questiooon == "The axial rotation of Uranus is  ___.")
                     {
-                        ResoString = "Evacuate immediately. Move to a safe area as soon as possible before access is cut off by rising water.";
+                        ResoString = "Sideways";
                     }
-                    else if (questiooon == "A family of illegal settlers dwells near an estero. An unexpected rise of water level woke them up. What they should not do is ?")
+                    else if (questiooon == "What is the Earth's surface temperature?")
                     {
-                        ResoString = "NEVER try to walk or swim through flowing water. If the water is moving swiftly, water 6 inches deep can knock you off your feet.";
+                        ResoString = "57.2 Farenheit";
                     }
-                    else if (questiooon == "A family is currently living in a household located in a low ground location. The area is currently suffering the onslaught of a super typhoon. The flood started to fill the premises. There are extension cords that are just laying on the ground ? What is the danger that the family may suffer?")
+                    else if (questiooon == "Jupiter has big storms like the Great Orange Spot, which has been going for hundreds of years. ")
                     {
-                        ResoString= "Shut off the electricity at the circuit breakers. Water conducts electricity and loose electric connection can result in someone being electrocuted.";
+                        ResoString= "False";
                     }
+                    else if (questiooon == "The mercury’s shape is like elliptical egg.")
+                    {
+                        ResoString= "True";
+                    }
+                    else if (questiooon == "Who made the observation that made the call to make Uranus a proper planet?")
+                    {
+                        ResoString= "Sir William Herschel";
+                    }
+                    else if (questiooon == "The atmosphere of the Mars is made of")
+                    {
+                        ResoString= "Carbon dioxide, nitrogen, and argon";
+                    }
+                    else if (questiooon == "Saturn is the 6th planet from our Sun")
+                    {
+                        ResoString= "True";
+                    }
+                    else if (questiooon == "Mercury has a solid, cratered surface, such like the Earth’s moon?")
+                    {
+                        ResoString= "True";
+                    }
+                    else if (questiooon == "Uranus is the ___ planet in our solar system.")
+                    {
+                        ResoString= "Coldest";
+                    }
+                    else if (questiooon == "What is the surface temperature of Mars")
+                    {
+                        ResoString= "-81 degrees farenheit";
+                    }
+                    else if (questiooon == "Saturn atmosphere is made up of what element?")
+                    {
+                        ResoString= "Hydrogen and Helium";
+                    }
+                    else if (questiooon == "It is called the twin of the Earth.")
+                    {
+                        ResoString= "Venus";
+                    }
+                    else if (questiooon == "A year on Uranus is equivalent to ___ Earth years.")
+                    {
+                        ResoString= "84";
+                    }
+                    else if (questiooon == "The distance between Venus and the sun.")
+                    {
+                        ResoString= "108 million km";
+                    }
+                    else if (questiooon == "What are the moons of Uranus named after?")
+                    {
+                        ResoString= "Characters from Shakespeare";
+                    }
+
 
         }
         else if (SceneManager.GetActiveScene().buildIndex == 3)
         {
             
-                    if (questiooon == "What are the natural cause of earthquakes?")
+                    if (questiooon == "A Mars makes a complete orbit around the Sun in how many Earth days")
                     {
-                        ResoString = "The natural causes of earthquakes are sliding of tectonic plates and volcanic activities.";
+                        ResoString = "687 Earth days";
                     }
-                    else if (questiooon == "What is the necessary skill to be learned in case of emergency?")
+                    else if (questiooon == "Except from Jupiter, Uranus and Neptune. The Saturn also have rings")
                     {
-                        ResoString = "Learning simple first aid techniques can be very advantageous. ";
+                        ResoString = "True";
                     }
-                    else if (questiooon == "Emergency kits should contain food in case of emergency, what is not needed?")
+                    else if (questiooon == "Venus has 2 moons and no rings")
                     {
-                        ResoString = "Freezed Ham is not included because it is needed to be processed first in order to eat it.";
+                        ResoString = "False";
                     } 
-                    else if (questiooon == "Emergency kits should contain all of the essential tools that is needed for survival. What is not included?")
+                    else if (questiooon == "Neptune is the most distant planet.")
                     {
-                        ResoString = "Spare Batteries and Flashlight are included in the emergency kit.";
+                        ResoString = "True";
                     }
-                    else if (questiooon == "Why is the Philippines is considered to be an earthquake prone country?")
+                    else if (questiooon == "What is the name of the two moons of Mars")
                     {
-                        ResoString = "The Philippines is considered to be an earthquake prone country because it is located near the Pacific Ring of Fire.";
+                        ResoString = "Deimos and Phobos";
                     }
-                    else if (questiooon == "NDRRMC mad a mobile application to provide a handy electronic resources to the public that can be utilize in case of emergency. What is the application called?")
+                    else if (questiooon == "Juno Spacecraft was Intentionally Vaporized in Saturn’s Atmosphere in 2017.")
                     {
-                        ResoString = "“Batingaw” is the mobile application developed by NDRRMC for public use.";
+                        ResoString = "False";
                     }
-                    else if (questiooon == "What is the agency responsible for ensuring the protection and welfare of the people?")
+                    else if (questiooon == "Venus surface temperature is about what degrees?")
                     {
-                        ResoString= "National Disaster Risk Reduction Management Council(NDRRMC) is the agency that is responsible for ensuring the protection and welfare of the people.";
+                        ResoString= "864 Fahrenheit";
                     }
-                    else if (questiooon == "What government agency is responsible for mitigating disasters that arises from geotectonic phenomena? ")
+                    else if (questiooon == "Neptune is the biggest “Gas Giant” in our solar system.")
                     {
-                        ResoString = "Philippine Institute of Volcanology and Seismology is the agency responsible for mitigation of disasters that arises from geotectonic phenomenas like volcanic eruptions, earthquakes, and tsunamis.";
+                        ResoString = "False";
                     }
-                    else if (questiooon == "What government agency is responsible for monitoring the weather changes in the Philippines?")
+                    else if (questiooon == "Mars is known as the Red Planet")
                     {
-                        ResoString = "Philippine Atmospheric,Geophysical and Astronomical Services Administration(PAG-ASA) is the agency responsible for assessing and forecasting weather, flood, and other conditions essential for the welfare of the people.";
+                        ResoString = "True";
                     }
-                    else if (questiooon == "What are the possible effects of earthquakes?")
+                    else if (questiooon == "Saturn is Fifth Largest Planet in our Solar System")
                     {
-                        ResoString = "Aftershocks, Tsunamis, Landslides are all possible effects of earthquakes.";
+                        ResoString = "False";
                     }
-                     else if (questiooon == "You are currently residing in Brgy. Tomana in Marikina. You heard that the current water level in Marikina river has the potential to reach it’s critical level. What should you do?")
+                     else if (questiooon == "Venus average diameter:")
                     {
-                        ResoString = "Climb to safety immediately. Flash floods develop quickly. Do not wait until you see rising water.";
+                        ResoString = "7,500 miles";
                     }
-                    else if (questiooon == "You recently attended a seminar about survival tips conducted by your barangay. What should you do?")
+                    else if (questiooon == "Neptune is the ____ planet from the sun.")
                     {
-                        ResoString = "Assemble disaster supplies. Emergency Kits are a MUST and can comes very handy in emergency situations.";
+                        ResoString = "8th";
                     }
-                    else if (questiooon == "The rain is falling so hard due to the super typhoon in your area. There is a chance of flash floods. What should you do?")
+                    else if (questiooon == "What is the average diameter of the Mars?")
                     {
-                        ResoString = "Be prepared to evacuate. If you have a place you can stay, identify alternative routes that are not prone to flooding and immediately evacuate. If not, go to the designated evacuation assigned by the local government.";
+                        ResoString = "4212 miles";
                     }
-                    else if (questiooon == "You saw in a documentary the danger of flash floods. The local government warns every Filipino family regarding this issue. What should you do?")
+                    else if (questiooon == "how many earth years does Saturn have?")
                     {
-                        ResoString = "Discuss a disaster plan to your family. Discuss flood plans with your family. Decide where you will meet if separated.";
+                        ResoString = "About 29 earth years";
                     }
-                    else if (questiooon == "You own a farm and a waist deep flood is currently devastating your farm. You should not?")
+                    else if (questiooon == "Venus is the hottest planet in our solar system.")
                     {
-                        ResoString= "You should not prioritze to save crops and animals. Get out of low areas that may be subject to flooding,prioritze your safety above all else";
+                        ResoString= "True";
                     }
-                    else if (questiooon == "You woke up early in the morning and you notice that the water is starting to rise. The local government failed to inform the citizens about the flood.  What should you do?")
+                    else if (questiooon == "How many moons does Neptune have?")
                     {
-                        ResoString = "Evacuate immediately. Move to a safe area as soon as possible before access is cut off by rising water.";
+                        ResoString = "14";
                     }
-                    else if (questiooon == "A family of illegal settlers dwells near an estero. An unexpected rise of water level woke them up. What they should not do is ?")
+                    else if (questiooon == "The fourth planet from the Sun is the")
                     {
-                        ResoString = "NEVER try to walk or swim through flowing water. If the water is moving swiftly, water 6 inches deep can knock you off your feet.";
+                        ResoString = "Mars";
                     }
-                    else if (questiooon == "A family is currently living in a household located in a low ground location. The area is currently suffering the onslaught of a super typhoon. The flood started to fill the premises. There are extension cords that are just laying on the ground ? What is the danger that the family may suffer?")
+                    else if (questiooon == "What is the Diameter of Saturn?")
                     {
-                        ResoString= "Shut off the electricity at the circuit breakers. Water conducts electricity and loose electric connection can result in someone being electrocuted.";
+                        ResoString= "About 72,000 miles";
+                    }
+                    else if (questiooon == "What is the first spacecraft that discovered Venus?")
+                    {
+                        ResoString= "Mariner 2";
+                    }
+                    else if (questiooon == "How many rings does Neptune have?")
+                    {
+                        ResoString= "6";
+                    }
+                    else if (questiooon == "At this time, Mars' surface cannot support life")
+                    {
+                        ResoString= "True";
+                    }
+                    else if (questiooon == "What is the Effective Temperature in Saturn?")
+                    {
+                        ResoString= "288 Fahrenheit";
+                    }
+                    else if (questiooon == "What year Venus discovered ")
+                    {
+                        ResoString= "1962";
+                    }
+                    else if (questiooon == "Which is the biggest moon of Neptune?")
+                    {
+                        ResoString= "Triton";
+                    }
+                    else if (questiooon == "What is the average distance of Mars from the Sun")
+                    {
+                        ResoString= "About 142 million miles";
+                    }
+                    else if (questiooon == "Saturn have __ earth hours in a 1 earth day")
+                    {
+                        ResoString= "10.7 earth hours";
+                    }
+                    else if (questiooon == "How many spacecrafts explored Venus?")
+                    {
+                        ResoString= "40 spacecrafts";
+                    }
+                    else if (questiooon == "How many times have Neptune been ever visited close up?")
+                    {
+                        ResoString= "Only once";
+                    }
+                    else if (questiooon == "How many moons does the Saturn has?")
+                    {
+                        ResoString= "82 moons";
+                    }
+                    else if (questiooon == "Venus is a terrestrial planet.")
+                    {
+                        ResoString= "True";
                     }
 
         }

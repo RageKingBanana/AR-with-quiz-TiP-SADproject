@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: 19
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: What can the local baranggay do to help prepare their subjects for a possible
-    earthquake?
+  _info: Who made the observation that made the call to make Uranus a proper planet?
   _answers:
-  - _info: ' Provide emergency kits.'
-    _isCorrect: 1
-  - _info: Conduct a free medical missions.
+  - _info: John Flamsteed
     _isCorrect: 0
-  - _info: Provide a community earthquake drills.
+  - _info: Caroline Lucretia Herschel
+    _isCorrect: 0
+  - _info: Edwin Hubble
+    _isCorrect: 0
+  - _info: Sir William Herschel
     _isCorrect: 1
   _useTimer: 1
   _timer: 9
-  _answerType: 0
+  _answerType: 1
   _addScore: 10

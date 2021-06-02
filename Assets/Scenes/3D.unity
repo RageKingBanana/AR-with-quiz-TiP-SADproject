@@ -22893,7 +22893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 995791987}
-  speed: 10
+  speed: 39.2
 --- !u!114 &667064565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47829,7 +47829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 995791987}
-  speed: 10
+  speed: 14.6
 --- !u!114 &1344120999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49351,7 +49351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 995791987}
-  speed: 10
+  speed: 27.4
 --- !u!114 &1380370692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56310,7 +56310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 995791987}
-  speed: 10
+  speed: 0.9
 --- !u!96 &1619339389
 TrailRenderer:
   serializedVersion: 2
@@ -59272,7 +59272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 995791987}
-  speed: 10
+  speed: 0.3
 --- !u!114 &1735784086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69114,7 +69114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 995791987}
-  speed: 10
+  speed: 0.1
 --- !u!114 &2013420554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69252,7 +69252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 995791987}
-  speed: 10
+  speed: 113.6
 --- !u!114 &2022307579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69308,7 +69308,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 100
+  m_Time: 4
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.1
@@ -72899,7 +72899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 995791987}
-  speed: 10
+  speed: 2.3
 --- !u!114 &2108680475
 MonoBehaviour:
   m_ObjectHideFlags: 0

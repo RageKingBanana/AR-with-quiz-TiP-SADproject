@@ -72,7 +72,7 @@ public class LEVELSELECT : MonoBehaviour
                 SceneManager.LoadScene(4);
                 break;
             case "EXPLORE":
-                PlayerPrefs.SetInt("loadedscened", 8);
+                PlayerPrefs.SetInt("loadedscene", 8);
                 SceneManager.LoadScene(4);
                 break;
         }

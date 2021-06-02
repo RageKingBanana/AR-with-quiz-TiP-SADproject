@@ -38,12 +38,12 @@ public class  GameManager: MonoBehaviour {
         {
             int a;
             if (SceneManager.GetActiveScene().buildIndex == 1)
-            { PlayerPrefs.SetInt("j", 3); }
+            { PlayerPrefs.SetInt("numberofquestions", 10); }
             else if (SceneManager.GetActiveScene().buildIndex == 2)
-            { PlayerPrefs.SetInt("j", 3); }
+            { PlayerPrefs.SetInt("numberofquestions", 20); }
             else if (SceneManager.GetActiveScene().buildIndex == 3)
-            { PlayerPrefs.SetInt("j", 3); }
-            a = PlayerPrefs.GetInt("j");
+            { PlayerPrefs.SetInt("numberofquestions", 30); }
+            a = PlayerPrefs.GetInt("numberofquestions");
             return (FinishedQuestions.Count < a) ? false : true;
         }
     }

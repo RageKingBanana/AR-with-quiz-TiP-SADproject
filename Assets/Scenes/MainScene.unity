@@ -27417,6 +27417,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1689555017}
     m_Modifications:
+    - target: {fileID: 2507183245833481, guid: e0792a55e3d13964c9ca0e6c8830ef2d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2098687230643760375, guid: e0792a55e3d13964c9ca0e6c8830ef2d,
         type: 3}
       propertyPath: m_Name
@@ -27550,7 +27554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1571394156}
-  speed: 10
+  speed: 0.9
 --- !u!114 &452012023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27609,7 +27613,7 @@ TrailRenderer:
   m_Time: 100
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.1
+    widthMultiplier: 0.01
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -31633,6 +31637,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8622257725213488579, guid: 8e5189bfdcc5b6842bb1b3ae787d977c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8622257725213488580, guid: 8e5189bfdcc5b6842bb1b3ae787d977c,
         type: 3}
       propertyPath: m_Name
@@ -31684,7 +31693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1571394156}
-  speed: 10
+  speed: 39.2
 --- !u!96 &515807717
 TrailRenderer:
   serializedVersion: 2
@@ -31729,7 +31738,7 @@ TrailRenderer:
   m_Time: 100
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.1
+    widthMultiplier: 0.01
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -54811,6 +54820,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5059865063837977219, guid: 00f458848b1768b49ae6ec22f4bef03f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5059865063837977276, guid: 00f458848b1768b49ae6ec22f4bef03f,
         type: 3}
       propertyPath: m_Name
@@ -54862,7 +54876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1571394156}
-  speed: 10
+  speed: 113.6
 --- !u!96 &908239382
 TrailRenderer:
   serializedVersion: 2
@@ -54904,7 +54918,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 100
+  m_Time: 3
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.1
@@ -54913,7 +54927,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.10661776
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -87512,7 +87526,7 @@ TrailRenderer:
   m_Time: 36
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.1
+    widthMultiplier: 0.01
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -87665,6 +87679,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9211199211051751641, guid: 28191ba7f8b5a1d4d95ef5955fbcf409,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9211199211051751644, guid: 28191ba7f8b5a1d4d95ef5955fbcf409,
         type: 3}
       propertyPath: m_RootOrder
@@ -87776,7 +87795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1571394156}
-  speed: 10
+  speed: 14.6
 --- !u!96 &1520842155
 TrailRenderer:
   serializedVersion: 2
@@ -87821,7 +87840,7 @@ TrailRenderer:
   m_Time: 100
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.1
+    widthMultiplier: 0.01
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -90330,6 +90349,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5882237706107465233, guid: d50390ecacc757a4f9e6cc8e337ebc89,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6927350377148095638, guid: d50390ecacc757a4f9e6cc8e337ebc89,
         type: 3}
       propertyPath: m_Name
@@ -92680,6 +92704,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8002152205032793582, guid: 857a3153fc2198c40839a3d53cbaaf2f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8002152205032793583, guid: 857a3153fc2198c40839a3d53cbaaf2f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 857a3153fc2198c40839a3d53cbaaf2f, type: 3}
 --- !u!4 &1608853862 stripped
@@ -92721,7 +92755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1571394156}
-  speed: 10
+  speed: 0.1
 --- !u!96 &1608853866
 TrailRenderer:
   serializedVersion: 2
@@ -92766,7 +92800,7 @@ TrailRenderer:
   m_Time: 100
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.1
+    widthMultiplier: 0.01
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -96425,8 +96459,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1689555015}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 221.9, y: 22, z: -90.70438}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -84.359, y: 2.274, z: 33.635}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 1571394156}
   - {fileID: 908239378}
@@ -97359,6 +97393,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 22d49e298418a87449b10f1cdf09d897, type: 2}
+    - target: {fileID: 5507501728083071775, guid: b570e19f3675e1448a0d5a3672cffc9e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5507501728083071776, guid: b570e19f3675e1448a0d5a3672cffc9e,
         type: 3}
       propertyPath: m_RootOrder
@@ -97470,7 +97509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1571394156}
-  speed: 10
+  speed: 27.4
 --- !u!4 &1714009576 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 485498, guid: d10d3ce46f3a5d84cbcccd4f14bf3958,
@@ -100862,6 +100901,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3393706158375852562, guid: 9a3491ae0a5f1a741ac61c4f42e0fba4,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a3491ae0a5f1a741ac61c4f42e0fba4, type: 3}
 --- !u!4 &1775916138 stripped
@@ -100903,7 +100947,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1571394156}
-  speed: 10
+  speed: 2.3
 --- !u!96 &1775916142
 TrailRenderer:
   serializedVersion: 2
@@ -100948,7 +100992,7 @@ TrailRenderer:
   m_Time: 100
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.1
+    widthMultiplier: 0.01
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -117873,6 +117917,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6998226803130905241, guid: 88e32715c58883543a21f34e2133c316,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6998226803130905242, guid: 88e32715c58883543a21f34e2133c316,
         type: 3}
       propertyPath: m_RootOrder
@@ -117984,7 +118033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1571394156}
-  speed: 10
+  speed: 0.3
 --- !u!96 &2007854267
 TrailRenderer:
   serializedVersion: 2
@@ -118029,7 +118078,7 @@ TrailRenderer:
   m_Time: 100
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.1
+    widthMultiplier: 0.01
     widthCurve:
       serializedVersion: 2
       m_Curve:

@@ -6,12 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class LevelSelection : MonoBehaviour
 {
-    public int scoreRequiredToUnlockNext = -1;
+    public int scoreRequiredToUnlockNext;
     private int levelReached;
     public Button[] levelButtons;
     public int prevLevelPlayed;
     public int Iskor;
-    public double compare;
+    public int questionnumbercompare;
     public string levelU;
     public char[] levelUc = new char[5];
     void Start()
@@ -30,7 +30,8 @@ public class LevelSelection : MonoBehaviour
         levelReached = PlayerPrefs.GetInt("levelReached", 1);
         Iskor = PlayerPrefs.GetInt("iskor");
         levelU = PlayerPrefs.GetString("levelU");
-
+        PlayerPrefs.GetInt("numberofquestions",questionnumbercompare);
+        scoreRequiredToUnlockNext=questionnumbercompare * 3/5;
         prevLevelPlayed = PlayerPrefs.GetInt("levelClicked");
         PlayerPrefs.SetInt("levelClicked", 0);
         Debug.Log("Score Previous: " + Iskor);
@@ -53,6 +54,7 @@ public class LevelSelection : MonoBehaviour
                 levelButtons[i].interactable = false;
             }
         }
+        
         //compare = PlayerPrefs.GetInt("iskor3");
         //compare = (Iskor + compare) * 0.50;
         // Taga set ng Level to kung unlocked nya na yung next or hindi

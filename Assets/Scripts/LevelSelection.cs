@@ -32,6 +32,7 @@ public class LevelSelection : MonoBehaviour
         levelU = PlayerPrefs.GetString("levelU");
         PlayerPrefs.GetInt("numberofquestions",questionnumbercompare);
         scoreRequiredToUnlockNext=questionnumbercompare * 3/5;
+        Debug.Log("scoreRequiredToUnlockNext="+scoreRequiredToUnlockNext);
         prevLevelPlayed = PlayerPrefs.GetInt("levelClicked");
         PlayerPrefs.SetInt("levelClicked", 0);
         Debug.Log("Score Previous: " + Iskor);

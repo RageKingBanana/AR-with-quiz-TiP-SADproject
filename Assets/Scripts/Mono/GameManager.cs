@@ -140,7 +140,7 @@ public class  GameManager: MonoBehaviour {
     {
         EraseAnswers();
         var question = GetRandomQuestion();
-        //PlayerPrefs.SetInt("DisplayAns",question);
+
         Debug.Log("This is var question ==" + question);
         if (events.UpdateQuestionUI != null)
         {
@@ -410,8 +410,6 @@ public class  GameManager: MonoBehaviour {
     {
         var randomIndex = GetRandomQuestionIndex();
         currentQuestion = randomIndex;
-        //PlayerPrefs.SetInt("AnsDisplay",currentQuestion);
-        //Questionnumb=ToString;
         Debug.Log("this is current question randomindex=" + randomIndex);
         Debug.Log("this is current question no.=" + Questions[currentQuestion]);
         return Questions[currentQuestion];

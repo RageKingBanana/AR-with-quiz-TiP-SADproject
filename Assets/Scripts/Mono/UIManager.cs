@@ -85,7 +85,7 @@ public class UIManager : MonoBehaviour {
     private             int                    resStateParaHash             = 0;
 
     private             IEnumerator            IE_DisplayTimedResolution    = null;
-    public int AnsQues;
+ 
     public int i;
     private bool pressedinc = false;
     public string questiooon;
@@ -180,8 +180,6 @@ public class UIManager : MonoBehaviour {
         questiooon = PlayerPrefs.GetString("Questioon");
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {
-            DisplayAns = PlayerPrefs.GetInt("AnsDisplay");
-            Debug.Log("this is display ans =" + DisplayAns);
                     if (questiooon == "What is the most composed gas on Earth's atmosphere?")
                     {
                         ResoString = "Nitrogen";

@@ -33,17 +33,18 @@ public class LEVELSELECT : MonoBehaviour
         switch (this.gameObject.name)
         {
         case "Level1":
+
                 PlayerPrefs.SetInt("loadedscene",1);
                 PlayerPrefs.SetInt("levelClicked",1);
                 SceneManager.LoadScene(4);
                 break; 
         case "Level2":
-                PlayerPrefs.SetInt("loadedscene",1);
+                PlayerPrefs.SetInt("loadedscene",2);
                 PlayerPrefs.SetInt("levelClicked", 2);
                 SceneManager.LoadScene(4);
                 break;
         case "Level3":
-                 PlayerPrefs.SetInt("loadedscene",1);
+                 PlayerPrefs.SetInt("loadedscene",3);
                 PlayerPrefs.SetInt("levelClicked", 3);
                 SceneManager.LoadScene(4);
                 break;   
@@ -67,7 +68,7 @@ public class LEVELSELECT : MonoBehaviour
                 PlayerPrefs.SetInt("loadedscene", 0);
                 SceneManager.LoadScene(4);
                 break;
-            case "EXITCRED":
+            case "EXITSTAGE":
                 PlayerPrefs.SetInt("loadedscene", 0);
                 SceneManager.LoadScene(4);
                 break;

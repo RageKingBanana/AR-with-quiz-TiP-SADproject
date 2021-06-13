@@ -23,27 +23,11 @@ public class SceneLoader : MonoBehaviour
     }
     void Update()
     {
-        int n,s;
+        int n;
         n = Random.Range(0, 8);
 
         // If the player has pressed the space bar and a new scene is not loading yet...
         if (loadScene == false)
-        {
-        s = PlayerPrefs.GetInt("levelClicked");
-        if(s == 1 || s == 2 || s == 3)
-        {
-              Debug.Log(false);
-            // ...set the loadScene boolean to true to prevent loading a new scene more than once...
-            loadScene = true;
-
-            // ...change the instruction text to read "Loading..."
-            loadingText.text = tips [n];
-
-                // ...and start a coroutine that will load the desired scene.
-                StartCoroutine(LoadQuizScene());
-            
-        }
-        else
         {
             Debug.Log(false);
             // ...set the loadScene boolean to true to prevent loading a new scene more than once...
@@ -53,8 +37,8 @@ public class SceneLoader : MonoBehaviour
             loadingText.text = tips [n];
 
                 // ...and start a coroutine that will load the desired scene.
-                StartCoroutine(LoadQuizScenes());
-        }
+                StartCoroutine(LoadQuizScene());
+            
 
             
             
@@ -79,29 +63,8 @@ public class SceneLoader : MonoBehaviour
 
         // This line waits for 3 seconds before executing the next line in the coroutine.
         // This line is only necessary for this demo. The scenes are so simple that they load too fast to read the "Loading..." text.
-        scene = PlayerPrefs.GetInt("levelClicked");
         yield return new WaitForSeconds(10);
-
-        Debug.Log("loading levelclicked");
-
-        // Start an asynchronous operation to load the scene that was passed to the LoadNewScene coroutine.
-        AsyncOperation async = SceneManager.LoadSceneAsync(scene);
-
-        // While the asynchronous operation to load the new scene is not yet complete, continue waiting until it's done.
-        while (!async.isDone)
-        {
-            yield return null;
-        }
-
-    }
-     IEnumerator LoadQuizScenes()
-    {
-
-        // This line waits for 3 seconds before executing the next line in the coroutine.
-        // This line is only necessary for this demo. The scenes are so simple that they load too fast to read the "Loading..." text.
         scene = PlayerPrefs.GetInt("loadedscene");
-        yield return new WaitForSeconds(10);
-
         Debug.Log("loading loadedscene");
 
         // Start an asynchronous operation to load the scene that was passed to the LoadNewScene coroutine.
@@ -114,7 +77,6 @@ public class SceneLoader : MonoBehaviour
         }
 
     }
-
 
 
 }

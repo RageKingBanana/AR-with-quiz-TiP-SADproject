@@ -7,17 +7,19 @@ public class Level1DragonAnim : MonoBehaviour
     // Start is called before the first frame update
     public GameObject host;
     private Animator animator;
-    private int Answer;
+    private int Answer,Anims;
+    public GameObject flameatk;
 
     private void Awake()
     {
         animator = GetComponent<Animator>();
+        //flameatk.SetActive(false);
         //Battle();
         //stop();
     }
     private void Start()
     {
-        //Battle();
+       flameatk.SetActive(false); //Battle();
     }
     private void Update()
     {
@@ -32,6 +34,15 @@ public class Level1DragonAnim : MonoBehaviour
            if (SceneManager.GetActiveScene().buildIndex == 3)
            {
              BattleUsurper();
+             Anims=PlayerPrefs.GetInt("ThisAnswer");
+              if (Anims == 2)
+                   {
+                    flameatk.SetActive(false);
+                   }
+              else 
+                   {
+                    ///
+                   }    
            }
     }
 
@@ -59,6 +70,7 @@ public class Level1DragonAnim : MonoBehaviour
     private void BattleTerror()
     {
         //Answer=2;
+        
         Answer = PlayerPrefs.GetInt("ThisAnswer");
         if (Answer == 1)
         {
@@ -77,22 +89,28 @@ public class Level1DragonAnim : MonoBehaviour
 
     private void BattleUsurper()
     {
+      
         //Answer=2;
+        
         Answer = PlayerPrefs.GetInt("ThisAnswer");
         if (Answer == 1)
         {
+        flameatk.SetActive(false);
         //animator.SetBool("UsHit",true);
         animator.Play("Get Hit");
         }
         else if(Answer == 0)
         {
+        flameatk.SetActive(true);
         animator.Play("Fly Flame Attack");
+
         }
         else if(Answer==2)
         {
         animator.Play("Fly Float");
         }
-        
+        //flameatk.SetActive(false);
     }
+    
 
 }

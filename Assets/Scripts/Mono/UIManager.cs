@@ -514,7 +514,7 @@ public class UIManager : MonoBehaviour {
                 PlayerPrefs.SetInt("ThisAnswer",1);
                 //DogAnimation.Battle();
                 uIElements.ResolutionBG.color = parameters.CorrectBGColor;
-                uIElements.ResolutionStateInfoText.text = ResoString;
+                uIElements.ResolutionStateInfoText.text ="CORRECT ANSWER:" + ResoString;
                 uIElements.ResolutionScoreText.text = "+" + score;
                 //PlayerPrefs.SetInt("ThisAnswer",2);
                 break;
@@ -522,13 +522,13 @@ public class UIManager : MonoBehaviour {
                 PlayerPrefs.SetInt("ThisAnswer",0);
                 //DogAnimation.Battle();
                 uIElements.ResolutionBG.color = parameters.IncorrectBGColor;
-                uIElements.ResolutionStateInfoText.text = ResoString;
+                uIElements.ResolutionStateInfoText.text = "CORRECT ANSWER:" + ResoString;
                 uIElements.ResolutionScoreText.text = "-" + score;
                 //PlayerPrefs.SetInt("ThisAnswer",2);
                 break;
             case ResolutionScreenType.Finish:
                 uIElements.ResolutionBG.color = parameters.FinalBGColor;
-                uIElements.ResolutionStateInfoText.text = ResoString;
+                uIElements.ResolutionStateInfoText.text ="CORRECT ANSWER:" + ResoString;
                 
 
                 StartCoroutine(CalculateScore());

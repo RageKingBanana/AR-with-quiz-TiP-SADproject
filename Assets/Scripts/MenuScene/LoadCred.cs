@@ -8,7 +8,7 @@ public class LoadCred : MonoBehaviour
         public void Credits()
         {
 
-            SceneManager.LoadScene(5);
+            SceneManager.LoadScene(8);
 
         }
  }

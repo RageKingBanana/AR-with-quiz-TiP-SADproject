@@ -10,9 +10,9 @@ public class progres : MonoBehaviour
     void Start()
     {
         Iskore = PlayerPrefs.GetInt("iskor");
-        if(Iskore > 180)
+        if(Iskore > 179)
         {
-            SceneManager.LoadScene(8);
+            SceneManager.LoadScene(7);
         }
     }
 

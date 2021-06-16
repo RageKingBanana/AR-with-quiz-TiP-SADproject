@@ -55673,17 +55673,17 @@ PrefabInstance:
     - target: {fileID: 7020555431077196673, guid: 59d42340c83933449a1a349df128a0f3,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.57272726
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7020555431077196673, guid: 59d42340c83933449a1a349df128a0f3,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7020555431077196673, guid: 59d42340c83933449a1a349df128a0f3,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.57272726
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7020555431077196681, guid: 59d42340c83933449a1a349df128a0f3,
         type: 3}
@@ -55698,7 +55698,7 @@ PrefabInstance:
     - target: {fileID: 7020555431077196681, guid: 59d42340c83933449a1a349df128a0f3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7020555431077196681, guid: 59d42340c83933449a1a349df128a0f3,
         type: 3}
@@ -76530,7 +76530,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1248044903
 RectTransform:
   m_ObjectHideFlags: 0
@@ -79117,7 +79117,7 @@ PrefabInstance:
     - target: {fileID: 4908184793707564801, guid: 42bf188e7de7d764e92d68da3624ba5c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4908184793707564801, guid: 42bf188e7de7d764e92d68da3624ba5c,
         type: 3}
@@ -79308,6 +79308,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Master Volume Slider
+      objectReference: {fileID: 0}
+    - target: {fileID: 4908184793721439649, guid: 42bf188e7de7d764e92d68da3624ba5c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42bf188e7de7d764e92d68da3624ba5c, type: 3}
@@ -92583,7 +92588,7 @@ PrefabInstance:
     - target: {fileID: 1004771629191943251, guid: 2081a42195e2b164c84b70104e7cad27,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1004771629191943251, guid: 2081a42195e2b164c84b70104e7cad27,
         type: 3}
@@ -92678,17 +92683,17 @@ PrefabInstance:
     - target: {fileID: 1004771629191943259, guid: 2081a42195e2b164c84b70104e7cad27,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1004771629191943259, guid: 2081a42195e2b164c84b70104e7cad27,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1004771629191943259, guid: 2081a42195e2b164c84b70104e7cad27,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1004771629205823219, guid: 2081a42195e2b164c84b70104e7cad27,
         type: 3}
@@ -101891,7 +101896,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1683743568
 RectTransform:
   m_ObjectHideFlags: 0

@@ -53,7 +53,7 @@ public class LEVELSELECT : MonoBehaviour
                 SceneManager.LoadScene(4);
                 break;
             case "AR1":
-                PlayerPrefs.SetInt("loadedscene",6);
+                PlayerPrefs.SetInt("loadedscene",5);
                 SceneManager.LoadScene(4);
                 break;
             case "HOME":
@@ -61,7 +61,7 @@ public class LEVELSELECT : MonoBehaviour
                 SceneManager.LoadScene(4);
                 break;
             case "3D":
-                PlayerPrefs.SetInt("loadedscene", 5);
+                PlayerPrefs.SetInt("loadedscene", 6);
                 SceneManager.LoadScene(4);
                 break; 
             case "Button_[Exit]":

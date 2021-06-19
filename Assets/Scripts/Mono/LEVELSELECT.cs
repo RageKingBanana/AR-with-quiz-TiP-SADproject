@@ -7,26 +7,7 @@ using UnityEngine.SceneManagement;
 public class LEVELSELECT : MonoBehaviour
 {
 
-//    [SerializeField] GameEvents events = null;
-    /*public void quizselect()
-    {
-        PlayerPrefs.SetInt("ThisAnswer",2);
-        switch (this.gameObject.name)
-        {
-            case "Level1":
-                PlayerPrefs.SetInt("levelClicked",1);
-                SceneManager.LoadScene(4);
-                break; 
-            case "Level2":
-                PlayerPrefs.SetInt("levelClicked", 2);
-                SceneManager.LoadScene(4);
-                break;
-            case "Level3":
-                PlayerPrefs.SetInt("levelClicked", 3);
-                SceneManager.LoadScene(4);
-                break;   
-        }
-    }*/
+
     public void selectScene()
     {
         PlayerPrefs.SetInt("ThisAnswer",2);

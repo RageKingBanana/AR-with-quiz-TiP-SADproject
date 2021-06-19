@@ -527,8 +527,9 @@ public class UIManager : MonoBehaviour {
                 break;
             case ResolutionScreenType.Finish:
                 passchecker2=PlayerPrefs.GetInt("numberofquestions");
+                ScoreChecker2=passchecker2 * 3/5*10;
                 Debug.Log( "scorechecker="+ events.CurrentFinalScore);
-                Debug.Log("passchecker2=" + passchecker2);
+                Debug.Log("passchecker2=" + ScoreChecker2);
                 if(events.CurrentFinalScore >=passchecker2)
                 {
                     PlayerPrefs.SetInt("ThisAnswer",3);

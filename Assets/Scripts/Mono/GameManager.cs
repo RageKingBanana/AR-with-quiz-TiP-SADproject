@@ -168,7 +168,8 @@ public class  GameManager: MonoBehaviour {
 
         if (IsFinished)
         {
-            SetHighscore();
+            SetHighscore()
+            ;
         }
 
         var type 
@@ -278,7 +279,7 @@ public class  GameManager: MonoBehaviour {
                
             yield return null;
         }
-        MainCanvas.SetActive(true);
+        MainCanvas.SetActive(true); 
         Display();
     }
 

@@ -1,3 +1,5 @@
+#Please leave a star upon cloning/forking
+
 # AR-TIP-PROJECT-SOLAR
 AR app about the solar system for Software design subject in Technological Institute of the Philippines
 

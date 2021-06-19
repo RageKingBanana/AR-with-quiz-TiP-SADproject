@@ -91,7 +91,7 @@ public class UIManager : MonoBehaviour {
     public string questiooon;
     public string ResoString;
     public int ThisAnswer = 2, passchecker2,ScoreChecker2;
-    private int DisplayAns;
+
     public GameObject tapthis;
     public GameObject WIN;
     public GameObject LOSE;
@@ -527,9 +527,10 @@ public class UIManager : MonoBehaviour {
                 break;
             case ResolutionScreenType.Finish:
                 passchecker2=PlayerPrefs.GetInt("numberofquestions");
-                ScoreChecker2=passchecker2 * 3/5*10;
+                ScoreChecker2=passchecker2 * 6;
                 Debug.Log( "totalscore="+ events.CurrentFinalScore);
                 Debug.Log("requiredscore=" + ScoreChecker2);
+                Debug.Log("questionumb=" + passchecker2);
                 if(events.CurrentFinalScore >=ScoreChecker2)
                 {
                     PlayerPrefs.SetInt("ThisAnswer",3);

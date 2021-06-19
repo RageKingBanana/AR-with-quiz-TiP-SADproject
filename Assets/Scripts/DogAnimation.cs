@@ -48,9 +48,9 @@ public class DogAnimation : MonoBehaviour
         Debug.Log("2");
         animator.Play("Idle_Battle");
         }
-        else if(Answer==3)
+        else if(Answer==4)
         {
-
+        animator.Play("DieRecover");
         }
         
         

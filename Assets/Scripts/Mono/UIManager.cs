@@ -530,7 +530,7 @@ public class UIManager : MonoBehaviour {
                 passchecker2=PlayerPrefs.GetInt("PassChecker");
                 if(ScoreChecker2 >=passchecker2)
                 {
-                    PlayerPrefs.SetInt("ThisAnswer",0);
+                    PlayerPrefs.SetInt("ThisAnswer",3);
                     uIElements.ResolutionBG.color = parameters.FinalBGColor;
                     uIElements.ResolutionStateInfoText.text ="CORRECT ANSWER:" + ResoString;
                     tapthis.gameObject.SetActive(false);
@@ -538,7 +538,7 @@ public class UIManager : MonoBehaviour {
                 }
                 else
                 {
-                    PlayerPrefs.SetInt("ThisAnswer",0);
+                    PlayerPrefs.SetInt("ThisAnswer",4);
                     uIElements.ResolutionBG.color = parameters.FinalBGColor;
                     uIElements.ResolutionStateInfoText.text ="CORRECT ANSWER:" + ResoString;
                     tapthis.gameObject.SetActive(false);

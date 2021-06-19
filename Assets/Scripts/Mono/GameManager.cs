@@ -38,7 +38,7 @@ public class  GameManager: MonoBehaviour {
         {
             int a;
             if (SceneManager.GetActiveScene().buildIndex == 1)
-            { PlayerPrefs.SetInt("numberofquestions", 1); }
+            { PlayerPrefs.SetInt("numberofquestions", 3); }
             else if (SceneManager.GetActiveScene().buildIndex == 2)
             { PlayerPrefs.SetInt("numberofquestions", 20); }
             else if (SceneManager.GetActiveScene().buildIndex == 3)

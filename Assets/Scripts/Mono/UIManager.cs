@@ -535,6 +535,7 @@ public class UIManager : MonoBehaviour {
                     uIElements.ResolutionStateInfoText.text ="CORRECT ANSWER:" + ResoString;
                     tapthis.gameObject.SetActive(false);
                     WIN.gameObject.SetActive(true);
+                    LOSE.gameObject.SetActive(false);
                 }
                 else
                 {
@@ -543,6 +544,7 @@ public class UIManager : MonoBehaviour {
                     uIElements.ResolutionStateInfoText.text ="CORRECT ANSWER:" + ResoString;
                     tapthis.gameObject.SetActive(false);
                     LOSE.gameObject.SetActive(true);
+                    WIN.gameObject.SetActive(false);
                 }
                 
                 

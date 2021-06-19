@@ -7,7 +7,7 @@ College of Engineering
 
 2021
 
-Please credit developers upon use/remodel of the system.
+Please credit developers and other collaborators/elements upon use/remodel of the system.
 
 install vuforia before use
 

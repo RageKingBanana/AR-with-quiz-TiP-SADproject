@@ -528,9 +528,9 @@ public class UIManager : MonoBehaviour {
             case ResolutionScreenType.Finish:
                 passchecker2=PlayerPrefs.GetInt("numberofquestions");
                 ScoreChecker2=passchecker2 * 3/5*10;
-                Debug.Log( "scorechecker="+ events.CurrentFinalScore);
-                Debug.Log("passchecker2=" + ScoreChecker2);
-                if(events.CurrentFinalScore >=passchecker2)
+                Debug.Log( "totalscore="+ events.CurrentFinalScore);
+                Debug.Log("requiredscore=" + ScoreChecker2);
+                if(events.CurrentFinalScore >=ScoreChecker2)
                 {
                     PlayerPrefs.SetInt("ThisAnswer",3);
                     uIElements.ResolutionBG.color = parameters.FinalBGColor;

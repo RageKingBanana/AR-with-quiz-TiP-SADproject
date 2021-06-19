@@ -38,7 +38,7 @@ public class  GameManager: MonoBehaviour {
         {
             int a;
             if (SceneManager.GetActiveScene().buildIndex == 1)
-            { PlayerPrefs.SetInt("numberofquestions", 3); }
+            { PlayerPrefs.SetInt("numberofquestions", 10); }
             else if (SceneManager.GetActiveScene().buildIndex == 2)
             { PlayerPrefs.SetInt("numberofquestions", 20); }
             else if (SceneManager.GetActiveScene().buildIndex == 3)
@@ -73,6 +73,7 @@ public class  GameManager: MonoBehaviour {
     void Awake()
     {
         events.CurrentFinalScore = 0;
+        PlayerPrefs.SetInt("ThisAnswer",2);
     }
     /// <summary>
     /// Function that is called when the script instance is being loaded.
@@ -168,8 +169,8 @@ public class  GameManager: MonoBehaviour {
 
         if (IsFinished)
         {
-            SetHighscore()
-            ;
+            SetHighscore();
+            
         }
 
         var type 
@@ -279,7 +280,7 @@ public class  GameManager: MonoBehaviour {
                
             yield return null;
         }
-        MainCanvas.SetActive(true); 
+        MainCanvas.SetActive(true);
         Display();
     }
 

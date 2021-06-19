@@ -50,7 +50,7 @@ public class DogAnimation : MonoBehaviour
         }
         else if(Answer==4)
         {
-        animator.Play("DieRecover");
+        animator.Play("Die");
         }
         
         

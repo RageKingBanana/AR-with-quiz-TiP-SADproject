@@ -211,7 +211,7 @@ public class UIManager : MonoBehaviour {
                     {
                         ResoString= "Mercury";
                     }
-                    else if (questiooon == "Neptune’s atmosphere consists of ___, ___ and ___.")
+                    else if (questiooon == "Neptunes atmosphere consists of ___, ___ and ___.")
                     {
                         ResoString = "Hydrogen, Helium and Methane";
                     }
@@ -526,9 +526,10 @@ public class UIManager : MonoBehaviour {
                 uIElements.ResolutionScoreText.text = "-" + score;
                 break;
             case ResolutionScreenType.Finish:
-                ScoreChecker2=PlayerPrefs.GetInt("iskor");
-                passchecker2=PlayerPrefs.GetInt("PassChecker");
-                if(ScoreChecker2 >=passchecker2)
+                passchecker2=PlayerPrefs.GetInt("numberofquestions");
+                Debug.Log( "scorechecker="+ events.CurrentFinalScore);
+                Debug.Log("passchecker2=" + passchecker2);
+                if(events.CurrentFinalScore >=passchecker2)
                 {
                     PlayerPrefs.SetInt("ThisAnswer",3);
                     uIElements.ResolutionBG.color = parameters.FinalBGColor;

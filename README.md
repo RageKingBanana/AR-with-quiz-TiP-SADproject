@@ -1,4 +1,4 @@
-#Please leave a star upon cloning/forking
+# PLEASE LEAVE A STAR UPON CLONING/FORKING THIS IS A FINISHED PROJECT.
 
 # AR-TIP-PROJECT-SOLAR
 AR app about the solar system for Software design subject in Technological Institute of the Philippines

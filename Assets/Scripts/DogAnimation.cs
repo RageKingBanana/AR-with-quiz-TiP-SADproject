@@ -36,25 +36,23 @@ public class DogAnimation : MonoBehaviour
         {
         Debug.Log("1");
         animator.Play("Attack02");
-        //animator.SetBool("DogDamage",false);
-        //animator.SetBool("DogAttack",true);
         }
         else if(Answer == 0)
         {
         Debug.Log("0");
-        //animator.Play("Idle_Battle");
-        //animator.Play("GetHit");
-        //animator.SetBool("DogAttack",false);
         animator.SetBool("DogDamage",true);
         }
         else if(Answer==2)
         {
-            animator.SetBool("DogDamage",false);
+        animator.SetBool("DogDamage",false);
         Debug.Log("2");
         animator.Play("Idle_Battle");
-        //animator.SetBool("DogDamage",false);
-        //animator.SetBool("DogAttack",false);
         }
+        else if(Answer==3)
+        {
+
+        }
+        
         
     }
 

@@ -90,9 +90,11 @@ public class UIManager : MonoBehaviour {
     private bool pressedinc = false;
     public string questiooon;
     public string ResoString;
-    public int ThisAnswer = 2;
+    public int ThisAnswer = 2, passchecker2,ScoreChecker2;
     private int DisplayAns;
     public GameObject tapthis;
+    public GameObject WIN;
+    public GameObject LOSE;
     #endregion
 
     #region Default Unity methods
@@ -524,9 +526,26 @@ public class UIManager : MonoBehaviour {
                 uIElements.ResolutionScoreText.text = "-" + score;
                 break;
             case ResolutionScreenType.Finish:
-                uIElements.ResolutionBG.color = parameters.FinalBGColor;
-                uIElements.ResolutionStateInfoText.text ="CORRECT ANSWER:" + ResoString;
-                tapthis.gameObject.SetActive(false);
+                ScoreChecker2=PlayerPrefs.GetInt("iskor");
+                passchecker2=PlayerPrefs.GetInt("PassChecker");
+                if(ScoreChecker2 >=passchecker2)
+                {
+                    PlayerPrefs.SetInt("ThisAnswer",0);
+                    uIElements.ResolutionBG.color = parameters.FinalBGColor;
+                    uIElements.ResolutionStateInfoText.text ="CORRECT ANSWER:" + ResoString;
+                    tapthis.gameObject.SetActive(false);
+                    WIN.gameObject.SetActive(true);
+                }
+                else
+                {
+                    PlayerPrefs.SetInt("ThisAnswer",0);
+                    uIElements.ResolutionBG.color = parameters.FinalBGColor;
+                    uIElements.ResolutionStateInfoText.text ="CORRECT ANSWER:" + ResoString;
+                    tapthis.gameObject.SetActive(false);
+                    LOSE.gameObject.SetActive(true);
+                }
+                
+                
 
                 StartCoroutine(CalculateScore());
                     uIElements.FinishUIElements.gameObject.SetActive(true);

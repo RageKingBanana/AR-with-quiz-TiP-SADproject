@@ -32,6 +32,7 @@ public class LevelSelection : MonoBehaviour
         levelU = PlayerPrefs.GetString("levelU");
         PlayerPrefs.GetInt("numberofquestions",questionnumbercompare);
         scoreRequiredToUnlockNext=questionnumbercompare * 3/5;
+        PlayerPrefs.SetInt("PassChecker",scoreRequiredToUnlockNext);
 
 
         Debug.Log("scoreRequiredToUnlockNext="+scoreRequiredToUnlockNext);

@@ -64,6 +64,10 @@ public class Level1DragonAnim : MonoBehaviour
         animator.Play("Idle");
 
         }
+        else if(Answer==3)
+        {
+        animator.Play("Die");
+        }
         
     }
 
@@ -83,6 +87,10 @@ public class Level1DragonAnim : MonoBehaviour
         else if(Answer==2)
         {
         animator.Play("Idle02");
+        }
+        else if(Answer==3)
+        {
+        animator.Play("Die");
         }
         
     }
@@ -108,6 +116,10 @@ public class Level1DragonAnim : MonoBehaviour
         else if(Answer==2)
         {
         animator.Play("Fly Float");
+        }
+        else if(Answer==3)
+        {
+        animator.Play("Die");
         }
         //flameatk.SetActive(false);
     }

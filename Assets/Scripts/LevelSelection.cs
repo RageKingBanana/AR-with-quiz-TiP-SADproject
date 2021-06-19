@@ -10,7 +10,7 @@ public class LevelSelection : MonoBehaviour
     private int levelReached;
     public Button[] levelButtons;
     public int prevLevelPlayed;
-    public int Iskor;
+    public int Iskor,passcheck,CurrIskor;
     public int questionnumbercompare;
     public string levelU;
     public char[] levelUc = new char[5];
@@ -32,7 +32,10 @@ public class LevelSelection : MonoBehaviour
         levelU = PlayerPrefs.GetString("levelU");
         PlayerPrefs.GetInt("numberofquestions",questionnumbercompare);
         scoreRequiredToUnlockNext=questionnumbercompare * 3/5;
+
+
         Debug.Log("scoreRequiredToUnlockNext="+scoreRequiredToUnlockNext);
+
         prevLevelPlayed = PlayerPrefs.GetInt("levelClicked");
         PlayerPrefs.SetInt("levelClicked", 0);
         Debug.Log("Score Previous: " + Iskor);
@@ -63,9 +66,9 @@ public class LevelSelection : MonoBehaviour
             if (Iskor > scoreRequiredToUnlockNext && prevLevelPlayed == i)
                 levelUc[prevLevelPlayed] = '1';
         string str = new string(levelUc);
-        PlayerPrefs.SetString("levelU", str);
-        //PlayerPrefs.SetInt("iskor3", 0);
+        PlayerPrefs.SetString("levelU", str);;
         PlayerPrefs.SetInt("iskor", 0);
+
         for (int x = 0; x < levelButtons.Length; x++)
         {
             if (levelUc[x] == '1' && x < 3)

@@ -92,6 +92,7 @@ public class UIManager : MonoBehaviour {
     public string ResoString;
     public int ThisAnswer = 2;
     private int DisplayAns;
+    public GameObject tapthis;
     #endregion
 
     #region Default Unity methods
@@ -512,24 +513,20 @@ public class UIManager : MonoBehaviour {
               
             case ResolutionScreenType.Correct:
                 PlayerPrefs.SetInt("ThisAnswer",1);
-                //DogAnimation.Battle();
                 uIElements.ResolutionBG.color = parameters.CorrectBGColor;
                 uIElements.ResolutionStateInfoText.text ="CORRECT ANSWER:" + ResoString;
                 uIElements.ResolutionScoreText.text = "+" + score;
-                //PlayerPrefs.SetInt("ThisAnswer",2);
                 break;
             case ResolutionScreenType.Incorrect:
                 PlayerPrefs.SetInt("ThisAnswer",0);
-                //DogAnimation.Battle();
                 uIElements.ResolutionBG.color = parameters.IncorrectBGColor;
                 uIElements.ResolutionStateInfoText.text = "CORRECT ANSWER:" + ResoString;
                 uIElements.ResolutionScoreText.text = "-" + score;
-                //PlayerPrefs.SetInt("ThisAnswer",2);
                 break;
             case ResolutionScreenType.Finish:
                 uIElements.ResolutionBG.color = parameters.FinalBGColor;
                 uIElements.ResolutionStateInfoText.text ="CORRECT ANSWER:" + ResoString;
-                
+                tapthis.gameObject.SetActive(false);
 
                 StartCoroutine(CalculateScore());
                     uIElements.FinishUIElements.gameObject.SetActive(true);

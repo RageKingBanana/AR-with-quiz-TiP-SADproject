@@ -90,7 +90,7 @@ public class UIManager : MonoBehaviour {
     private bool pressedinc = false;
     public string questiooon;
     public string ResoString;
-    public int ThisAnswer = 2, passchecker2,ScoreChecker2;
+    public int ThisAnswer = 2, passchecker2,ScoreChecker2, penaltychecker2;
 
     public GameObject tapthis;
     public GameObject WIN;
@@ -211,7 +211,7 @@ public class UIManager : MonoBehaviour {
                     {
                         ResoString= "Mercury";
                     }
-                    else if (questiooon == "Neptunes atmosphere consists of ___, ___ and ___.")
+                    else if (questiooon == "Neptune's atmosphere consists of ___, ___ and ___.")
                     {
                         ResoString = "Hydrogen, Helium and Methane";
                     }
@@ -327,7 +327,7 @@ public class UIManager : MonoBehaviour {
                     }
                     else if (questiooon == "What is the Earth's surface temperature?")
                     {
-                        ResoString = "57.2 Farenheit";
+                        ResoString = "57.2 Fahrenheit";
                     }
                     else if (questiooon == "Jupiter has big storms like the Great Orange Spot, which has been going for hundreds of years. ")
                     {
@@ -359,7 +359,7 @@ public class UIManager : MonoBehaviour {
                     }
                     else if (questiooon == "What is the surface temperature of Mars")
                     {
-                        ResoString= "-81 degrees farenheit";
+                        ResoString= "-81 degrees Fahrenheit";
                     }
                     else if (questiooon == "Saturn atmosphere is made up of what element?")
                     {
@@ -515,19 +515,33 @@ public class UIManager : MonoBehaviour {
               
             case ResolutionScreenType.Correct:
                 PlayerPrefs.SetInt("ThisAnswer",1);
+                Debug.Log("penalty checker value is(correct):"+penaltychecker2);
                 uIElements.ResolutionBG.color = parameters.CorrectBGColor;
                 uIElements.ResolutionStateInfoText.text ="CORRECT ANSWER:" + ResoString;
                 uIElements.ResolutionScoreText.text = "+" + score;
                 break;
             case ResolutionScreenType.Incorrect:
                 PlayerPrefs.SetInt("ThisAnswer",0);
-                uIElements.ResolutionBG.color = parameters.IncorrectBGColor;
-                uIElements.ResolutionStateInfoText.text = "CORRECT ANSWER:" + ResoString;
-                uIElements.ResolutionScoreText.text = "-" + score;
+                penaltychecker2 = PlayerPrefs.GetInt("penaltychecker1");
+                Debug.Log("penalty checker value is(incorrect):"+penaltychecker2);
+                if(penaltychecker2 >=0)
+                {
+                   uIElements.ResolutionBG.color = parameters.IncorrectBGColor;
+                   uIElements.ResolutionStateInfoText.text = "CORRECT ANSWER:" + ResoString;
+                   uIElements.ResolutionScoreText.text = "-" + score;
+                }
+                else
+                {   
+                    uIElements.ResolutionBG.color = parameters.IncorrectBGColor;
+                    uIElements.ResolutionStateInfoText.text = "CORRECT ANSWER:" + ResoString;
+                    uIElements.ResolutionScoreText.text = "NO PENALTY" ;
+                }
+                
+                
                 break;
             case ResolutionScreenType.Finish:
-                passchecker2=PlayerPrefs.GetInt("numberofquestions");
-                ScoreChecker2=passchecker2 * 6;
+                passchecker2 = PlayerPrefs.GetInt("numberofquestions");
+                ScoreChecker2 = passchecker2 * 6;
                 Debug.Log( "totalscore="+ events.CurrentFinalScore);
                 Debug.Log("requiredscore=" + ScoreChecker2);
                 Debug.Log("questionumb=" + passchecker2);

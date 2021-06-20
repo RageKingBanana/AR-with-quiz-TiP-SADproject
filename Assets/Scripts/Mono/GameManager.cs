@@ -31,7 +31,8 @@ public class  GameManager: MonoBehaviour {
     private             IEnumerator         IE_WaitTillNextRound    = null;
     private             IEnumerator         IE_StartTimer           = null;
     private bool pressedinc = false;
-    public int Questionnumb;
+    public int Questionnumb, penaltychecker;
+    
     private             bool                IsFinished
     {
         get
@@ -389,18 +390,23 @@ public class  GameManager: MonoBehaviour {
         {
             if ((events.CurrentFinalScore + add) < 0)
             {
+                penaltychecker=0;
                 events.CurrentFinalScore = 0;
             }
             else
                 events.CurrentFinalScore += add;
+                penaltychecker += add;
         }
         else
         {
             events.CurrentFinalScore = 0;
+            penaltychecker -=add;
         }
+       
 
         if (events.ScoreUpdated != null)
         {
+            PlayerPrefs.SetInt("penaltychecker1",penaltychecker);
             events.ScoreUpdated();
         }
 

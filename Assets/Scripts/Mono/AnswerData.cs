@@ -34,6 +34,7 @@ public class AnswerData : MonoBehaviour {
     public              int             AnswerIndex         { get { return _answerIndex; } }
 
     private             bool            Checked             = false;
+   
 
     #endregion
 

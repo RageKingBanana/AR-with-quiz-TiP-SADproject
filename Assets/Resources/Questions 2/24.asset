@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 24
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: What is the average distance of Mars from the Sun
+  _info: What is the average distance of Mars from the Sun?
   _answers:
   - _info: About 142 million miles
     _isCorrect: 1

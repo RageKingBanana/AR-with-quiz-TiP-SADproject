@@ -181,6 +181,7 @@ public class UIManager : MonoBehaviour {
     {
         var highscore = PlayerPrefs.GetInt(GameUtility.SavePrefKey);
         questiooon = PlayerPrefs.GetString("Questioon");
+        ResoString = "";
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {
                     if (questiooon == "What is the most composed gas on Earth's atmosphere?")
@@ -211,7 +212,7 @@ public class UIManager : MonoBehaviour {
                     {
                         ResoString= "Mercury";
                     }
-                    else if (questiooon == "Neptune's atmosphere consists of ___, ___ and ___.")
+                    else if (questiooon == "Neptune’s atmosphere consists of ___, ___ and ___.")
                     {
                         ResoString = "Hydrogen, Helium and Methane";
                     }
@@ -251,9 +252,13 @@ public class UIManager : MonoBehaviour {
                     {
                         ResoString = "Tectonic Plates";
                     }
-                    else if (questiooon == "The Jupiter is the 6th planet from our sun")
+                    else if (questiooon == "Jupiter is the 6th planet from our sun")
                     {
                         ResoString= "False";
+                    }
+                    else
+                    {
+                        ResoString= "CANNOT FIND ANSWER";
                     }
 
 
@@ -261,7 +266,7 @@ public class UIManager : MonoBehaviour {
         else if (SceneManager.GetActiveScene().buildIndex == 2)
         {
             
-                    if (questiooon == "Earth is one of the planet in our solar system with liquid water on the surface.")
+                    if (questiooon == "Earth is one of the planets in our solar system with liquid water on the surface.")
                     {
                         ResoString = "False";
                     }
@@ -271,7 +276,7 @@ public class UIManager : MonoBehaviour {
                     }
                     else if (questiooon == "It is the nearest planet to the Sun?")
                     {
-                        ResoString = "None of the above";
+                        ResoString = "None of the above, mercury is nearest";
                     } 
                     else if (questiooon == "Uranus was the 1st planet ever discovered by use of a telescope.")
                     {
@@ -381,13 +386,17 @@ public class UIManager : MonoBehaviour {
                     {
                         ResoString= "Characters from Shakespeare";
                     }
+                    else
+                    {
+                        ResoString= "CANNOT FIND ANSWER";
+                    }
 
 
         }
         else if (SceneManager.GetActiveScene().buildIndex == 3)
         {
             
-                    if (questiooon == "A Mars makes a complete orbit around the Sun in how many Earth days")
+                    if (questiooon == "Mars makes a complete orbit around the Sun in how many Earth days")
                     {
                         ResoString = "687 Earth days";
                     }
@@ -451,7 +460,7 @@ public class UIManager : MonoBehaviour {
                     {
                         ResoString = "14";
                     }
-                    else if (questiooon == "The fourth planet from the Sun is the")
+                    else if (questiooon == "The fourth planet from the Sun is?")
                     {
                         ResoString = "Mars";
                     }
@@ -475,7 +484,7 @@ public class UIManager : MonoBehaviour {
                     {
                         ResoString= "288 Fahrenheit";
                     }
-                    else if (questiooon == "What year Venus discovered ")
+                    else if (questiooon == "What year was Venus discovered?")
                     {
                         ResoString= "1962";
                     }
@@ -483,7 +492,7 @@ public class UIManager : MonoBehaviour {
                     {
                         ResoString= "Triton";
                     }
-                    else if (questiooon == "What is the average distance of Mars from the Sun")
+                    else if (questiooon == "What is the average distance of Mars from the Sun?")
                     {
                         ResoString= "About 142 million miles";
                     }
@@ -499,13 +508,17 @@ public class UIManager : MonoBehaviour {
                     {
                         ResoString= "Only once";
                     }
-                    else if (questiooon == "How many moons does the Saturn has?")
+                    else if (questiooon == "How many moons does the Saturn have?")
                     {
                         ResoString= "82 moons";
                     }
                     else if (questiooon == "Venus is a terrestrial planet.")
                     {
                         ResoString= "True";
+                    }
+                    else
+                    {
+                        ResoString= "CANNOT FIND ANSWER";
                     }
 
         }

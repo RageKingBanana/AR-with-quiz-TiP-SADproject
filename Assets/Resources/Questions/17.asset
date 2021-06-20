@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 17
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: The Jupiter is the 6th planet from our sun
+  _info: Jupiter is the 6th planet from our sun
   _answers:
   - _info: True
     _isCorrect: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 16
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: The fourth planet from the Sun is the
+  _info: The fourth planet from the Sun is?
   _answers:
   - _info: Mercury
     _isCorrect: 0

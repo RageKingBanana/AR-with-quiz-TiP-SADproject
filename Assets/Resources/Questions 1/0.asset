@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 0
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: Earth is one of the planet in our solar system with liquid water on the
+  _info: Earth is one of the planets in our solar system with liquid water on the
     surface.
   _answers:
   - _info: True

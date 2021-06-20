@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 22
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: 'What year Venus discovered '
+  _info: What year was Venus discovered?
   _answers:
   - _info: 1964
     _isCorrect: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 28
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 0}
-  _info: How many moons does the Saturn has?
+  _info: How many moons does the Saturn have?
   _answers:
   - _info: 80 moons
     _isCorrect: 0

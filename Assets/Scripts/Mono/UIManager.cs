@@ -386,6 +386,10 @@ public class UIManager : MonoBehaviour {
                     {
                         ResoString= "Characters from Shakespeare";
                     }
+                    else if (questiooon == "How many earth years does Jupiter have?")
+                    {
+                        ResoString = "12 Earth Years";
+                    }
                     else
                     {
                         ResoString= "CANNOT FIND ANSWER";
@@ -516,6 +520,10 @@ public class UIManager : MonoBehaviour {
                     {
                         ResoString= "True";
                     }
+                    else if (questiooon == "What is the smallest planet in our solar system?")
+                    {
+                        ResoString = "Mercury";
+                    } 
                     else
                     {
                         ResoString= "CANNOT FIND ANSWER";

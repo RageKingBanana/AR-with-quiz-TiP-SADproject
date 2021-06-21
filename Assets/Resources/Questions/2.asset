@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 2
   m_EditorClassIdentifier: 
   _infoImage: {fileID: 21300000, guid: de9e803b9da3b3e4ea8601829193a914, type: 3}
-  _info: It is the smallest planet in our solar system?
+  _info: What is the smallest planet in our solar system?
   _answers:
   - _info: Earth
     _isCorrect: 0

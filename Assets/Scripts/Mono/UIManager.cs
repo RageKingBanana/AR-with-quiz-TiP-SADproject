@@ -192,7 +192,7 @@ public class UIManager : MonoBehaviour {
                     {
                         ResoString = "12 Earth Years";
                     }
-                    else if (questiooon == "It is the smallest planet in our solar system?")
+                    else if (questiooon == "What is the smallest planet in our solar system?")
                     {
                         ResoString = "Mercury";
                     } 
@@ -256,7 +256,7 @@ public class UIManager : MonoBehaviour {
                     {
                         ResoString= "False";
                     }
-                    else
+                    else 
                     {
                         ResoString= "CANNOT FIND ANSWER";
                     }
@@ -448,7 +448,7 @@ public class UIManager : MonoBehaviour {
                     {
                         ResoString = "4212 miles";
                     }
-                    else if (questiooon == "how many earth years does Saturn have?")
+                    else if (questiooon == "How many earth years does Saturn have?")
                     {
                         ResoString = "About 29 earth years";
                     }

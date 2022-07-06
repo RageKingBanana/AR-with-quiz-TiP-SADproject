@@ -20,7 +20,8 @@ Simon G. Añonuevo
 
 Marc Jelo R. Dela Cruz
 
-Vincent John J. Medallo
+Vincent John J. M![Activity 2 - Output](https://user-images.githubusercontent.com/36735566/177453381-cfa5834a-25c4-4002-a9b0-ab42bf4bcb55.PNG)
+edallo
 
 Ron Jacob C. Centeno
 
